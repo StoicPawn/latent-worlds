@@ -33,9 +33,11 @@ jobs:
           cp .bootstrap/part08.b64 /tmp/lwchunks/09
           cat .bootstrap/missing10_*.b64 > /tmp/lwchunks/10
           echo '153d5490694cf000a0a90c8190743f42f0154cf1d35d4cccc58d6a007410b4cf  .bootstrap/final11_00.b64' | sha256sum -c -
-          echo '6496008f8c66010f2d9251b61a31558a3553a64665ac2f3e66ac438ee25d55b2  .bootstrap/final11_01.b64' | sha256sum -c -
+          echo 'c637d985cdcdbe07c6fd96c671d957becacb9335600a27b684baf4bde2e2d851  .bootstrap/final11_01a.b64' | sha256sum -c -
+          echo 'd1e651b9e52262458d873c13d150771f612ad2ef8dc22ff035081b3f35c75fd8  .bootstrap/final11_01b.b64' | sha256sum -c -
+          echo '388f0c0735480db49f8179b192a99f6e6ac52c87579a059b5a42fa0c8bca3512  .bootstrap/final11_01c.b64' | sha256sum -c -
           echo '7839596348a1044327a927ecbd0221cf6936bfcdbc83ecf4b02193b6a781b4ab  .bootstrap/final11_02.b64' | sha256sum -c -
-          cat .bootstrap/final11_00.b64 .bootstrap/final11_01.b64 .bootstrap/final11_02.b64 > /tmp/lwchunks/11
+          cat .bootstrap/final11_00.b64 .bootstrap/final11_01a.b64 .bootstrap/final11_01b.b64 .bootstrap/final11_01c.b64 .bootstrap/final11_02.b64 > /tmp/lwchunks/11
           cat > /tmp/chunk-sha256.txt <<'EOF'
           6389d6c11b6a6a1f810c612df766ab297ac6fb7305c2c57ea8df20a0ffddddcd  /tmp/lwchunks/00
           461a95f617101db49967d7552480e3d1e65086adf7267e448e2a274bc32784c1  /tmp/lwchunks/01
