@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "latent-worlds"
+version = "3.7.0"
+description = "A research sandbox for agents that must discover and exploit latent laws of artificial worlds."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = ["numpy>=2.0"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
+[project.scripts]
+latent-worlds = "latent_worlds.cli:main"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
