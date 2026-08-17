@@ -1,106 +1,259 @@
-## v3.7 — pre-transition prediction
-
-No agent/world dynamics changed.  A low-capacity leave-one-history-out model using
-t=150 observer snapshots failed to predict the later direct-causal communication
-transition (ROC-AUC ~0.14 on the frozen historical set).  Coarse early-state
-thresholds are therefore not supported.  The next preregistered target is
-trajectory-based early-warning structure, followed by prospective unseen-seed
-validation.  See `docs/EXPERIMENT_v3.7.md`.
-
-## v3.6 — causal transition-condition analysis
-
-No agent-side dynamics changed.  v3.6 introduces matched world-side occlusion
-interventions that preserve resources, objects and hidden physics, plus
-pre-transition profiling.  W11's direct G2 content-copy mechanism is
-non-monotonic in both occlusion geometry and signal cost, rejecting simple
-one-dimensional threshold explanations.  See `docs/EXPERIMENT_v3.6.md`.
-
-## v3.5 — rarity funnel for the adaptive-replication search
-
-No agent or world dynamics changed.  A new 64-world independent campaign found
-7 late-generation communication histories, only 1 direct causal-removal
-candidate, and 0 new content-specific or persistent adaptive replications.
-`search_funnel.py` now tracks preregistered stage attrition with Wilson intervals.
-See `docs/EXPERIMENT_v3.5.md`.
-
-## v3.4 — replication search without new agent structure
-
-The current target is an independent persistent adaptive replication of the direct
-causal information-transmission mechanism.  v3.4 adds no agent capability or new
-world law.  It accelerates exact line-of-sight computation and reports a new
-independent world-seed campaign; no new history passed the complete adaptive
-criterion.  See `docs/EXPERIMENT_v3.4.md`.
-
-
-## v2.8 — Falsifying genetic confounding
-
-The strict second-evolution claim now requires receive→reemission fidelity to survive a permutation null **conditioned on receiver genetic root and generation**. This new control falsifies the strongest v2.7 candidate: its apparent information replication can be explained by lineage-specific inherited signalling preferences. This negative result is retained as a milestone, not hidden. See `docs/EXPERIMENT_v2.8.md`.
-
 # Latent Worlds
 
-**Latent Worlds** is a research-oriented artificial-life simulator for studying whether agents can discover, model, and exploit hidden laws of an unfamiliar universe.
+**Latent Worlds** is an artificial-life research laboratory for studying whether survival-driven evolution can spontaneously create new mechanisms for inheriting information and, ultimately, cumulative scientific knowledge — **without communication, culture, truth, discovery, or science being explicit objectives**.
 
-The central design rule is simple:
+The governing design rule is:
 
-> The simulator defines **laws**, not a technology tree.
+> **Build the world, not the civilisation.**
 
-Agents are not told that particular tools, recipes, or discoveries exist. They receive observations, primitive actions, metabolic pressure, memory, and (depending on the agent class) different learning capabilities. Any useful technology must emerge from the interaction between agent behaviour and the world's underlying laws.
+The simulator defines physics, resources, energetic constraints, reproduction, matter, geometry, and semantically empty interaction channels. Agents are not given a technology tree, language, teaching mechanism, scientific objective, truth signal, or reward for understanding the world.
 
-## Research question
+## North Star
 
-Can survival-driven agents progress through the following ladder without being explicitly programmed with the target discoveries?
+> **Can science emerge without being selected for?**
 
-`survival -> behavioural adaptation -> experimentation -> law discovery -> technological exploitation -> cumulative culture`
+More precisely:
 
-A crucial feature is that the simulator knows the ground-truth physics while the agents do not. This makes scientific discovery measurable rather than anecdotal.
+> **Can a population selected only for ordinary survival and reproduction spontaneously become a system that discovers, preserves, improves, and generalises true predictive knowledge about hidden laws of its universe?**
 
-## Long-term vision
+The project deliberately distinguishes behavioural success from genuine epistemic structure. A population that merely learns profitable state → action mappings has not necessarily discovered anything about the underlying world.
 
-A run begins by sampling or configuring a world:
+The long-run target is a transition of the form:
 
-- spatial geometry and resources;
-- fundamental physical laws;
-- environmental cycles and catastrophes;
-- several populations of agents with different cognitive architectures;
-- heritable genomes, mutation, reproduction and selection;
-- optional communication and inter-generational knowledge transfer.
+```text
+survival
+  ↓
+behavioural adaptation
+  ↓
+non-genetic information inheritance
+  ↓
+cumulative information
+  ↓
+predictive knowledge about hidden physics
+  ↓
+causal models and experimentation
+  ↓
+cumulative technology / externalised knowledge
+  ↓
+spontaneous science
+```
 
-The intended end state is a small artificial cosmos in which populations adapt to a world whose laws may be stable, unusual, hostile, or partially changing. The inspiration is the *type* of challenge presented by an unstable or difficult-to-understand universe: the agents must learn what kind of world they inhabit rather than merely optimize against a fixed game script.
+## Current bridge question
 
-## What v0.3 already implements
+The nearer-term research branch asks:
 
-The first milestone intentionally stays small.
+> **Can evolution spontaneously invent a faster form of evolution?**
 
-- A continuous 2D world with renewable energy resources.
-- A hidden **three-source quasi-periodic forcing law** with nonlinear coupling.
-- Two observable physical fields, temperature and radiation, generated by coupled hidden laws.
-- Resource yield determined by a hidden two-variable law with a genuine temperature-radiation interaction.
-- The forcing periods, phases, couplings and yield parameters are never exposed to agents.
-- Primitive actions: move, harvest, rest, probe.
-- Metabolism and death.
-- Four agent classes:
-  - `RandomAgent`: behavioural baseline.
-  - `ReactiveAgent`: remembers where harvesting worked.
-  - `CuriousAgent`: learns a simple predictive model online.
-  - `ScientistAgent`: maintains competing hypotheses and spends energy seeking evidence that discriminates between them.
-- Population reproduction with heritable scalar traits and mutation.
-- Basic metrics for survival, energy, probes, harvest efficiency and descendants.
+Genetic evolution already transfers information across generations. Latent Worlds asks whether populations can spontaneously create a second, non-genetic information process using only already-available anonymous signals or persistent environmental traces.
 
-This is **not yet symbolic law recovery in the strongest sense**. However, v0.3 requires agents to confront a hierarchical world: latent forcing -> coupled observable fields -> resource consequences. The scientist compares multivariate hypotheses and can favour interaction-capable models when the data demand them. The evaluator measures explanatory accuracy without exposing the ground truth to the agent.
+A serious candidate must show more than repeated signalling. It must exhibit evidence consistent with:
 
-## Hidden physics in the first structured world
+1. **variation** — multiple information variants exist;
+2. **causal transmission** — received content directly changes subsequently produced content;
+3. **replication with variation** — information is reproduced imperfectly rather than merely correlated with lineage;
+4. **differential reproduction** — variants propagate at different rates under matched receiver/context interventions;
+5. **cross-lineage persistence** — transmission cannot be reduced to genetic inheritance;
+6. **multi-generation persistence** — the process survives beyond its original carriers;
+7. **adaptive value** — readable content beats cost-matched censorship and payload scrambling;
+8. **faster turnover than genes** — the informational dynamics operate on a shorter timescale than genealogical replacement.
 
-The world now has three levels of ground truth.
+If such a process becomes stable, the next question is not merely whether it exists, but **what it accumulates**. Only if it begins accumulating predictive and causal information about hidden world laws does the project advance toward the North Star.
 
-1. Three latent oscillators generate a quasi-periodic forcing signal with weak nonlinear coupling.
-2. Temperature and radiation are different functions of location and that common forcing; radiation is additionally coupled to temperature.
-3. Resource yield depends jointly on temperature and radiation, including an interaction term.
+## Current frontier — v3.7
 
-Agents observe only local temperature, local radiation, nearby resources and action outcomes. They never receive oscillator periods, phases, coefficients, optima, widths, the interaction parameter, or even the fact that three latent sources exist.
+The current frontier is no longer simply “does communication appear?”. The immediate question is:
 
-The scientific target is therefore no longer merely “find the best temperature”. An agent can be behaviourally successful while holding the wrong structural model, and the evaluator can detect that distinction.
+> **Can the transition into direct causal non-genetic information transmission be predicted before it occurs?**
 
-## Quick start
+A first preregistered attempt used coarse observer-side snapshots at `t=150` and a deliberately low-capacity logistic model. It failed to predict later direct-causal transmission (`ROC-AUC ≈ 0.14`). This is retained as a negative result, not tuned away.
+
+Combined with matched world-side interventions from v3.6, the current working hypothesis is therefore dynamical:
+
+> **The transition may be characterised by a trajectory into a rare attractor/basin rather than by a simple scalar threshold.**
+
+The next confirmatory target is a trajectory-based early-warning signature — e.g. level, slope, variance, and lag-1 autocorrelation of preregistered observer variables — validated prospectively on previously unseen world seeds.
+
+## Current evidence
+
+The strongest causal histories are:
+
+- **`W11 × A0`** — direct same-agent causal content transmission in G2, real-payload steering, matched-context differential reproduction, specificity against scrambled-content evolution, and persistent adaptive superiority across preregistered horizons.
+- **`W21 × A0`** — independent direct-causal mechanistic replication, reaching G3, but not full adaptive replication.
+- **`W63 × A0`** — independent content-specific mechanistic replication in G2, but readable content still loses to censorship despite beating scrambling.
+
+The project therefore **does not currently claim discovery of a stable autonomous second evolutionary system**. The strongest missing result is a second independent history satisfying the complete persistent-adaptive criterion.
+
+A 64-world independent campaign in v3.5 found:
+
+- 7/64 histories with late-generation communication;
+- 1/64 with a direct causal-removal candidate;
+- 0/64 new content-specific mechanistic replications;
+- 0/64 new persistent adaptive replications.
+
+This supports the interpretation that the target transition is rare and strongly selective rather than a generic property of the architecture.
+
+## Scientific discipline
+
+Latent Worlds is designed around **falsification before spectacle**.
+
+Patterns are not named “language”, “culture”, “technology”, “knowledge”, or “science” because they look suggestive. Candidate phenomena must survive observer-side null models and causal controls.
+
+Core controls include:
+
+- readable communication vs cost-matched censorship;
+- real payloads vs payload scrambling;
+- world seed separated from population seed;
+- genetic-root conditioning;
+- temporal-direction controls;
+- same-agent, same-state signal removal;
+- donor-payload transplantation;
+- matched-context variant reproduction;
+- persistent fitness tests across several horizons;
+- matched world-side ecological interventions;
+- preregistered staged search funnels;
+- negative results retained rather than hidden.
+
+Observer instrumentation may inspect simulator ground truth. **Agents may not.**
+
+## The world
+
+The current simulator is a continuous 2D artificial universe with renewable resources and hidden multi-level physics.
+
+### Hidden dynamics
+
+Each world samples **2–4 latent dynamical sources** with unknown periods, phases, amplitudes, and nonlinear coupling. Their combined forcing influences observable temperature and radiation fields. Resource yield depends jointly on those fields through a hidden nonlinear interaction law.
+
+Conceptually:
+
+```text
+latent oscillators
+      ↓
+ hidden forcing
+   ↙       ↘
+temperature  radiation
+      ↘     ↙
+    resource yield
+```
+
+The number and parameters of the latent sources are never exposed to agents.
+
+### Private information
+
+Opaque obstacles impose line-of-sight constraints. Local transient environmental perturbations alter radiation and resource dynamics. Two agents in the same universe can therefore possess genuinely different evidence about the world:
+
+```text
+I_A(t) ≠ I_B(t)
+```
+
+This creates a possible ecological reason for communication without rewarding communication itself.
+
+### Matter without a technology tree
+
+The world contains manipulable objects with continuous material coordinates, mass, and position. A hidden `MatterLaw` maps ambient conditions and object arrangements to physical effects.
+
+There are no named object classes such as `battery`, `hammer`, or `generator`, and no recipe table. Useful configurations count as candidate technology only if their value emerges from the underlying physics and survives causal controls.
+
+## Agents
+
+The repository retains several historical/diagnostic agent architectures, including random, reactive, model-based, planner, recurrent, curious, and scientist baselines.
+
+The **publication-oriented mainline**, however, uses a single generic evolvable recurrent substrate via `generic_population_only=True`.
+
+`RecurrentAgent` contains no concept of:
+
+- language;
+- message meaning;
+- technology;
+- science;
+- truth;
+- teaching;
+- imitation;
+- target discovery.
+
+Its inputs are ordinary sensory variables plus anonymous signals, public marks, local matter, and conspecific motion. Its outputs are primitive actions.
+
+### Primitive actions
+
+```text
+MOVE
+HARVEST
+REST
+PROBE
+BROADCAST
+INSCRIBE
+PICKUP
+DROP
+```
+
+`BROADCAST` and `INSCRIBE` carry semantically empty numerical vectors. `PICKUP` and `DROP` only manipulate ordinary matter.
+
+### Evolution and lifetime learning
+
+Agents reproduce genetically with mutation. Recurrent-controller weights are inherited with mutation. The generic recurrent substrate also has reward-modulated lifetime plasticity, but this same mechanism applies to locomotion, feeding, manipulation, signalling, and inscription; it has no communication- or science-specific objective.
+
+The evolutionary currency remains ordinary demographic success.
+
+## Epistemic North-Star ladder
+
+The project reserves strong epistemic claims for a preregistered hierarchy:
+
+- **E0 — exploitation:** behaviour covaries with hidden physics and improves fitness;
+- **E1 — representation:** internal state predicts future latent physics beyond contemporaneous surface observations;
+- **E2 — collective excess:** population state predicts latent physics better than individual representations under matched information budgets;
+- **E3 — causal social dependence:** censoring social/external-memory channels removes that collective excess;
+- **E4 — cumulative epistemic inheritance:** predictive structure survives replacement of its original carriers and improves across generations;
+- **E5 — spontaneous experimentation:** unrewarded interventions are selected because the information they generate changes later action and fitness;
+- **E6 — law generalisation:** acquired structure transfers to held-out regimes or related worlds in ways incompatible with memorised local policy.
+
+The phrase **spontaneous science** is reserved for replicated systems reaching at least E5–E6 with appropriate causal ablations.
+
+The current epistemic pilot does **not** yet reach E2 reproducibly.
+
+## Repository structure
+
+```text
+src/latent_worlds/
+  world.py                    world state, ecology, perception, actions
+  config.py                   simulation configuration
+  metrics.py                  observer-side measurements
+
+  agents/                     agent substrates and diagnostic baselines
+  evolution/                  genetic inheritance and mutation
+  physics/                    hidden dynamical and matter laws
+
+  emergence.py                candidate-transition detection
+  longitudinal.py             long-run observer
+  role_ablation.py            causal functional-role tests
+  semantic_autopsy.py         content/receiver semantic controls
+  information_lineage.py      information lineage analysis
+  persistent_inheritance.py   persistent-carrier assays
+  secondary_evolution.py      non-genetic Darwinian-process analysis
+  causal_transmission.py      same-agent counterfactual transmission assays
+  replication.py              independent mechanistic/adaptive replication
+  adaptive_search.py          staged replication funnel
+  adaptive_persistence.py     multi-horizon adaptive persistence
+  phase_map.py                ecological parameter mapping
+  transition_conditions.py    matched causal ecology interventions
+  pretransition_prediction.py early-warning prediction tools
+  epistemic_transition.py     North-Star epistemic assays
+  search_funnel.py            attrition/statistical accounting
+
+docs/
+  RESEARCH.md                 research programme
+  EXPERIMENT_v*.md            chronological experimental record
+
+examples/
+  benchmark_*.py              reproducible experiment entrypoints
+
+tests/
+  test_*.py                   simulation and scientific-assay tests
+```
+
+## Reproducibility
+
+World and population randomness can be separated. Experimental histories are seedable, controls are explicit, and the project keeps negative results as part of the scientific record.
+
+Install and run:
 
 ```bash
 python -m venv .venv
@@ -109,416 +262,32 @@ pip install -e .
 latent-worlds --steps 1000 --seed 7
 ```
 
-or:
+Example research entrypoints include:
 
 ```bash
-PYTHONPATH=src python examples/run_world.py
+PYTHONPATH=src python examples/benchmark_secondary_evolution.py
+PYTHONPATH=src python examples/benchmark_direct_replication.py
+PYTHONPATH=src python examples/benchmark_adaptive_persistence.py
 ```
-
-
-### Discovery benchmark
-
-```bash
-PYTHONPATH=src python examples/benchmark_discovery.py --worlds 20 --steps 500
-```
-
-This evaluates scientific accuracy separately from biological fitness across multiple seeded universes.
-
-## Architecture
-
-```text
-src/latent_worlds/
-  world.py               simulation state and stepping
-  config.py              world/population configuration
-  metrics.py             research metrics
-  agents/
-    base.py               agent interface and genome
-    random_agent.py
-    reactive.py
-    curious.py
-    scientist.py          competing hypotheses + active experiments
-  science_hypotheses.py   agent-side hypothesis competition
-  physics/
-    laws.py               hidden physical laws
-  evolution/
-    reproduction.py       inheritance and mutation
-```
-
-The separation is deliberate. World physics must not depend on a particular agent cognition implementation, and cognition must receive observations rather than privileged physics state.
-
-## Scientific roadmap
-
-### Phase 1 — Hidden regularities
-
-Establish worlds with hidden parametric laws and quantify whether different agent classes infer useful regularities.
-
-### Phase 2 — Real experimentation
-
-Give agents interventions, counterfactual tests, object manipulation and experiment costs. Distinguish passive prediction from active causal discovery.
-
-### Phase 3 — Emergent tools
-
-Replace named actions such as "build generator" with composable primitives. Useful structures should emerge solely because physical laws make them useful.
-
-### Phase 4 — Evolution
-
-Add genomes for morphology, sensors, cognition, memory budgets and exploration tendencies. Study when selection favours learning versus instinct.
-
-### Phase 5 — Civilisation
-
-Add multiple populations, communication, teaching, imitation, records, institutions and inter-generational knowledge. Measure cumulative scientific culture.
-
-### Phase 6 — Unstable universes
-
-Introduce worlds in which some laws or global regimes change over long horizons. The target is not to mimic *The Three-Body Problem* literally, but to create universes where recognising the current regime and discovering deeper regularities matters for civilisation survival.
 
 ## Research principles
 
-1. **No hidden tech tree.** Technologies are arrangements of primitives whose usefulness follows from physics.
-2. **No privileged agent API.** Agents receive observations and action outcomes, not law names or parameters.
-3. **Held-out universes.** Evaluation must include law families and parameter regimes not used during development.
-4. **Ground-truth discovery metrics.** Whenever possible, compare inferred models with the simulator's true latent laws.
-5. **Ablations before spectacle.** Complex civilisations are scientifically useful only if we can explain which mechanisms produced them.
-6. **Reproducibility.** Every world is seedable and configurations are serialisable.
-
-## Candidate paper direction
-
-A publishable contribution would likely be a benchmark plus empirical study rather than the simulator alone. A candidate question is:
-
-> **Which cognitive and evolutionary mechanisms allow agents to discover and technologically exploit latent physical laws in held-out artificial universes?**
-
-The key experiments would compare reactive learning, world-model learning, intrinsic curiosity, active experimentation, communication and inheritance across procedurally generated law families.
+1. **Minimum agent-side hard-coding.** Add generic substrate only when necessary; do not encode desired discoveries.
+2. **World laws, not technology trees.** Opportunities arise from physics rather than named recipes.
+3. **Epistemic outcomes are measurements, never objectives.**
+4. **One generic publication substrate.** Hand-designed agents remain baselines, not explanations of civilisation.
+5. **Causal tests before labels.** Correlation is not communication, culture, technology, or knowledge.
+6. **Held-out worlds and prospective validation.** Avoid defining success after inspecting outcomes.
+7. **Negative results are first-class results.** Do not weaken criteria to rescue attractive histories.
+8. **Observer complexity is cheap; agent-specific structure is expensive.** Improve measurement and causal inference before adding faculties.
+9. **Reproducibility.** Every scientific claim must be tied to explicit seeds, controls, horizons, and criteria.
 
 ## Status
 
-Early research prototype. Interfaces will change.
+**Research prototype, current version: v3.7.**
 
-## v0.4 — cognition without a science objective
+The current scientific task is trajectory-based prediction of the rare direct-causal information-transmission transition, while continuing to seek independent persistent adaptive replication. The longer research programme remains directed toward spontaneous non-genetic inheritance, cumulative epistemic structure, and ultimately the North Star:
 
-The default population deliberately contains **no scientist or curiosity-driven agent**.
-Agents are not rewarded for prediction accuracy, novelty, uncertainty reduction, model
-selection, hypothesis testing, or discovering the simulator's laws.
+> **Can science emerge without being selected for?**
 
-Current cognitive diversity is purely architectural:
-
-- `RandomAgent`: almost no internal model;
-- `ReactiveAgent`: remembers locally successful conditions;
-- `ModelBasedAgent`: learns generic sensory/action -> energetic consequence associations;
-- `PlannerAgent`: learns local sensory dynamics from ordinary movement and uses them only
-  as an instrumental forward model for survival decisions.
-
-The only evolutionary currency remains survival and reproduction. Memory capacity and
-abstraction bandwidth are heritable, mutable traits with no direct fitness bonus.
-
-The world generator now samples **2–4 hidden dynamical sources**. Their number is not
-exposed to agents. These sources interact nonlinearly, drive observable temperature and
-radiation fields, and in turn affect resource yield. Thus identical surface behaviour may
-arise from different latent world structures.
-
-The central long-run experiment is therefore stronger than "can an agent discover a
-law?": **can increasingly structured internal world models, communication and eventually
-cumulative theory-like behaviour arise when comprehension itself is never rewarded?**
-
-## v0.5 — anonymous communication and external memory without social reward
-
-The default world now contains two **semantically empty** information channels:
-
-1. **broadcasts** — three-dimensional numerical vectors visible briefly to nearby agents;
-2. **inscriptions** — three-dimensional numerical vectors left at a location and decaying mechanically over time.
-
-Producing either channel costs metabolic energy. The simulator supplies no codebook, no
-teacher/student roles, no imitation rule, no reward for agreement, no novelty bonus, no
-communication objective and no discovery objective. Receiving a vector does not identify
-what it "means". A new `RecurrentAgent` simply has those raw values among many sensory
-inputs and has costly emit/inscribe actions among ordinary motor actions. Its recurrent
-weights are inherited with mutation.
-
-The only built-in survival substrate is homeostasis: when critically energy-depleted, the
-controller can consume food already reached or orient toward visible food. This prevents
-random newborn controllers from dying before evolution can act; it does not privilege
-communication or world-modelling.
-
-A paired benchmark is available:
-
-```bash
-PYTHONPATH=src python examples/benchmark_culture.py --worlds 20 --steps 700
-```
-
-Each seed is run twice with identical hidden physics. In the control world, agents pay the
-same cost for attempted messages/inscriptions but other agents cannot perceive them. This
-creates a causal null for claims about communication.
-
-### What will *not* count as emergent language
-
-A payload/environment correlation alone is insufficient. Random recurrent networks can
-encode aspects of their own sensory state even when nobody can receive their outputs.
-Therefore a publication-grade claim requires evidence for all of the following:
-
-- **encoding:** emitted states reliably contain information about something external;
-- **uptake:** receivers' behaviour is causally sensitive to those emissions;
-- **fitness value:** allowing the channel improves survival/reproduction relative to a
-  cost-matched censored control;
-- **conventionalisation:** lineages converge on reproducible signal-response mappings;
-- **cultural persistence:** useful mappings outlive individual agents and survive across
-  generations, potentially through persistent public traces;
-- **compositional growth:** later stages combine signals or records to represent relations
-  not reducible to a single immediate ecological cue.
-
-None of these criteria are rewards. They are observer-side tests applied after simulation.
-
-
-## v0.6 — manipulable matter without recipes
-
-The world now contains ordinary physical objects with **continuous observable material
-coordinates**, mass and position. There are no named object classes such as "battery",
-"hammer" or "generator", and there is no recipe table or technology tree.
-
-A single hidden `MatterLaw` couples local ambient state, material properties and spatial
-arrangements to energy conversion. Individual material effects are weak; nearby pairs can
-interact nonlinearly. Depending on the sampled universe, moving the same two objects
-closer can increase, decrease or barely change local harvest efficiency.
-
-The generic recurrent controller receives raw object observations and has only two new
-primitive actions:
-
-- `pickup` — hold a nearby object;
-- `drop` — release the held object at the current location.
-
-Carrying mass and manipulation both cost metabolic energy. The controller receives no
-reward for touching matter, trying combinations, increasing the physical multiplier or
-constructing persistent arrangements. An arrangement counts as a candidate technology
-only in observer-side analysis.
-
-A matched-cost causal benchmark is available:
-
-```bash
-PYTHONPATH=src python examples/benchmark_technology.py --worlds 20 --steps 700
-```
-
-Each seed is run with identical physics and controllers in two worlds. In the control,
-`pickup` and `drop` still cost energy but cannot alter object positions. This prevents a
-mere correlation between manipulation attempts and survival from being called tool use.
-
-### What will count as emergent technology
-
-A strong claim requires more than finding harvests near naturally favourable matter.
-Evidence should form a chain:
-
-1. agents physically alter object configurations;
-2. the alteration causally changes a useful physical process relative to the initial layout;
-3. the altered configuration is revisited or maintained rather than being a transient accident;
-4. lineages that exploit the arrangement gain demographic fitness versus frozen-object controls;
-5. the behaviour generalises across held-out material laws or is transmitted culturally;
-6. later agents improve configurations created before their birth.
-
-The evaluator also reports whether a given universe contains strong useful pair
-configurations at all. This separates "nothing was invented" from "nothing useful was
-available to invent".
-
-## v0.7 — an embryonic substrate for social cognition and language
-
-The simulator still contains no words, meanings, teachers, imitation rule, language reward,
-or science objective. Agents can now perceive only raw relative position and recent motion of
-nearby conspecifics. Recurrent agents also have heritable **social sensory gain** and **generic
-reward-modulated plasticity**. The same plasticity modifies policies for locomotion, feeding,
-object manipulation, signalling and inscription; it has no communication-specific mechanism.
-
-This creates a deliberately weak "embryonic matrix": enough substrate for coordination or
-conventions to become possible, but no target outcome is encoded. Observer-side language
-metrics require progressively stronger evidence: environmental encoding, receiver uptake,
-persistence across generations, and finally a causal advantage in matched worlds where signals
-are readable versus censored while remaining equally costly to emit.
-
-Run the paired language benchmark with:
-
-```bash
-PYTHONPATH=src python examples/benchmark_language.py --worlds 20 --steps 900
-```
-
-## v0.8: information is local
-
-Latent Worlds now treats private information as a property of physics and geometry rather than an agent task. Random opaque obstacles generate line-of-sight occlusion. Transient local field perturbations alter radiation and resource regrowth. Two agents in the same universe can therefore possess genuinely different evidence about the same world.
-
-This matters for emergent language: communication is still anonymous, costly and unrewarded, but it can now become useful because another organism may know something that cannot be directly observed locally. Publication-facing experiments use paired and factorial controls to separate accidental signalling from causal information transfer.
-
-Run the observer-side benchmark with:
-
-```bash
-PYTHONPATH=src python examples/benchmark_information.py --worlds 12 --steps 700
-```
-
-## v0.9: less agent design, stronger emergence tests
-
-The publication-oriented mode can now initialize a population from one generic recurrent controller substrate (`generic_population_only=True`). Hand-authored agent classes remain diagnostic baselines, not proposed explanations of civilization.
-
-`examples/benchmark_minimal_emergence.py` runs causal audits rather than rewarding target phenomena: a 2x2 information-fragmentation × communication design for communication, and a movable-matter × frozen-matter control for technology. Observer-side behavioral profiles also test whether distinct roles arise without named roles.
-
-The project now treats an apparently interesting pattern as a **candidate** only after it survives appropriate controls. Negative results are retained.
-
-## v1.0: observe before adding
-
-The main research loop now favors long evolutionary runs over new agent features.
-Run:
-
-```bash
-PYTHONPATH=src python examples/benchmark_longitudinal.py --worlds 12 --steps 5000 --epoch 100
-```
-
-The longitudinal detector is observer-only. It looks for abrupt population-level
-novelty and then requires persistence before surfacing a candidate transition.
-A candidate is not a discovery: it must subsequently pass causal ablations.
-
-### v1.2: autopsy before expansion
-
-The main research loop now rejects tiny or dead-lineage "specialization" and requires
-three consecutive living generations with adequate sample size. Long-horizon ecology
-was tuned only through world-side energetics to permit generational turnover. A
-promising seed-0 communication effect passed a causal contrast but failed replication
-in seeds 1–2, so it is explicitly treated as an outlier rather than emergent language.
-No new agent faculty was added.
-
-### v1.3: search for rare regimes, not desired outcomes
-
-The longitudinal observer now compares recent signal structure with shuffled-payload
-nulls.  Merely seeing several generations emit signals no longer counts as a candidate.
-In an initial 1,200-step screen, one world (seed 0) survived both the null-aware filter
-and a positive private-information x communication causal interaction, whereas the
-other screened worlds did not.  This is retained as a rare regime for mechanistic
-study, not called emergent language.
-
-
-### v1.5: phase-map before mechanism expansion
-
-No new agent faculty is added. `phase_map.py` varies only world-side information-fragmentation
-intensity and the energetic cost of anonymous signalling. The longitudinal screen searches
-for null-aware cross-generational candidates; matched 2x2 causal follow-ups are then run only
-on the most anomalous ecological cells. This turns the next research question into a phase-
-transition problem: does functional communication occupy a reproducible region of world
-parameter space rather than appearing as isolated suggestive seeds?
-
-Run:
-
-```bash
-PYTHONPATH=src python examples/benchmark_phase_map.py --seeds 6 --steps 1600
-```
-
-
-## v1.6: strict emergence screening
-
-The main benchmark now uses a stricter observer-side definition of transient communication. No agent or world capability was added. A 12-world campaign retained only 3 candidates after stricter null-aware, three-window, cross-generational filtering; matched readable-vs-censored tests showed no consistent fitness benefit. The strongest current interpretation is therefore **transient proto-conventions that arise and disappear**, not stable language. See `docs/EXPERIMENT_v1.6.md`.
-
-## v1.7: study fixation, not just emergence
-
-No new agent or world mechanism is added. A 24-world strict campaign found five cross-generational informational bursts, but all five disappeared on longer follow-up and four were costly under matched communication censoring. The strongest current interpretation is therefore **spontaneous proto-convention birth followed by extinction/non-fixation**. `campaign.py` and `benchmark_fixation_campaign.py` automate strict screening and matched causal follow-up. See `docs/EXPERIMENT_v1.7.md`.
-
-
-## v1.8: content-sensitive communication controls
-
-The publication protocol now distinguishes channel presence from signal content using payload-preserving scrambling, and can independently seed population stochasticity from world stochasticity. This enables population × world transplant experiments and avoids attributing a channel-level benefit to semantic content. The strongest current candidate is a rare world/population pairing where readable signalling outperforms both censorship and scrambled-content placebo; this remains a candidate, not a language claim, because fixation across deep generations has not yet been observed.
-
-
-## v1.9 — Counterfactual semantic autopsy
-
-The simulator remains unchanged agent-side. v1.9 adds observer-side causal
-content substitution assays for emergent signalling candidates. In the current
-priority candidate (`world_seed=1`, `agent_seed=1`), cross-cluster payload
-substitutions alter descendant action kinds substantially more than within-cluster
-placebos, and this intergenerational amplification disappears when payloads are
-scrambled during evolution. See `docs/EXPERIMENT_v1.9.md`.
-
-
-## v2.0 — causal semantic autopsy
-
-Version 2.0 adds **observer-side tests only**. No agent reward, faculty, sensor, action, or physical law is added. The new assays test whether spontaneously emerging signal categories have distinct causal effects on the same receiver, whether those effects amplify across adequately sampled generations, and whether they disappear under payload-scrambled evolution. See `docs/EXPERIMENT_v2.0.md`.
-
-## v2.1 — Generational depth is not enough
-
-A world-side turnover profile can produce deeper genealogies without changing agent cognition, but the first transfer experiment showed that the v2.0 semantic signature does not automatically survive that change: the scrambled-payload control was stronger than the readable channel in the high-turnover pilot. This negative result is retained deliberately. `latent_worlds.generational_search` now treats genealogy depth and semantic transfer as separate criteria; deeper generations are not evidence of culture unless content-sensitive causal effects also survive the corresponding placebo.
-
-
-## v2.2 — Hierarchical joint search
-
-The main search is now explicitly two-stage: (1) massively parallel genealogy screening using pre-registered criteria (G2+, non-collapse, minimum population), then (2) expensive real-vs-scrambled semantic autopsy only for passing candidates. This changes no agent capability or reward. A pilot 2 worlds × 2 populations × 2 ecological profiles (8 histories, 450 steps) produced 4 G2 candidates; importantly, high turnover did not guarantee G2 in every world-population pair. Full semantic follow-up remains deliberately separate because counterfactual cloning is much more computationally expensive than forward evolution.
-
-## v2.3 — deep-generation semantic search without new agent capabilities
-
-v2.3 changes only the observer. Semantic autopsy now runs in a single world pass and can reservoir-sample reception events separately by generation, preventing G0/G1 from exhausting the assay budget before G2/G3 are inspected. The short canonical assay is ~1.8x faster while reproducing the legacy statistics exactly.
-
-Three independent G3 histories were found under the existing turnover ecology, but all failed the real-vs-scrambled deep-semantic criterion. This is an intentional negative result: deeper genealogy alone is not cultural fixation, and a candidate cannot pass merely by being "less negative" than its scrambled control.
-
-## v2.4: communicative depth screen
-
-Generational depth is now screened separately from communicative depth. Before expensive semantic autopsy, observer-side diagnostics require later generations (G2+) to actively both emit and receive signals. This prevents genealogically deep but informationally shallow populations from being misclassified as cultural candidates. The screen changes no agent or world dynamics.
-
-## v2.5 — North Star: spontaneous epistemic transition
-
-The primary research branch now asks a stricter question than emergent communication: **can survival-driven populations spontaneously become systems that discover and accumulate true predictive knowledge about hidden world laws, without an epistemic objective?**
-
-No scientist role or discovery reward is added. `epistemic_transition.py` is observer-side only and measures a preregistered ladder from latent-law representation to collective excess, causal social dependence, cumulative epistemic inheritance, spontaneous experimentation, and held-out law generalisation. The first pilot is negative at the collective-knowledge level; this is retained as the baseline for the branch.
-
-## v2.6 research branch — Can evolution invent a faster form of evolution?
-
-This is the nearer-term branch under the North Star **Can science emerge without being selected for?**
-
-No cultural inheritance rule is implemented. An observer-side detector searches for an emergent second inheritance process in anonymous signals. A candidate must simultaneously show:
-
-- multiple information variants;
-- receive → later re-emit transmission across genetic lineages above a permutation null;
-- replication fidelity above null with non-zero mutation;
-- multi-generation persistence;
-- differential propagation among variants;
-- information-variant turnover faster than genealogical turnover.
-
-The first v2.6 screening found 3 strict candidates in 16 independent histories (seeds 0, 6, 7). In all three, replication fidelity above null disappears under payload scrambling, and differential propagation becomes much weaker. All candidates currently reach only G1; therefore this is **not yet evidence of a stable second evolutionary system**. The next target is the same signature at G2+ followed by censorship/scrambling/fixation controls.
-
-## v2.7 — Deep secondary evolution candidate
-
-The project now tests the realistic bridge toward the North Star: **can evolution spontaneously invent a faster form of evolution?** v2.7 resolves replication, mutation and differential propagation by generation. A first strict candidate (`world 11 × population 0`) shows all three Darwinian signatures inside G2, operates on a receive→re-emission timescale ~42× faster than genetic turnover, loses the G2 signature under payload scrambling, and outperforms both scrambled and censored controls in harvest. This remains a single mechanistic candidate pending independent replication; see `docs/EXPERIMENT_v2.7.md`.
-
-### v2.9: carrier-agnostic falsification
-The search for a spontaneous second evolutionary system now audits both transient
-broadcasts and already-existing persistent environmental inscriptions. Candidate
-inheritance must survive genetic-lineage conditioning **and** a temporal-direction
-control showing that received content predicts later emission better than prior
-emission. Continuous payload tests are included to avoid false negatives from
-arbitrary discretization. Current candidates fail this stricter standard; this is
-retained as a negative result rather than weakening the criterion.
-
-## v3.0: direct causal transmission milestone
-
-The current research frontier is no longer correlation-based inheritance.  v3.0 adds observer-only, same-agent/same-instant counterfactual assays that test whether received signal content directly changes outgoing signal content.  The strongest current history (`world_seed=11`, `agent_seed=0`, turnover ecology) shows a G2 direct-copy effect, donor-payload steering, and matched-context differential reproduction of two emergent variants.  These effects collapse under payload scrambling.  Independent replication is not yet available, so this remains a preregistered single-history candidate rather than a claim of a second evolutionary system.  See `docs/EXPERIMENT_v3.0.md`.
-
-## v3.1 — independent direct-causal replication
-
-The strongest v3.0 causal mechanism now replicates in an independent history,
-`W21 × A0`, and at generation G3. Same-agent signal removal, real-content
-transplant and matched-context variant reproduction all support a causal effect of
-received content on outgoing content. The corresponding scrambled-evolution
-history does not support the late-generation mechanism.
-
-Crucially, v3.1 separates **mechanistic replication** from **adaptive replication**.
-The readable W21 history beats censorship and reaches deeper generations, but the
-scrambled control has higher cumulative harvest. The current result is therefore
-mechanistic replication, not yet evidence that correct-content transmission has
-become a generally fitter autonomous inheritance system. See
-`docs/EXPERIMENT_v3.1.md`.
-
-## v3.2: adaptive persistence
-
-The observer-side replication protocol now distinguishes a one-off fitness endpoint from a **persistent adaptive effect**. `adaptive_persistence_assay` requires readable content to beat censorship and payload scrambling at several preregistered horizons without losing final population. No agent or world rule is changed by this assay. The canonical W11×A0 history passes at 500, 650 and 800 steps; independent adaptive replication remains open.
-
-## v3.3 — staged search and a third mechanistic replication
-
-No agent capability, reward, action or physical law is added. The replication
-campaign is now explicitly staged so that expensive fitness controls are run only
-after a candidate passes late-generation communication, same-agent removal,
-content transplant, matched-context differential reproduction and scrambled-
-content specificity.
-
-A new independent history, `W63 × A0`, passes the full content-specific
-mechanistic stack in G2. It does **not** pass adaptive replication: readable
-content consistently beats scrambled content but loses to censorship across the
-500/650/800-step horizons. `W80 × A0` is retained as a falsification example: it
-passes several causal tests but the same removal effect also appears after
-scrambled-content evolution, so it is rejected as non-specific. Independent
-persistent adaptive replication therefore remains open.
+For the complete chronological research record, including failed hypotheses and falsified candidates, see [`docs/RESEARCH.md`](docs/RESEARCH.md) and the versioned experiment reports in [`docs/`](docs/).
