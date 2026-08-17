@@ -23,16 +23,16 @@ jobs:
           mkdir -p /tmp/lwchunks
           cp .bootstrap/part00.b64 /tmp/lwchunks/00
           cp .bootstrap/part01.b64 /tmp/lwchunks/01
-          cp .bootstrap/part02.b64 /tmp/lwchunks/02
+          cp .bootstrap/fixed02.b64 /tmp/lwchunks/02
           cp .bootstrap/part03.b64 /tmp/lwchunks/03
-          cp .bootstrap/part04.b64 /tmp/lwchunks/04
+          cp .bootstrap/fixed04.b64 /tmp/lwchunks/04
           cat .bootstrap/missing05_*.b64 > /tmp/lwchunks/05
           cp .bootstrap/part05.b64 /tmp/lwchunks/06
           cp .bootstrap/part06.b64 /tmp/lwchunks/07
           cp .bootstrap/part07.b64 /tmp/lwchunks/08
           cp .bootstrap/part08.b64 /tmp/lwchunks/09
           cat .bootstrap/missing10_*.b64 > /tmp/lwchunks/10
-          cat .bootstrap/missing11_*.b64 > /tmp/lwchunks/11
+          cp .bootstrap/fixed11.b64 /tmp/lwchunks/11
           echo '6389d6c11b6a6a1f810c612df766ab297ac6fb7305c2c57ea8df20a0ffddddcd  /tmp/lwchunks/00' > /tmp/chunk-sha256.txt
           echo '461a95f617101db49967d7552480e3d1e65086adf7267e448e2a274bc32784c1  /tmp/lwchunks/01' >> /tmp/chunk-sha256.txt
           echo '26d1ce2c1c431808e1a150ad139d7a8d1e66c423b96b075af3095905fec4647f  /tmp/lwchunks/02' >> /tmp/chunk-sha256.txt
