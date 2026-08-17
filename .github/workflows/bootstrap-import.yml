@@ -16,52 +16,26 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Reconstruct and verify archive
+      - name: Verify canonical archive
         shell: bash
         run: |
           set -euo pipefail
-          mkdir -p /tmp/lwchunks
-          cp .bootstrap/part00.b64 /tmp/lwchunks/00
-          cp .bootstrap/part01.b64 /tmp/lwchunks/01
-          cp .bootstrap/fixed02.b64 /tmp/lwchunks/02
-          cp .bootstrap/part03.b64 /tmp/lwchunks/03
-          cp .bootstrap/fixed04.b64 /tmp/lwchunks/04
-          cat .bootstrap/missing05_*.b64 > /tmp/lwchunks/05
-          cp .bootstrap/part05.b64 /tmp/lwchunks/06
-          cp .bootstrap/part06.b64 /tmp/lwchunks/07
-          cp .bootstrap/part07.b64 /tmp/lwchunks/08
-          cp .bootstrap/part08.b64 /tmp/lwchunks/09
-          cat .bootstrap/missing10_*.b64 > /tmp/lwchunks/10
-          cp .bootstrap/fixed11.b64 /tmp/lwchunks/11
-          echo '6389d6c11b6a6a1f810c612df766ab297ac6fb7305c2c57ea8df20a0ffddddcd  /tmp/lwchunks/00' > /tmp/chunk-sha256.txt
-          echo '461a95f617101db49967d7552480e3d1e65086adf7267e448e2a274bc32784c1  /tmp/lwchunks/01' >> /tmp/chunk-sha256.txt
-          echo '26d1ce2c1c431808e1a150ad139d7a8d1e66c423b96b075af3095905fec4647f  /tmp/lwchunks/02' >> /tmp/chunk-sha256.txt
-          echo '970763c25acfddd7aece795b4076f3b6bd7c47056fd20e5381148a0413df23f2  /tmp/lwchunks/03' >> /tmp/chunk-sha256.txt
-          echo '9b952aef585cdb8d00a73aed7ccf7e1dfddc79ee1671fcb429b097178867d5b0  /tmp/lwchunks/04' >> /tmp/chunk-sha256.txt
-          echo '2f2c1fd3872df72de1df1f6348f5d47e83d4d2489c0362c16003010d66eca3d7  /tmp/lwchunks/05' >> /tmp/chunk-sha256.txt
-          echo 'ef52e816323c8acb1ad25329d7b59c271aca1fdad446e30c4feb3bcafc3396ae  /tmp/lwchunks/06' >> /tmp/chunk-sha256.txt
-          echo 'fad1052898f6d7803759a262f5cd9ee818da3ebceb33d01fc21096cdfd32ff70  /tmp/lwchunks/07' >> /tmp/chunk-sha256.txt
-          echo '4b164d32b6d776af63c0e25f2f71a7931e8e4570d35ea39e45655a08fef6bde0  /tmp/lwchunks/08' >> /tmp/chunk-sha256.txt
-          echo 'd6a02a95e16982b87d0a8f237eaf776063d011b8213278d5e371a44b366b4578  /tmp/lwchunks/09' >> /tmp/chunk-sha256.txt
-          echo '4e6b472bfc7c7bdb4db302394af3220cda8a51d2df17a44b201da626a81226d3  /tmp/lwchunks/10' >> /tmp/chunk-sha256.txt
-          echo '5b76a337434cfa2f7dae252ae2e164a2580717b50685cc750072491515e98d8e  /tmp/lwchunks/11' >> /tmp/chunk-sha256.txt
-          sha256sum -c /tmp/chunk-sha256.txt
-          cat /tmp/lwchunks/{00,01,02,03,04,05,06,07,08,09,10,11} > /tmp/archive.b64
-          base64 -d /tmp/archive.b64 > /tmp/latent-worlds-v3.7.zip
-          echo 'ac4c98f1c493d28f59451b471b8241c730bb98ff76449b922131e7027f94c2e6  /tmp/latent-worlds-v3.7.zip' | sha256sum -c -
-          unzip -tq /tmp/latent-worlds-v3.7.zip
+          echo 'ac4c98f1c493d28f59451b471b8241c730bb98ff76449b922131e7027f94c2e6  .bootstrap/archive.zip' | sha256sum -c -
+          unzip -tq .bootstrap/archive.zip
 
       - name: Replace bootstrap with project source
+        shell: bash
         run: |
           set -euo pipefail
           rm -rf /tmp/lw-extract
           mkdir -p /tmp/lw-extract
-          unzip -q /tmp/latent-worlds-v3.7.zip -d /tmp/lw-extract
+          unzip -q .bootstrap/archive.zip -d /tmp/lw-extract
           test "$(find /tmp/lw-extract/latent-worlds-v3.7 -type f | wc -l)" -eq 108
           find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf {} +
           cp -a /tmp/lw-extract/latent-worlds-v3.7/. .
 
       - name: Commit complete v3.7 project
+        shell: bash
         run: |
           set -euo pipefail
           git config user.name 'github-actions[bot]'
