@@ -1,0 +1,390 @@
+{
+  "agent_seed": 0,
+  "boundary_edges": 18,
+  "cells": [
+    {
+      "active_obstacle_fraction": 0.0,
+      "g2_mean_copy_gain": null,
+      "g2_natural_broadcasts": 0,
+      "g2_permutation_p": null,
+      "g2_positive_fraction": null,
+      "signal_cost": 0.0,
+      "supported": false,
+      "supported_generations": []
+    },
+    {
+      "active_obstacle_fraction": 0.0,
+      "g2_mean_copy_gain": null,
+      "g2_natural_broadcasts": 0,
+      "g2_permutation_p": null,
+      "g2_positive_fraction": null,
+      "signal_cost": 0.01,
+      "supported": false,
+      "supported_generations": []
+    },
+    {
+      "active_obstacle_fraction": 0.0,
+      "g2_mean_copy_gain": null,
+      "g2_natural_broadcasts": 0,
+      "g2_permutation_p": null,
+      "g2_positive_fraction": null,
+      "signal_cost": 0.02,
+      "supported": false,
+      "supported_generations": []
+    },
+    {
+      "active_obstacle_fraction": 0.0,
+      "g2_mean_copy_gain": null,
+      "g2_natural_broadcasts": 0,
+      "g2_permutation_p": null,
+      "g2_positive_fraction": null,
+      "signal_cost": 0.03,
+      "supported": true,
+      "supported_generations": [
+        2
+      ]
+    },
+    {
+      "active_obstacle_fraction": 0.0,
+      "g2_mean_copy_gain": null,
+      "g2_natural_broadcasts": 0,
+      "g2_permutation_p": null,
+      "g2_positive_fraction": null,
+      "signal_cost": 0.04,
+      "supported": false,
+      "supported_generations": []
+    },
+    {
+      "active_obstacle_fraction": 0.0,
+      "g2_mean_copy_gain": null,
+      "g2_natural_broadcasts": 0,
+      "g2_permutation_p": null,
+      "g2_positive_fraction": null,
+      "signal_cost": 0.05,
+      "supported": false,
+      "supported_generations": []
+    },
+    {
+      "active_obstacle_fraction": 0.0,
+      "g2_mean_copy_gain": null,
+      "g2_natural_broadcasts": 0,
+      "g2_permutation_p": null,
+      "g2_positive_fraction": null,
+      "signal_cost": 0.065,
+      "supported": false,
+      "supported_generations": []
+    },
+    {
+      "active_obstacle_fraction": 0.25,
+      "g2_mean_copy_gain": null,
+      "g2_natural_broadcasts": 0,
+      "g2_permutation_p": null,
+      "g2_positive_fraction": null,
+      "signal_cost": 0.0,
+      "supported": false,
+      "supported_generations": []
+    },
+    {
+      "active_obstacle_fraction": 0.25,
+      "g2_mean_copy_gain": null,
+      "g2_natural_broadcasts": 0,
+      "g2_permutation_p": null,
+      "g2_positive_fraction": null,
+      "signal_cost": 0.01,
+      "supported": false,
+      "supported_generations": []
+    },
+    {
+      "active_obstacle_fraction": 0.25,
+      "g2_mean_copy_gain": null,
+      "g2_natural_broadcasts": 0,
+      "g2_permutation_p": null,
+      "g2_positive_fraction": null,
+      "signal_cost": 0.02,
+      "supported": true,
+      "supported_generations": [
+        2
+      ]
+    },
+    {
+      "active_obstacle_fraction": 0.25,
+      "g2_mean_copy_gain": null,
+      "g2_natural_broadcasts": 0,
+      "g2_permutation_p": null,
+      "g2_positive_fraction": null,
+      "signal_cost": 0.03,
+      "supported": false,
+      "supported_generations": []
+    },
+    {
+      "active_obstacle_fraction": 0.25,
+      "g2_mean_copy_gain": null,
+      "g2_natural_broadcasts": 0,
+      "g2_permutation_p": null,
+      "g2_positive_fraction": null,
+      "signal_cost": 0.04,
+      "supported": false,
+      "supported_generations": []
+    },
+    {
+      "active_obstacle_fraction": 0.25,
+      "g2_mean_copy_gain": null,
+      "g2_natural_broadcasts": 0,
+      "g2_permutation_p": null,
+      "g2_positive_fraction": null,
+      "signal_cost": 0.05,
+      "supported": false,
+      "supported_generations": []
+    },
+    {
+      "active_obstacle_fraction": 0.25,
+      "g2_mean_copy_gain": null,
+      "g2_natural_broadcasts": 0,
+      "g2_permutation_p": null,
+      "g2_positive_fraction": null,
+      "signal_cost": 0.065,
+      "supported": false,
+      "supported_generations": []
+    },
+    {
+      "active_obstacle_fraction": 0.5,
+      "g2_mean_copy_gain": null,
+      "g2_natural_broadcasts": 0,
+      "g2_permutation_p": null,
+      "g2_positive_fraction": null,
+      "signal_cost": 0.0,
+      "supported": false,
+      "supported_generations": []
+    },
+    {
+      "active_obstacle_fraction": 0.5,
+      "g2_mean_copy_gain": null,
+      "g2_natural_broadcasts": 0,
+      "g2_permutation_p": null,
+      "g2_positive_fraction": null,
+      "signal_cost": 0.01,
+      "supported": false,
+      "supported_generations": []
+    },
+    {
+      "active_obstacle_fraction": 0.5,
+      "g2_mean_copy_gain": null,
+      "g2_natural_broadcasts": 0,
+      "g2_permutation_p": null,
+      "g2_positive_fraction": null,
+      "signal_cost": 0.02,
+      "supported": true,
+      "supported_generations": [
+        2
+      ]
+    },
+    {
+      "active_obstacle_fraction": 0.5,
+      "g2_mean_copy_gain": null,
+      "g2_natural_broadcasts": 0,
+      "g2_permutation_p": null,
+      "g2_positive_fraction": null,
+      "signal_cost": 0.03,
+      "supported": false,
+      "supported_generations": []
+    },
+    {
+      "active_obstacle_fraction": 0.5,
+      "g2_mean_copy_gain": null,
+      "g2_natural_broadcasts": 0,
+      "g2_permutation_p": null,
+      "g2_positive_fraction": null,
+      "signal_cost": 0.04,
+      "supported": false,
+      "supported_generations": []
+    },
+    {
+      "active_obstacle_fraction": 0.5,
+      "g2_mean_copy_gain": null,
+      "g2_natural_broadcasts": 0,
+      "g2_permutation_p": null,
+      "g2_positive_fraction": null,
+      "signal_cost": 0.05,
+      "supported": false,
+      "supported_generations": []
+    },
+    {
+      "active_obstacle_fraction": 0.5,
+      "g2_mean_copy_gain": null,
+      "g2_natural_broadcasts": 0,
+      "g2_permutation_p": null,
+      "g2_positive_fraction": null,
+      "signal_cost": 0.065,
+      "supported": false,
+      "supported_generations": []
+    },
+    {
+      "active_obstacle_fraction": 0.75,
+      "g2_mean_copy_gain": null,
+      "g2_natural_broadcasts": 0,
+      "g2_permutation_p": null,
+      "g2_positive_fraction": null,
+      "signal_cost": 0.0,
+      "supported": false,
+      "supported_generations": []
+    },
+    {
+      "active_obstacle_fraction": 0.75,
+      "g2_mean_copy_gain": null,
+      "g2_natural_broadcasts": 0,
+      "g2_permutation_p": null,
+      "g2_positive_fraction": null,
+      "signal_cost": 0.01,
+      "supported": false,
+      "supported_generations": []
+    },
+    {
+      "active_obstacle_fraction": 0.75,
+      "g2_mean_copy_gain": null,
+      "g2_natural_broadcasts": 0,
+      "g2_permutation_p": null,
+      "g2_positive_fraction": null,
+      "signal_cost": 0.02,
+      "supported": false,
+      "supported_generations": []
+    },
+    {
+      "active_obstacle_fraction": 0.75,
+      "g2_mean_copy_gain": null,
+      "g2_natural_broadcasts": 0,
+      "g2_permutation_p": null,
+      "g2_positive_fraction": null,
+      "signal_cost": 0.03,
+      "supported": false,
+      "supported_generations": []
+    },
+    {
+      "active_obstacle_fraction": 0.75,
+      "g2_mean_copy_gain": null,
+      "g2_natural_broadcasts": 0,
+      "g2_permutation_p": null,
+      "g2_positive_fraction": null,
+      "signal_cost": 0.04,
+      "supported": false,
+      "supported_generations": []
+    },
+    {
+      "active_obstacle_fraction": 0.75,
+      "g2_mean_copy_gain": null,
+      "g2_natural_broadcasts": 0,
+      "g2_permutation_p": null,
+      "g2_positive_fraction": null,
+      "signal_cost": 0.05,
+      "supported": false,
+      "supported_generations": []
+    },
+    {
+      "active_obstacle_fraction": 0.75,
+      "g2_mean_copy_gain": null,
+      "g2_natural_broadcasts": 0,
+      "g2_permutation_p": null,
+      "g2_positive_fraction": null,
+      "signal_cost": 0.065,
+      "supported": false,
+      "supported_generations": []
+    },
+    {
+      "active_obstacle_fraction": 1.0,
+      "g2_mean_copy_gain": null,
+      "g2_natural_broadcasts": 0,
+      "g2_permutation_p": null,
+      "g2_positive_fraction": null,
+      "signal_cost": 0.0,
+      "supported": true,
+      "supported_generations": [
+        2
+      ]
+    },
+    {
+      "active_obstacle_fraction": 1.0,
+      "g2_mean_copy_gain": null,
+      "g2_natural_broadcasts": 0,
+      "g2_permutation_p": null,
+      "g2_positive_fraction": null,
+      "signal_cost": 0.01,
+      "supported": false,
+      "supported_generations": []
+    },
+    {
+      "active_obstacle_fraction": 1.0,
+      "g2_mean_copy_gain": null,
+      "g2_natural_broadcasts": 0,
+      "g2_permutation_p": null,
+      "g2_positive_fraction": null,
+      "signal_cost": 0.02,
+      "supported": true,
+      "supported_generations": [
+        2
+      ]
+    },
+    {
+      "active_obstacle_fraction": 1.0,
+      "g2_mean_copy_gain": null,
+      "g2_natural_broadcasts": 0,
+      "g2_permutation_p": null,
+      "g2_positive_fraction": null,
+      "signal_cost": 0.03,
+      "supported": true,
+      "supported_generations": [
+        2
+      ]
+    },
+    {
+      "active_obstacle_fraction": 1.0,
+      "g2_mean_copy_gain": null,
+      "g2_natural_broadcasts": 0,
+      "g2_permutation_p": null,
+      "g2_positive_fraction": null,
+      "signal_cost": 0.04,
+      "supported": false,
+      "supported_generations": []
+    },
+    {
+      "active_obstacle_fraction": 1.0,
+      "g2_mean_copy_gain": null,
+      "g2_natural_broadcasts": 0,
+      "g2_permutation_p": null,
+      "g2_positive_fraction": null,
+      "signal_cost": 0.05,
+      "supported": true,
+      "supported_generations": [
+        2
+      ]
+    },
+    {
+      "active_obstacle_fraction": 1.0,
+      "g2_mean_copy_gain": null,
+      "g2_natural_broadcasts": 0,
+      "g2_permutation_p": null,
+      "g2_positive_fraction": null,
+      "signal_cost": 0.065,
+      "supported": false,
+      "supported_generations": []
+    }
+  ],
+  "n_cells": 35,
+  "occlusion_values": [
+    0.0,
+    0.25,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "signal_cost_values": [
+    0.0,
+    0.01,
+    0.02,
+    0.03,
+    0.04,
+    0.05,
+    0.065
+  ],
+  "supported_cells": 7,
+  "supported_fraction": 0.2,
+  "world_seed": 11
+}
