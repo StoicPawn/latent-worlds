@@ -1,0 +1,31 @@
+name: v3.8 trajectory prediction
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'src/latent_worlds/trajectory_transition.py'
+      - 'tests/test_trajectory_transition.py'
+      - 'examples/benchmark_trajectory_prediction.py'
+      - '.github/workflows/v3.8-trajectory.yml'
+  workflow_dispatch:
+
+jobs:
+  trajectory:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install --upgrade pip
+      - run: pip install -e '.[dev]'
+      - name: Targeted tests
+        run: pytest -q tests/test_trajectory_transition.py tests/test_pretransition_prediction.py tests/test_causal_transmission.py tests/test_replication.py
+      - name: Prospective trajectory campaign
+        run: PYTHONPATH=src python examples/benchmark_trajectory_prediction.py | tee trajectory_result.json
+      - uses: actions/upload-artifact@v4
+        with:
+          name: v3.8-trajectory-result
+          path: trajectory_result.json
