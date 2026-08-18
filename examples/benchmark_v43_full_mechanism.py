@@ -1,4 +1,8 @@
-"""v4.3: full-mechanism follow-up of every prospective v4.2 direct-causal origin."""
+"""v4.3: full-mechanism follow-up of every prospective v4.2 direct-causal origin.
+
+This file is intentionally touched to trigger the preregistered v4.3 workflow;
+no protocol, candidate rule, parameter, threshold, or assay is changed.
+"""
 from __future__ import annotations
 
 import json
