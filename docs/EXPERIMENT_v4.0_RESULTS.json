@@ -1,0 +1,551 @@
+{
+  "agent_seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "boundary_controls_with_independent_support": 1,
+  "cells": [
+    {
+      "active_obstacle_fraction": 1.0,
+      "extends_beyond_A0": false,
+      "independent_support_fraction": 0.0,
+      "population_robust": false,
+      "population_seed_results": [
+        {
+          "agent_seed": 0,
+          "g2_mean_copy_gain": null,
+          "g2_natural_broadcasts": 0,
+          "g2_permutation_p": null,
+          "supported": true,
+          "supported_generations": [
+            2
+          ]
+        },
+        {
+          "agent_seed": 1,
+          "g2_mean_copy_gain": null,
+          "g2_natural_broadcasts": 0,
+          "g2_permutation_p": null,
+          "supported": false,
+          "supported_generations": []
+        },
+        {
+          "agent_seed": 2,
+          "g2_mean_copy_gain": null,
+          "g2_natural_broadcasts": 0,
+          "g2_permutation_p": null,
+          "supported": false,
+          "supported_generations": []
+        },
+        {
+          "agent_seed": 3,
+          "g2_mean_copy_gain": null,
+          "g2_natural_broadcasts": 0,
+          "g2_permutation_p": null,
+          "supported": false,
+          "supported_generations": []
+        },
+        {
+          "agent_seed": 4,
+          "g2_mean_copy_gain": null,
+          "g2_natural_broadcasts": 0,
+          "g2_permutation_p": null,
+          "supported": false,
+          "supported_generations": []
+        }
+      ],
+      "selection_role": "supported",
+      "signal_cost": 0.03,
+      "support_fraction_all": 0.2,
+      "v3_9_supported": true
+    },
+    {
+      "active_obstacle_fraction": 1.0,
+      "extends_beyond_A0": false,
+      "independent_support_fraction": 0.0,
+      "population_robust": false,
+      "population_seed_results": [
+        {
+          "agent_seed": 0,
+          "g2_mean_copy_gain": null,
+          "g2_natural_broadcasts": 0,
+          "g2_permutation_p": null,
+          "supported": true,
+          "supported_generations": [
+            2
+          ]
+        },
+        {
+          "agent_seed": 1,
+          "g2_mean_copy_gain": null,
+          "g2_natural_broadcasts": 0,
+          "g2_permutation_p": null,
+          "supported": false,
+          "supported_generations": []
+        },
+        {
+          "agent_seed": 2,
+          "g2_mean_copy_gain": null,
+          "g2_natural_broadcasts": 0,
+          "g2_permutation_p": null,
+          "supported": false,
+          "supported_generations": []
+        },
+        {
+          "agent_seed": 3,
+          "g2_mean_copy_gain": null,
+          "g2_natural_broadcasts": 0,
+          "g2_permutation_p": null,
+          "supported": false,
+          "supported_generations": []
+        },
+        {
+          "agent_seed": 4,
+          "g2_mean_copy_gain": null,
+          "g2_natural_broadcasts": 0,
+          "g2_permutation_p": null,
+          "supported": false,
+          "supported_generations": []
+        }
+      ],
+      "selection_role": "supported",
+      "signal_cost": 0.02,
+      "support_fraction_all": 0.2,
+      "v3_9_supported": true
+    },
+    {
+      "active_obstacle_fraction": 1.0,
+      "extends_beyond_A0": false,
+      "independent_support_fraction": 0.0,
+      "population_robust": false,
+      "population_seed_results": [
+        {
+          "agent_seed": 0,
+          "g2_mean_copy_gain": null,
+          "g2_natural_broadcasts": 0,
+          "g2_permutation_p": null,
+          "supported": true,
+          "supported_generations": [
+            2
+          ]
+        },
+        {
+          "agent_seed": 1,
+          "g2_mean_copy_gain": null,
+          "g2_natural_broadcasts": 0,
+          "g2_permutation_p": null,
+          "supported": false,
+          "supported_generations": []
+        },
+        {
+          "agent_seed": 2,
+          "g2_mean_copy_gain": null,
+          "g2_natural_broadcasts": 0,
+          "g2_permutation_p": null,
+          "supported": false,
+          "supported_generations": []
+        },
+        {
+          "agent_seed": 3,
+          "g2_mean_copy_gain": null,
+          "g2_natural_broadcasts": 0,
+          "g2_permutation_p": null,
+          "supported": false,
+          "supported_generations": []
+        },
+        {
+          "agent_seed": 4,
+          "g2_mean_copy_gain": null,
+          "g2_natural_broadcasts": 0,
+          "g2_permutation_p": null,
+          "supported": false,
+          "supported_generations": []
+        }
+      ],
+      "selection_role": "supported",
+      "signal_cost": 0.05,
+      "support_fraction_all": 0.2,
+      "v3_9_supported": true
+    },
+    {
+      "active_obstacle_fraction": 0.5,
+      "extends_beyond_A0": false,
+      "independent_support_fraction": 0.0,
+      "population_robust": false,
+      "population_seed_results": [
+        {
+          "agent_seed": 0,
+          "g2_mean_copy_gain": null,
+          "g2_natural_broadcasts": 0,
+          "g2_permutation_p": null,
+          "supported": true,
+          "supported_generations": [
+            2
+          ]
+        },
+        {
+          "agent_seed": 1,
+          "g2_mean_copy_gain": null,
+          "g2_natural_broadcasts": 0,
+          "g2_permutation_p": null,
+          "supported": false,
+          "supported_generations": []
+        },
+        {
+          "agent_seed": 2,
+          "g2_mean_copy_gain": null,
+          "g2_natural_broadcasts": 0,
+          "g2_permutation_p": null,
+          "supported": false,
+          "supported_generations": []
+        },
+        {
+          "agent_seed": 3,
+          "g2_mean_copy_gain": null,
+          "g2_natural_broadcasts": 0,
+          "g2_permutation_p": null,
+          "supported": false,
+          "supported_generations": []
+        },
+        {
+          "agent_seed": 4,
+          "g2_mean_copy_gain": null,
+          "g2_natural_broadcasts": 0,
+          "g2_permutation_p": null,
+          "supported": false,
+          "supported_generations": []
+        }
+      ],
+      "selection_role": "supported",
+      "signal_cost": 0.02,
+      "support_fraction_all": 0.2,
+      "v3_9_supported": true
+    },
+    {
+      "active_obstacle_fraction": 1.0,
+      "extends_beyond_A0": false,
+      "independent_support_fraction": 0.0,
+      "population_robust": false,
+      "population_seed_results": [
+        {
+          "agent_seed": 0,
+          "g2_mean_copy_gain": null,
+          "g2_natural_broadcasts": 0,
+          "g2_permutation_p": null,
+          "supported": true,
+          "supported_generations": [
+            2
+          ]
+        },
+        {
+          "agent_seed": 1,
+          "g2_mean_copy_gain": null,
+          "g2_natural_broadcasts": 0,
+          "g2_permutation_p": null,
+          "supported": false,
+          "supported_generations": []
+        },
+        {
+          "agent_seed": 2,
+          "g2_mean_copy_gain": null,
+          "g2_natural_broadcasts": 0,
+          "g2_permutation_p": null,
+          "supported": false,
+          "supported_generations": []
+        },
+        {
+          "agent_seed": 3,
+          "g2_mean_copy_gain": null,
+          "g2_natural_broadcasts": 0,
+          "g2_permutation_p": null,
+          "supported": false,
+          "supported_generations": []
+        },
+        {
+          "agent_seed": 4,
+          "g2_mean_copy_gain": null,
+          "g2_natural_broadcasts": 0,
+          "g2_permutation_p": null,
+          "supported": false,
+          "supported_generations": []
+        }
+      ],
+      "selection_role": "supported",
+      "signal_cost": 0.0,
+      "support_fraction_all": 0.2,
+      "v3_9_supported": true
+    },
+    {
+      "active_obstacle_fraction": 0.0,
+      "extends_beyond_A0": false,
+      "independent_support_fraction": 0.0,
+      "population_robust": false,
+      "population_seed_results": [
+        {
+          "agent_seed": 0,
+          "g2_mean_copy_gain": null,
+          "g2_natural_broadcasts": 0,
+          "g2_permutation_p": null,
+          "supported": true,
+          "supported_generations": [
+            2
+          ]
+        },
+        {
+          "agent_seed": 1,
+          "g2_mean_copy_gain": null,
+          "g2_natural_broadcasts": 0,
+          "g2_permutation_p": null,
+          "supported": false,
+          "supported_generations": []
+        },
+        {
+          "agent_seed": 2,
+          "g2_mean_copy_gain": null,
+          "g2_natural_broadcasts": 0,
+          "g2_permutation_p": null,
+          "supported": false,
+          "supported_generations": []
+        },
+        {
+          "agent_seed": 3,
+          "g2_mean_copy_gain": null,
+          "g2_natural_broadcasts": 0,
+          "g2_permutation_p": null,
+          "supported": false,
+          "supported_generations": []
+        },
+        {
+          "agent_seed": 4,
+          "g2_mean_copy_gain": null,
+          "g2_natural_broadcasts": 0,
+          "g2_permutation_p": null,
+          "supported": false,
+          "supported_generations": []
+        }
+      ],
+      "selection_role": "supported",
+      "signal_cost": 0.03,
+      "support_fraction_all": 0.2,
+      "v3_9_supported": true
+    },
+    {
+      "active_obstacle_fraction": 0.75,
+      "extends_beyond_A0": false,
+      "independent_support_fraction": 0.0,
+      "population_robust": false,
+      "population_seed_results": [
+        {
+          "agent_seed": 0,
+          "g2_mean_copy_gain": null,
+          "g2_natural_broadcasts": 0,
+          "g2_permutation_p": null,
+          "supported": false,
+          "supported_generations": []
+        },
+        {
+          "agent_seed": 1,
+          "g2_mean_copy_gain": null,
+          "g2_natural_broadcasts": 0,
+          "g2_permutation_p": null,
+          "supported": false,
+          "supported_generations": []
+        },
+        {
+          "agent_seed": 2,
+          "g2_mean_copy_gain": null,
+          "g2_natural_broadcasts": 0,
+          "g2_permutation_p": null,
+          "supported": false,
+          "supported_generations": []
+        },
+        {
+          "agent_seed": 3,
+          "g2_mean_copy_gain": null,
+          "g2_natural_broadcasts": 0,
+          "g2_permutation_p": null,
+          "supported": false,
+          "supported_generations": []
+        },
+        {
+          "agent_seed": 4,
+          "g2_mean_copy_gain": null,
+          "g2_natural_broadcasts": 0,
+          "g2_permutation_p": null,
+          "supported": false,
+          "supported_generations": []
+        }
+      ],
+      "selection_role": "boundary_control",
+      "signal_cost": 0.03,
+      "support_fraction_all": 0.0,
+      "v3_9_supported": false
+    },
+    {
+      "active_obstacle_fraction": 1.0,
+      "extends_beyond_A0": false,
+      "independent_support_fraction": 0.0,
+      "population_robust": false,
+      "population_seed_results": [
+        {
+          "agent_seed": 0,
+          "g2_mean_copy_gain": null,
+          "g2_natural_broadcasts": 0,
+          "g2_permutation_p": null,
+          "supported": false,
+          "supported_generations": []
+        },
+        {
+          "agent_seed": 1,
+          "g2_mean_copy_gain": null,
+          "g2_natural_broadcasts": 0,
+          "g2_permutation_p": null,
+          "supported": false,
+          "supported_generations": []
+        },
+        {
+          "agent_seed": 2,
+          "g2_mean_copy_gain": null,
+          "g2_natural_broadcasts": 0,
+          "g2_permutation_p": null,
+          "supported": false,
+          "supported_generations": []
+        },
+        {
+          "agent_seed": 3,
+          "g2_mean_copy_gain": null,
+          "g2_natural_broadcasts": 0,
+          "g2_permutation_p": null,
+          "supported": false,
+          "supported_generations": []
+        },
+        {
+          "agent_seed": 4,
+          "g2_mean_copy_gain": null,
+          "g2_natural_broadcasts": 0,
+          "g2_permutation_p": null,
+          "supported": false,
+          "supported_generations": []
+        }
+      ],
+      "selection_role": "boundary_control",
+      "signal_cost": 0.04,
+      "support_fraction_all": 0.0,
+      "v3_9_supported": false
+    },
+    {
+      "active_obstacle_fraction": 0.5,
+      "extends_beyond_A0": true,
+      "independent_support_fraction": 0.25,
+      "population_robust": false,
+      "population_seed_results": [
+        {
+          "agent_seed": 0,
+          "g2_mean_copy_gain": null,
+          "g2_natural_broadcasts": 0,
+          "g2_permutation_p": null,
+          "supported": false,
+          "supported_generations": []
+        },
+        {
+          "agent_seed": 1,
+          "g2_mean_copy_gain": null,
+          "g2_natural_broadcasts": 0,
+          "g2_permutation_p": null,
+          "supported": false,
+          "supported_generations": []
+        },
+        {
+          "agent_seed": 2,
+          "g2_mean_copy_gain": null,
+          "g2_natural_broadcasts": 0,
+          "g2_permutation_p": null,
+          "supported": true,
+          "supported_generations": [
+            2
+          ]
+        },
+        {
+          "agent_seed": 3,
+          "g2_mean_copy_gain": null,
+          "g2_natural_broadcasts": 0,
+          "g2_permutation_p": null,
+          "supported": false,
+          "supported_generations": []
+        },
+        {
+          "agent_seed": 4,
+          "g2_mean_copy_gain": null,
+          "g2_natural_broadcasts": 0,
+          "g2_permutation_p": null,
+          "supported": false,
+          "supported_generations": []
+        }
+      ],
+      "selection_role": "boundary_control",
+      "signal_cost": 0.03,
+      "support_fraction_all": 0.2,
+      "v3_9_supported": false
+    },
+    {
+      "active_obstacle_fraction": 0.75,
+      "extends_beyond_A0": false,
+      "independent_support_fraction": 0.0,
+      "population_robust": false,
+      "population_seed_results": [
+        {
+          "agent_seed": 0,
+          "g2_mean_copy_gain": null,
+          "g2_natural_broadcasts": 0,
+          "g2_permutation_p": null,
+          "supported": false,
+          "supported_generations": []
+        },
+        {
+          "agent_seed": 1,
+          "g2_mean_copy_gain": null,
+          "g2_natural_broadcasts": 0,
+          "g2_permutation_p": null,
+          "supported": false,
+          "supported_generations": []
+        },
+        {
+          "agent_seed": 2,
+          "g2_mean_copy_gain": null,
+          "g2_natural_broadcasts": 0,
+          "g2_permutation_p": null,
+          "supported": false,
+          "supported_generations": []
+        },
+        {
+          "agent_seed": 3,
+          "g2_mean_copy_gain": null,
+          "g2_natural_broadcasts": 0,
+          "g2_permutation_p": null,
+          "supported": false,
+          "supported_generations": []
+        },
+        {
+          "agent_seed": 4,
+          "g2_mean_copy_gain": null,
+          "g2_natural_broadcasts": 0,
+          "g2_permutation_p": null,
+          "supported": false,
+          "supported_generations": []
+        }
+      ],
+      "selection_role": "boundary_control",
+      "signal_cost": 0.02,
+      "support_fraction_all": 0.0,
+      "v3_9_supported": false
+    }
+  ],
+  "population_robust_supported_cells": 0,
+  "selected_boundary_controls": 4,
+  "selected_supported_cells": 6,
+  "supported_cells_extending_beyond_A0": 0,
+  "world_seed": 11
+}
