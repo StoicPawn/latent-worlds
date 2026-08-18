@@ -1,0 +1,582 @@
+{
+  "conditions": [
+    {
+      "active_obstacle_fraction": 0.5,
+      "history_reproducible": false,
+      "hits": 2,
+      "new_population_seeds": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "origin_rate": 0.1,
+      "positive_seeds": [
+        12,
+        18
+      ],
+      "role": "A2_discovery_condition",
+      "runs": [
+        {
+          "agent_seed": 5,
+          "supported": false,
+          "supported_generations": []
+        },
+        {
+          "agent_seed": 6,
+          "supported": false,
+          "supported_generations": []
+        },
+        {
+          "agent_seed": 7,
+          "supported": false,
+          "supported_generations": []
+        },
+        {
+          "agent_seed": 8,
+          "supported": false,
+          "supported_generations": []
+        },
+        {
+          "agent_seed": 9,
+          "supported": false,
+          "supported_generations": []
+        },
+        {
+          "agent_seed": 10,
+          "supported": false,
+          "supported_generations": []
+        },
+        {
+          "agent_seed": 11,
+          "supported": false,
+          "supported_generations": []
+        },
+        {
+          "agent_seed": 12,
+          "supported": true,
+          "supported_generations": [
+            2
+          ]
+        },
+        {
+          "agent_seed": 13,
+          "supported": false,
+          "supported_generations": []
+        },
+        {
+          "agent_seed": 14,
+          "supported": false,
+          "supported_generations": []
+        },
+        {
+          "agent_seed": 15,
+          "supported": false,
+          "supported_generations": []
+        },
+        {
+          "agent_seed": 16,
+          "supported": false,
+          "supported_generations": []
+        },
+        {
+          "agent_seed": 17,
+          "supported": false,
+          "supported_generations": []
+        },
+        {
+          "agent_seed": 18,
+          "supported": true,
+          "supported_generations": [
+            3
+          ]
+        },
+        {
+          "agent_seed": 19,
+          "supported": false,
+          "supported_generations": []
+        },
+        {
+          "agent_seed": 20,
+          "supported": false,
+          "supported_generations": []
+        },
+        {
+          "agent_seed": 21,
+          "supported": false,
+          "supported_generations": []
+        },
+        {
+          "agent_seed": 22,
+          "supported": false,
+          "supported_generations": []
+        },
+        {
+          "agent_seed": 23,
+          "supported": false,
+          "supported_generations": []
+        },
+        {
+          "agent_seed": 24,
+          "supported": false,
+          "supported_generations": []
+        }
+      ],
+      "signal_cost": 0.03
+    },
+    {
+      "active_obstacle_fraction": 1.0,
+      "history_reproducible": false,
+      "hits": 2,
+      "new_population_seeds": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "origin_rate": 0.1,
+      "positive_seeds": [
+        15,
+        20
+      ],
+      "role": "canonical_A0_positive",
+      "runs": [
+        {
+          "agent_seed": 5,
+          "supported": false,
+          "supported_generations": []
+        },
+        {
+          "agent_seed": 6,
+          "supported": false,
+          "supported_generations": []
+        },
+        {
+          "agent_seed": 7,
+          "supported": false,
+          "supported_generations": []
+        },
+        {
+          "agent_seed": 8,
+          "supported": false,
+          "supported_generations": []
+        },
+        {
+          "agent_seed": 9,
+          "supported": false,
+          "supported_generations": []
+        },
+        {
+          "agent_seed": 10,
+          "supported": false,
+          "supported_generations": []
+        },
+        {
+          "agent_seed": 11,
+          "supported": false,
+          "supported_generations": []
+        },
+        {
+          "agent_seed": 12,
+          "supported": false,
+          "supported_generations": []
+        },
+        {
+          "agent_seed": 13,
+          "supported": false,
+          "supported_generations": []
+        },
+        {
+          "agent_seed": 14,
+          "supported": false,
+          "supported_generations": []
+        },
+        {
+          "agent_seed": 15,
+          "supported": true,
+          "supported_generations": [
+            2
+          ]
+        },
+        {
+          "agent_seed": 16,
+          "supported": false,
+          "supported_generations": []
+        },
+        {
+          "agent_seed": 17,
+          "supported": false,
+          "supported_generations": []
+        },
+        {
+          "agent_seed": 18,
+          "supported": false,
+          "supported_generations": []
+        },
+        {
+          "agent_seed": 19,
+          "supported": false,
+          "supported_generations": []
+        },
+        {
+          "agent_seed": 20,
+          "supported": true,
+          "supported_generations": [
+            2
+          ]
+        },
+        {
+          "agent_seed": 21,
+          "supported": false,
+          "supported_generations": []
+        },
+        {
+          "agent_seed": 22,
+          "supported": false,
+          "supported_generations": []
+        },
+        {
+          "agent_seed": 23,
+          "supported": false,
+          "supported_generations": []
+        },
+        {
+          "agent_seed": 24,
+          "supported": false,
+          "supported_generations": []
+        }
+      ],
+      "signal_cost": 0.03
+    },
+    {
+      "active_obstacle_fraction": 0.75,
+      "history_reproducible": true,
+      "hits": 3,
+      "new_population_seeds": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "origin_rate": 0.15,
+      "positive_seeds": [
+        16,
+        18,
+        20
+      ],
+      "role": "negative_boundary_control_1",
+      "runs": [
+        {
+          "agent_seed": 5,
+          "supported": false,
+          "supported_generations": []
+        },
+        {
+          "agent_seed": 6,
+          "supported": false,
+          "supported_generations": []
+        },
+        {
+          "agent_seed": 7,
+          "supported": false,
+          "supported_generations": []
+        },
+        {
+          "agent_seed": 8,
+          "supported": false,
+          "supported_generations": []
+        },
+        {
+          "agent_seed": 9,
+          "supported": false,
+          "supported_generations": []
+        },
+        {
+          "agent_seed": 10,
+          "supported": false,
+          "supported_generations": []
+        },
+        {
+          "agent_seed": 11,
+          "supported": false,
+          "supported_generations": []
+        },
+        {
+          "agent_seed": 12,
+          "supported": false,
+          "supported_generations": []
+        },
+        {
+          "agent_seed": 13,
+          "supported": false,
+          "supported_generations": []
+        },
+        {
+          "agent_seed": 14,
+          "supported": false,
+          "supported_generations": []
+        },
+        {
+          "agent_seed": 15,
+          "supported": false,
+          "supported_generations": []
+        },
+        {
+          "agent_seed": 16,
+          "supported": true,
+          "supported_generations": [
+            3
+          ]
+        },
+        {
+          "agent_seed": 17,
+          "supported": false,
+          "supported_generations": []
+        },
+        {
+          "agent_seed": 18,
+          "supported": true,
+          "supported_generations": [
+            2
+          ]
+        },
+        {
+          "agent_seed": 19,
+          "supported": false,
+          "supported_generations": []
+        },
+        {
+          "agent_seed": 20,
+          "supported": true,
+          "supported_generations": [
+            2
+          ]
+        },
+        {
+          "agent_seed": 21,
+          "supported": false,
+          "supported_generations": []
+        },
+        {
+          "agent_seed": 22,
+          "supported": false,
+          "supported_generations": []
+        },
+        {
+          "agent_seed": 23,
+          "supported": false,
+          "supported_generations": []
+        },
+        {
+          "agent_seed": 24,
+          "supported": false,
+          "supported_generations": []
+        }
+      ],
+      "signal_cost": 0.03
+    },
+    {
+      "active_obstacle_fraction": 1.0,
+      "history_reproducible": true,
+      "hits": 4,
+      "new_population_seeds": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "origin_rate": 0.2,
+      "positive_seeds": [
+        7,
+        13,
+        18,
+        20
+      ],
+      "role": "negative_boundary_control_2",
+      "runs": [
+        {
+          "agent_seed": 5,
+          "supported": false,
+          "supported_generations": []
+        },
+        {
+          "agent_seed": 6,
+          "supported": false,
+          "supported_generations": []
+        },
+        {
+          "agent_seed": 7,
+          "supported": true,
+          "supported_generations": [
+            2
+          ]
+        },
+        {
+          "agent_seed": 8,
+          "supported": false,
+          "supported_generations": []
+        },
+        {
+          "agent_seed": 9,
+          "supported": false,
+          "supported_generations": []
+        },
+        {
+          "agent_seed": 10,
+          "supported": false,
+          "supported_generations": []
+        },
+        {
+          "agent_seed": 11,
+          "supported": false,
+          "supported_generations": []
+        },
+        {
+          "agent_seed": 12,
+          "supported": false,
+          "supported_generations": []
+        },
+        {
+          "agent_seed": 13,
+          "supported": true,
+          "supported_generations": [
+            2
+          ]
+        },
+        {
+          "agent_seed": 14,
+          "supported": false,
+          "supported_generations": []
+        },
+        {
+          "agent_seed": 15,
+          "supported": false,
+          "supported_generations": []
+        },
+        {
+          "agent_seed": 16,
+          "supported": false,
+          "supported_generations": []
+        },
+        {
+          "agent_seed": 17,
+          "supported": false,
+          "supported_generations": []
+        },
+        {
+          "agent_seed": 18,
+          "supported": true,
+          "supported_generations": [
+            3
+          ]
+        },
+        {
+          "agent_seed": 19,
+          "supported": false,
+          "supported_generations": []
+        },
+        {
+          "agent_seed": 20,
+          "supported": true,
+          "supported_generations": [
+            2
+          ]
+        },
+        {
+          "agent_seed": 21,
+          "supported": false,
+          "supported_generations": []
+        },
+        {
+          "agent_seed": 22,
+          "supported": false,
+          "supported_generations": []
+        },
+        {
+          "agent_seed": 23,
+          "supported": false,
+          "supported_generations": []
+        },
+        {
+          "agent_seed": 24,
+          "supported": false,
+          "supported_generations": []
+        }
+      ],
+      "signal_cost": 0.04
+    }
+  ],
+  "discovery_origin_rate": 0.1,
+  "history_reproducible_threshold": 3,
+  "negative_control_origin_rates": [
+    0.15,
+    0.2
+  ],
+  "preregistered": true,
+  "primary_target_met": false,
+  "world_seed": 11
+}
