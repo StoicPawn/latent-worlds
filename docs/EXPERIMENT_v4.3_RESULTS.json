@@ -1,0 +1,614 @@
+{
+  "candidate_count": 11,
+  "candidate_rule": "all v4.2 A5-A24 histories with prospective direct-removal support",
+  "first_strong_target_met": false,
+  "full_adaptive_replications": 0,
+  "independent_full_positive_histories": [],
+  "mechanistic_replications": 2,
+  "preregistered": true,
+  "runs": [
+    {
+      "active_obstacle_fraction": 0.5,
+      "adaptive_replication": false,
+      "agent_seed": 12,
+      "claim_level": "not replicated",
+      "differential_reproduction_supported": true,
+      "fitness": {
+        "adaptive_supported": false,
+        "conditions": {
+          "censored": {
+            "births": 47,
+            "deaths": 35,
+            "max_generation": 3,
+            "mode": "censored",
+            "population": 48,
+            "total_harvest": 2272.5565748219733
+          },
+          "readable": {
+            "births": 43,
+            "deaths": 32,
+            "max_generation": 2,
+            "mode": "readable",
+            "population": 47,
+            "total_harvest": 2263.488159863109
+          },
+          "scrambled": {
+            "births": 45,
+            "deaths": 33,
+            "max_generation": 3,
+            "mode": "scrambled",
+            "population": 48,
+            "total_harvest": 2303.6187610508287
+          }
+        },
+        "generation_vs_censored": -1,
+        "generation_vs_scrambled": -1,
+        "harvest_vs_censored": -9.068414958864196,
+        "harvest_vs_scrambled": -40.13060118771955,
+        "population_vs_censored": -1,
+        "population_vs_scrambled": -1
+      },
+      "mechanistic_replication": false,
+      "scrambled_differential_reproduction_supported": false,
+      "scrambled_removal_supported": false,
+      "signal_cost": 0.03,
+      "supported_generations": [],
+      "transplant_supported_generations": [],
+      "v4_2_role": "A2_discovery_condition",
+      "v4_2_supported_generations": [
+        2
+      ],
+      "world_seed": 11
+    },
+    {
+      "active_obstacle_fraction": 0.5,
+      "adaptive_replication": false,
+      "agent_seed": 18,
+      "claim_level": "not replicated",
+      "differential_reproduction_supported": true,
+      "fitness": {
+        "adaptive_supported": false,
+        "conditions": {
+          "censored": {
+            "births": 50,
+            "deaths": 37,
+            "max_generation": 2,
+            "mode": "censored",
+            "population": 49,
+            "total_harvest": 2541.4166427978275
+          },
+          "readable": {
+            "births": 45,
+            "deaths": 34,
+            "max_generation": 3,
+            "mode": "readable",
+            "population": 47,
+            "total_harvest": 2465.5104775324226
+          },
+          "scrambled": {
+            "births": 49,
+            "deaths": 35,
+            "max_generation": 3,
+            "mode": "scrambled",
+            "population": 50,
+            "total_harvest": 2421.9894675125347
+          }
+        },
+        "generation_vs_censored": 1,
+        "generation_vs_scrambled": 0,
+        "harvest_vs_censored": -75.90616526540498,
+        "harvest_vs_scrambled": 43.521010019887854,
+        "population_vs_censored": -2,
+        "population_vs_scrambled": -3
+      },
+      "mechanistic_replication": false,
+      "scrambled_differential_reproduction_supported": false,
+      "scrambled_removal_supported": false,
+      "signal_cost": 0.03,
+      "supported_generations": [],
+      "transplant_supported_generations": [],
+      "v4_2_role": "A2_discovery_condition",
+      "v4_2_supported_generations": [
+        3
+      ],
+      "world_seed": 11
+    },
+    {
+      "active_obstacle_fraction": 0.75,
+      "adaptive_replication": false,
+      "agent_seed": 16,
+      "claim_level": "not replicated",
+      "differential_reproduction_supported": true,
+      "fitness": {
+        "adaptive_supported": false,
+        "conditions": {
+          "censored": {
+            "births": 48,
+            "deaths": 37,
+            "max_generation": 2,
+            "mode": "censored",
+            "population": 47,
+            "total_harvest": 2481.5479349581146
+          },
+          "readable": {
+            "births": 45,
+            "deaths": 36,
+            "max_generation": 3,
+            "mode": "readable",
+            "population": 45,
+            "total_harvest": 2312.457561905127
+          },
+          "scrambled": {
+            "births": 51,
+            "deaths": 39,
+            "max_generation": 2,
+            "mode": "scrambled",
+            "population": 48,
+            "total_harvest": 2476.428072366354
+          }
+        },
+        "generation_vs_censored": 1,
+        "generation_vs_scrambled": 1,
+        "harvest_vs_censored": -169.09037305298762,
+        "harvest_vs_scrambled": -163.97051046122715,
+        "population_vs_censored": -2,
+        "population_vs_scrambled": -3
+      },
+      "mechanistic_replication": false,
+      "scrambled_differential_reproduction_supported": true,
+      "scrambled_removal_supported": false,
+      "signal_cost": 0.03,
+      "supported_generations": [],
+      "transplant_supported_generations": [],
+      "v4_2_role": "negative_boundary_control_1",
+      "v4_2_supported_generations": [
+        3
+      ],
+      "world_seed": 11
+    },
+    {
+      "active_obstacle_fraction": 0.75,
+      "adaptive_replication": false,
+      "agent_seed": 18,
+      "claim_level": "mechanistic direct-causal replication",
+      "differential_reproduction_supported": true,
+      "fitness": {
+        "adaptive_supported": false,
+        "conditions": {
+          "censored": {
+            "births": 48,
+            "deaths": 34,
+            "max_generation": 2,
+            "mode": "censored",
+            "population": 50,
+            "total_harvest": 2543.4259639420793
+          },
+          "readable": {
+            "births": 47,
+            "deaths": 32,
+            "max_generation": 2,
+            "mode": "readable",
+            "population": 51,
+            "total_harvest": 2507.6671913719892
+          },
+          "scrambled": {
+            "births": 53,
+            "deaths": 35,
+            "max_generation": 2,
+            "mode": "scrambled",
+            "population": 54,
+            "total_harvest": 2639.624721082909
+          }
+        },
+        "generation_vs_censored": 0,
+        "generation_vs_scrambled": 0,
+        "harvest_vs_censored": -35.75877257009006,
+        "harvest_vs_scrambled": -131.95752971091997,
+        "population_vs_censored": 1,
+        "population_vs_scrambled": -3
+      },
+      "mechanistic_replication": true,
+      "scrambled_differential_reproduction_supported": false,
+      "scrambled_removal_supported": false,
+      "signal_cost": 0.03,
+      "supported_generations": [
+        2
+      ],
+      "transplant_supported_generations": [
+        2
+      ],
+      "v4_2_role": "negative_boundary_control_1",
+      "v4_2_supported_generations": [
+        2
+      ],
+      "world_seed": 11
+    },
+    {
+      "active_obstacle_fraction": 0.75,
+      "adaptive_replication": false,
+      "agent_seed": 20,
+      "claim_level": "mechanistic direct-causal replication",
+      "differential_reproduction_supported": true,
+      "fitness": {
+        "adaptive_supported": false,
+        "conditions": {
+          "censored": {
+            "births": 44,
+            "deaths": 35,
+            "max_generation": 2,
+            "mode": "censored",
+            "population": 45,
+            "total_harvest": 2093.496533739211
+          },
+          "readable": {
+            "births": 43,
+            "deaths": 35,
+            "max_generation": 2,
+            "mode": "readable",
+            "population": 44,
+            "total_harvest": 2080.9964772797657
+          },
+          "scrambled": {
+            "births": 44,
+            "deaths": 35,
+            "max_generation": 2,
+            "mode": "scrambled",
+            "population": 45,
+            "total_harvest": 2068.0788745338673
+          }
+        },
+        "generation_vs_censored": 0,
+        "generation_vs_scrambled": 0,
+        "harvest_vs_censored": -12.500056459445204,
+        "harvest_vs_scrambled": 12.91760274589842,
+        "population_vs_censored": -1,
+        "population_vs_scrambled": -1
+      },
+      "mechanistic_replication": true,
+      "scrambled_differential_reproduction_supported": false,
+      "scrambled_removal_supported": false,
+      "signal_cost": 0.03,
+      "supported_generations": [
+        2
+      ],
+      "transplant_supported_generations": [
+        2
+      ],
+      "v4_2_role": "negative_boundary_control_1",
+      "v4_2_supported_generations": [
+        2
+      ],
+      "world_seed": 11
+    },
+    {
+      "active_obstacle_fraction": 1.0,
+      "adaptive_replication": false,
+      "agent_seed": 15,
+      "claim_level": "not replicated",
+      "differential_reproduction_supported": true,
+      "fitness": {
+        "adaptive_supported": true,
+        "conditions": {
+          "censored": {
+            "births": 44,
+            "deaths": 46,
+            "max_generation": 4,
+            "mode": "censored",
+            "population": 34,
+            "total_harvest": 1828.362326524533
+          },
+          "readable": {
+            "births": 48,
+            "deaths": 45,
+            "max_generation": 4,
+            "mode": "readable",
+            "population": 39,
+            "total_harvest": 1907.9122633935128
+          },
+          "scrambled": {
+            "births": 42,
+            "deaths": 48,
+            "max_generation": 2,
+            "mode": "scrambled",
+            "population": 30,
+            "total_harvest": 1698.3666641991329
+          }
+        },
+        "generation_vs_censored": 0,
+        "generation_vs_scrambled": 2,
+        "harvest_vs_censored": 79.54993686897978,
+        "harvest_vs_scrambled": 209.54559919437997,
+        "population_vs_censored": 5,
+        "population_vs_scrambled": 9
+      },
+      "mechanistic_replication": false,
+      "scrambled_differential_reproduction_supported": false,
+      "scrambled_removal_supported": false,
+      "signal_cost": 0.03,
+      "supported_generations": [],
+      "transplant_supported_generations": [],
+      "v4_2_role": "canonical_A0_positive",
+      "v4_2_supported_generations": [
+        2
+      ],
+      "world_seed": 11
+    },
+    {
+      "active_obstacle_fraction": 1.0,
+      "adaptive_replication": false,
+      "agent_seed": 20,
+      "claim_level": "not replicated",
+      "differential_reproduction_supported": true,
+      "fitness": {
+        "adaptive_supported": false,
+        "conditions": {
+          "censored": {
+            "births": 45,
+            "deaths": 44,
+            "max_generation": 3,
+            "mode": "censored",
+            "population": 37,
+            "total_harvest": 1905.9827215829746
+          },
+          "readable": {
+            "births": 43,
+            "deaths": 44,
+            "max_generation": 2,
+            "mode": "readable",
+            "population": 35,
+            "total_harvest": 1829.924796549645
+          },
+          "scrambled": {
+            "births": 40,
+            "deaths": 39,
+            "max_generation": 2,
+            "mode": "scrambled",
+            "population": 37,
+            "total_harvest": 1843.008364711549
+          }
+        },
+        "generation_vs_censored": -1,
+        "generation_vs_scrambled": 0,
+        "harvest_vs_censored": -76.05792503332964,
+        "harvest_vs_scrambled": -13.08356816190394,
+        "population_vs_censored": -2,
+        "population_vs_scrambled": -2
+      },
+      "mechanistic_replication": false,
+      "scrambled_differential_reproduction_supported": true,
+      "scrambled_removal_supported": true,
+      "signal_cost": 0.03,
+      "supported_generations": [
+        2
+      ],
+      "transplant_supported_generations": [
+        2
+      ],
+      "v4_2_role": "canonical_A0_positive",
+      "v4_2_supported_generations": [
+        2
+      ],
+      "world_seed": 11
+    },
+    {
+      "active_obstacle_fraction": 1.0,
+      "adaptive_replication": false,
+      "agent_seed": 7,
+      "claim_level": "not replicated",
+      "differential_reproduction_supported": true,
+      "fitness": {
+        "adaptive_supported": false,
+        "conditions": {
+          "censored": {
+            "births": 46,
+            "deaths": 29,
+            "max_generation": 2,
+            "mode": "censored",
+            "population": 53,
+            "total_harvest": 2431.7972829823107
+          },
+          "readable": {
+            "births": 45,
+            "deaths": 37,
+            "max_generation": 3,
+            "mode": "readable",
+            "population": 44,
+            "total_harvest": 2163.2835697303913
+          },
+          "scrambled": {
+            "births": 45,
+            "deaths": 37,
+            "max_generation": 3,
+            "mode": "scrambled",
+            "population": 44,
+            "total_harvest": 2163.3315858950155
+          }
+        },
+        "generation_vs_censored": 1,
+        "generation_vs_scrambled": 0,
+        "harvest_vs_censored": -268.5137132519194,
+        "harvest_vs_scrambled": -0.048016164624186786,
+        "population_vs_censored": -9,
+        "population_vs_scrambled": 0
+      },
+      "mechanistic_replication": false,
+      "scrambled_differential_reproduction_supported": false,
+      "scrambled_removal_supported": false,
+      "signal_cost": 0.04,
+      "supported_generations": [],
+      "transplant_supported_generations": [],
+      "v4_2_role": "negative_boundary_control_2",
+      "v4_2_supported_generations": [
+        2
+      ],
+      "world_seed": 11
+    },
+    {
+      "active_obstacle_fraction": 1.0,
+      "adaptive_replication": false,
+      "agent_seed": 13,
+      "claim_level": "not replicated",
+      "differential_reproduction_supported": true,
+      "fitness": {
+        "adaptive_supported": false,
+        "conditions": {
+          "censored": {
+            "births": 47,
+            "deaths": 41,
+            "max_generation": 2,
+            "mode": "censored",
+            "population": 42,
+            "total_harvest": 2134.622281109764
+          },
+          "readable": {
+            "births": 48,
+            "deaths": 40,
+            "max_generation": 3,
+            "mode": "readable",
+            "population": 44,
+            "total_harvest": 2217.3953669557727
+          },
+          "scrambled": {
+            "births": 49,
+            "deaths": 35,
+            "max_generation": 4,
+            "mode": "scrambled",
+            "population": 50,
+            "total_harvest": 2253.3592944674615
+          }
+        },
+        "generation_vs_censored": 1,
+        "generation_vs_scrambled": -1,
+        "harvest_vs_censored": 82.7730858460086,
+        "harvest_vs_scrambled": -35.96392751168878,
+        "population_vs_censored": 2,
+        "population_vs_scrambled": -6
+      },
+      "mechanistic_replication": false,
+      "scrambled_differential_reproduction_supported": true,
+      "scrambled_removal_supported": false,
+      "signal_cost": 0.04,
+      "supported_generations": [
+        2
+      ],
+      "transplant_supported_generations": [
+        2
+      ],
+      "v4_2_role": "negative_boundary_control_2",
+      "v4_2_supported_generations": [
+        2
+      ],
+      "world_seed": 11
+    },
+    {
+      "active_obstacle_fraction": 1.0,
+      "adaptive_replication": false,
+      "agent_seed": 18,
+      "claim_level": "not replicated",
+      "differential_reproduction_supported": true,
+      "fitness": {
+        "adaptive_supported": false,
+        "conditions": {
+          "censored": {
+            "births": 45,
+            "deaths": 34,
+            "max_generation": 2,
+            "mode": "censored",
+            "population": 47,
+            "total_harvest": 2391.141204129764
+          },
+          "readable": {
+            "births": 45,
+            "deaths": 38,
+            "max_generation": 3,
+            "mode": "readable",
+            "population": 43,
+            "total_harvest": 2254.8287904284284
+          },
+          "scrambled": {
+            "births": 45,
+            "deaths": 38,
+            "max_generation": 2,
+            "mode": "scrambled",
+            "population": 43,
+            "total_harvest": 2291.648843304756
+          }
+        },
+        "generation_vs_censored": 1,
+        "generation_vs_scrambled": 1,
+        "harvest_vs_censored": -136.31241370133557,
+        "harvest_vs_scrambled": -36.820052876327736,
+        "population_vs_censored": -4,
+        "population_vs_scrambled": 0
+      },
+      "mechanistic_replication": false,
+      "scrambled_differential_reproduction_supported": false,
+      "scrambled_removal_supported": false,
+      "signal_cost": 0.04,
+      "supported_generations": [],
+      "transplant_supported_generations": [],
+      "v4_2_role": "negative_boundary_control_2",
+      "v4_2_supported_generations": [
+        3
+      ],
+      "world_seed": 11
+    },
+    {
+      "active_obstacle_fraction": 1.0,
+      "adaptive_replication": false,
+      "agent_seed": 20,
+      "claim_level": "not replicated",
+      "differential_reproduction_supported": true,
+      "fitness": {
+        "adaptive_supported": false,
+        "conditions": {
+          "censored": {
+            "births": 44,
+            "deaths": 41,
+            "max_generation": 2,
+            "mode": "censored",
+            "population": 39,
+            "total_harvest": 2021.479150789559
+          },
+          "readable": {
+            "births": 42,
+            "deaths": 40,
+            "max_generation": 2,
+            "mode": "readable",
+            "population": 38,
+            "total_harvest": 1840.3232391260487
+          },
+          "scrambled": {
+            "births": 41,
+            "deaths": 40,
+            "max_generation": 2,
+            "mode": "scrambled",
+            "population": 37,
+            "total_harvest": 1845.8201625412958
+          }
+        },
+        "generation_vs_censored": 0,
+        "generation_vs_scrambled": 0,
+        "harvest_vs_censored": -181.15591166351032,
+        "harvest_vs_scrambled": -5.496923415247011,
+        "population_vs_censored": -1,
+        "population_vs_scrambled": 1
+      },
+      "mechanistic_replication": false,
+      "scrambled_differential_reproduction_supported": true,
+      "scrambled_removal_supported": false,
+      "signal_cost": 0.04,
+      "supported_generations": [
+        2
+      ],
+      "transplant_supported_generations": [
+        2
+      ],
+      "v4_2_role": "negative_boundary_control_2",
+      "v4_2_supported_generations": [
+        2
+      ],
+      "world_seed": 11
+    }
+  ]
+}
