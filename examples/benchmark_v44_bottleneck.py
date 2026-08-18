@@ -1,4 +1,6 @@
-"""v4.4: frozen local ecological scan around mechanism/adaptation split histories."""
+"""v4.4: frozen local ecological scan around mechanism/adaptation split histories.
+Workflow trigger only; preregistered design unchanged.
+"""
 from __future__ import annotations
 
 import json
