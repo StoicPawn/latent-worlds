@@ -1,0 +1,150 @@
+{
+  "historical_n": 26,
+  "historical_positives": 5,
+  "historical_trajectory_loo_auc": 0.45714285714285713,
+  "prospective_bottom_hits": 0,
+  "prospective_enrichment": 1.0,
+  "prospective_seed_range": [
+    202,
+    225
+  ],
+  "prospective_tested_bottom": [
+    203,
+    223,
+    205,
+    202,
+    210,
+    219
+  ],
+  "prospective_tested_top": [
+    215,
+    216,
+    209,
+    206,
+    204,
+    211
+  ],
+  "prospective_top_hits": 0,
+  "ranked": [
+    {
+      "score": 0.9997673143296804,
+      "seed": 215,
+      "supported": false,
+      "supported_generations": []
+    },
+    {
+      "score": 0.9991013563428986,
+      "seed": 216,
+      "supported": false,
+      "supported_generations": []
+    },
+    {
+      "score": 0.9935689090964316,
+      "seed": 209,
+      "supported": false,
+      "supported_generations": []
+    },
+    {
+      "score": 0.9921300447485197,
+      "seed": 206,
+      "supported": false,
+      "supported_generations": []
+    },
+    {
+      "score": 0.9553757310623705,
+      "seed": 204,
+      "supported": false,
+      "supported_generations": []
+    },
+    {
+      "score": 0.8879557928936648,
+      "seed": 211,
+      "supported": false,
+      "supported_generations": []
+    },
+    {
+      "score": 0.875408151777954,
+      "seed": 225
+    },
+    {
+      "score": 0.6388879487930537,
+      "seed": 218
+    },
+    {
+      "score": 0.5817871327898334,
+      "seed": 217
+    },
+    {
+      "score": 0.28130351436418255,
+      "seed": 212
+    },
+    {
+      "score": 0.22555946869199547,
+      "seed": 224
+    },
+    {
+      "score": 0.19401410576736192,
+      "seed": 213
+    },
+    {
+      "score": 0.15673163409881388,
+      "seed": 220
+    },
+    {
+      "score": 0.13058037112911602,
+      "seed": 221
+    },
+    {
+      "score": 0.11545623031322758,
+      "seed": 208
+    },
+    {
+      "score": 0.08704382431602695,
+      "seed": 214
+    },
+    {
+      "score": 0.07909540621468003,
+      "seed": 222
+    },
+    {
+      "score": 0.04483401294155618,
+      "seed": 207
+    },
+    {
+      "score": 0.011397466127068073,
+      "seed": 203,
+      "supported": false,
+      "supported_generations": []
+    },
+    {
+      "score": 0.00837401339314921,
+      "seed": 223,
+      "supported": false,
+      "supported_generations": []
+    },
+    {
+      "score": 0.0030463405956765613,
+      "seed": 205,
+      "supported": false,
+      "supported_generations": []
+    },
+    {
+      "score": 0.002820513689489989,
+      "seed": 202,
+      "supported": false,
+      "supported_generations": []
+    },
+    {
+      "score": 0.0027750276223341606,
+      "seed": 210,
+      "supported": false,
+      "supported_generations": []
+    },
+    {
+      "score": 0.0015708150725609643,
+      "seed": 219,
+      "supported": false,
+      "supported_generations": []
+    }
+  ]
+}
