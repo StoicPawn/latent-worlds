@@ -12,9 +12,8 @@ permissions:
   contents: write
 
 jobs:
-  basin:
+  regression:
     runs-on: ubuntu-latest
-    timeout-minutes: 180
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -22,10 +21,77 @@ jobs:
           python-version: '3.11'
       - run: python -m pip install --upgrade pip
       - run: pip install -e '.[dev]'
-      - name: Targeted regression tests
-        run: pytest -q tests/test_causal_transmission.py tests/test_replication.py tests/test_transition_conditions.py tests/test_world.py
-      - name: Matched W11 basin map
-        run: PYTHONPATH=src python examples/benchmark_basin_map.py > docs/EXPERIMENT_v3.9_RESULTS.json
+      - run: pytest -q tests/test_causal_transmission.py tests/test_replication.py tests/test_transition_conditions.py tests/test_world.py
+
+  cell:
+    needs: regression
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    strategy:
+      fail-fast: false
+      matrix:
+        frac: ['0.0','0.25','0.5','0.75','1.0']
+        cost: ['0.0','0.01','0.02','0.03','0.04','0.05','0.065']
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install --upgrade pip
+      - run: pip install -e '.[dev]'
+      - name: Run one matched causal cell
+        env:
+          FRAC: ${{ matrix.frac }}
+          COST: ${{ matrix.cost }}
+        run: |
+          PYTHONPATH=src python - <<'PY' > cell.json
+          import json, os
+          from examples.benchmark_basin_map import one_cell
+          print(json.dumps(one_cell(float(os.environ['FRAC']), float(os.environ['COST'])), sort_keys=True))
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: cell-${{ matrix.frac }}-${{ matrix.cost }}
+          path: cell.json
+
+  aggregate:
+    needs: cell
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: cell-*
+          path: cells
+          merge-multiple: false
+      - name: Aggregate preregistered grid
+        run: |
+          python - <<'PY'
+          import json, pathlib
+          OCC=(0.0,0.25,0.5,0.75,1.0)
+          COST=(0.0,0.01,0.02,0.03,0.04,0.05,0.065)
+          cells=[]
+          for p in pathlib.Path('cells').glob('**/cell.json'):
+              cells.append(json.loads(p.read_text()))
+          cells=sorted(cells,key=lambda q:(q['active_obstacle_fraction'],q['signal_cost']))
+          if len(cells)!=35:
+              raise SystemExit(f'expected 35 cells, got {len(cells)}')
+          lookup={(q['active_obstacle_fraction'],q['signal_cost']):q['supported'] for q in cells}
+          boundary=0
+          for f in OCC:
+              for a,b in zip(COST,COST[1:]): boundary += int(lookup[(f,a)] != lookup[(f,b)])
+          for c in COST:
+              for a,b in zip(OCC,OCC[1:]): boundary += int(lookup[(a,c)] != lookup[(b,c)])
+          supported=[q for q in cells if q['supported']]
+          out={
+            'world_seed':11,'agent_seed':0,
+            'occlusion_values':list(OCC),'signal_cost_values':list(COST),
+            'n_cells':35,'supported_cells':len(supported),
+            'supported_fraction':len(supported)/35,
+            'boundary_edges':boundary,'cells':cells,
+          }
+          pathlib.Path('docs/EXPERIMENT_v3.9_RESULTS.json').write_text(json.dumps(out,indent=2,sort_keys=True)+'\n')
+          PY
       - name: Persist result in Git
         run: |
           git config user.name github-actions[bot]
