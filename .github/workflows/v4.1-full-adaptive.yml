@@ -1,0 +1,35 @@
+name: v4.1 full adaptive replication
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'docs/EXPERIMENT_v4.0_RESULTS.json'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  full-adaptive-replication:
+    if: ${{ hashFiles('docs/EXPERIMENT_v4.0_RESULTS.json') != '' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install --upgrade pip
+      - run: pip install -e '.[dev]'
+      - name: Regression tests
+        run: pytest -q tests/test_causal_transmission.py tests/test_replication.py tests/test_adaptive_search.py tests/test_adaptive_persistence.py tests/test_transition_conditions.py tests/test_world.py
+      - name: Full persistent-adaptive replication search
+        run: PYTHONPATH=src python examples/benchmark_full_adaptive_replication.py > docs/EXPERIMENT_v4.1_RESULTS.json
+      - name: Persist result in Git
+        run: |
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add docs/EXPERIMENT_v4.1_RESULTS.json
+          git commit -m 'Record v4.1 full adaptive replication results' || exit 0
+          git push
