@@ -60,3 +60,4 @@ class SimulationConfig:
     recurrent_weight_inheritance_enabled: bool = True
     recurrent_context_features_enabled: bool = False
     recurrent_state_plasticity_enabled: bool = False
+    recurrent_state_plasticity_rate: float = 0.0015
