@@ -1,5 +1,69 @@
 # Research programme
 
+## Unified North Star
+
+> **Can science emerge spontaneously, and if it does, how universal is the science that emerges?**
+
+The programme separates two questions that must not be conflated.
+
+### Q1 — Emergence
+
+Can a population selected only for survival and reproduction develop cumulative predictive knowledge, causal experimentation, law generalisation, and useful technology without any direct epistemic objective?
+
+This remains the prerequisite question. The existing E0–E6 ladder and all current emergence protocols address Q1.
+
+### Q2 — Universality, equivalence and path dependence
+
+If Q1 is satisfied reproducibly, hold the world laws fixed and repeat the evolutionary history independently:
+
+```text
+same hidden physics
+        │
+        ├── history H1 → epistemic system K1 → technology T1
+        ├── history H2 → epistemic system K2 → technology T2
+        ├── history H3 → epistemic system K3 → technology T3
+        └── ...
+```
+
+The scientific question is not whether the resulting systems use the same symbols or labels. It is whether they converge at progressively stronger levels:
+
+- **predictive equivalence:** equal out-of-sample predictions under matched information budgets;
+- **causal equivalence:** equivalent responses to interventions and counterfactual probes;
+- **representational equivalence:** internal states encode transform-equivalent latent structure;
+- **theoretical equivalence:** accumulated models make equivalent structural claims about hidden laws;
+- **technological equivalence:** independently discovered artefacts exploit the same physical affordances;
+- **historical convergence:** the probability of these outcomes remains high across independent histories.
+
+Divergence is scientifically meaningful only when alternative systems are genuinely competent. Failure to discover a law is not an alternative science.
+
+### Q3 — Counterfactual discovery history
+
+After natural convergence/divergence is measured, intervene on history rather than physics. Examples include exposing one population to an otherwise discoverable true regularity earlier than matched controls, changing access to a measurement affordance, or transiently altering which evidence is locally available.
+
+The estimand is causal path dependence:
+
+```text
+P(later epistemic/technological structure | early discovery)
+vs
+P(later epistemic/technological structure | matched control)
+```
+
+The intervention must never change the underlying world law or directly reward the downstream target.
+
+### Long-run claim
+
+The strongest eventual claim is not merely that artificial science emerged. It is a decomposition of mature scientific structure into:
+
+1. **world-forced invariants** — structures that recur across competent independent histories because the physics constrains them;
+2. **equivalent alternatives** — different representations or theories with indistinguishable predictive/causal competence;
+3. **historically contingent branches** — durable differences caused by earlier discoveries, instruments, conventions, or technological lock-in.
+
+In compact form:
+
+> **Which parts of science are properties of the universe, and which are properties of the history of those who study it?**
+
+Q2 and Q3 remain downstream research stages. They must not be used to relax the evidentiary bar for Q1.
+
 ## Core distinction
 
 A system that merely learns `state -> action` can exploit regularities without representing them. Latent Worlds therefore distinguishes:
