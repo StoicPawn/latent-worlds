@@ -390,6 +390,8 @@ class World:
             nearby_signals=self.nearby_signals(a), nearby_marks=self.nearby_marks(a),
             nearby_objects=self.nearby_objects(a), held_object=self.held_object_observation(a),
             nearby_agents=visible_agents,
+            world_width=self.config.width, world_height=self.config.height,
+            context_features_enabled=self.config.recurrent_context_features_enabled,
         )
 
     def _nearest_harvestable_patch(self, a):
