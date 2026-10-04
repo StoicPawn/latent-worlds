@@ -1,14 +1,6 @@
 name: v4.7 individual carrier audit
 
 on:
-  push:
-    branches: [main]
-    paths:
-      - 'src/latent_worlds/epistemic_carriers.py'
-      - 'tests/test_epistemic_carriers.py'
-      - 'examples/benchmark_epistemic_carriers.py'
-      - 'docs/EXPERIMENT_v4.7.md'
-      - '.github/workflows/v4.7-carrier-audit.yml'
   workflow_dispatch:
 
 permissions:
