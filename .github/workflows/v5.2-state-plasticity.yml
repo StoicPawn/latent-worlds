@@ -1,16 +1,6 @@
 name: v5.2 recurrent state plasticity
 
 on:
-  push:
-    branches: [main]
-    paths:
-      - 'src/latent_worlds/config.py'
-      - 'src/latent_worlds/agents/recurrent.py'
-      - 'src/latent_worlds/world.py'
-      - 'tests/test_recurrent_state_plasticity.py'
-      - 'examples/benchmark_v52_state_plasticity.py'
-      - 'docs/EXPERIMENT_v5.2.md'
-      - '.github/workflows/v5.2-state-plasticity.yml'
   workflow_dispatch:
 
 permissions:
