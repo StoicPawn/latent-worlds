@@ -15,6 +15,7 @@ class SimulationConfig:
     reproduction_threshold: float = 23.0
     reproduction_cost: float = 10.0
     resource_regrowth: float = 0.04
+    resource_wave_strength: float = 0.0
     max_patch_richness: float = 8.0
     observation_radius: float = 4.5
     mutation_sigma: float = 0.10
