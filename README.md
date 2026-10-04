@@ -102,19 +102,23 @@ A serious candidate must show more than repeated signalling. It must exhibit evi
 
 If such a process becomes stable, the next question is not merely whether it exists, but **what it accumulates**. Only if it begins accumulating predictive and causal information about hidden world laws does the project advance toward the North Star.
 
-## Current frontier — v3.7
+## Current frontier — v5.1
 
-The current frontier is no longer simply “does communication appear?”. The immediate question is:
+The current frontier is now the first rung of the epistemic ladder:
 
-> **Can the transition into direct causal non-genetic information transmission be predicted before it occurs?**
+> **Can ordinary survival pressure select internal predictive representations that exceed a matched frozen recurrent-reservoir null?**
 
-A first preregistered attempt used coarse observer-side snapshots at `t=150` and a deliberately low-capacity logistic model. It failed to predict later direct-causal transmission (`ROC-AUC ≈ 0.14`). This is retained as a negative result, not tuned away.
+Three recent results define the problem.
 
-Combined with matched world-side interventions from v3.6, the current working hypothesis is therefore dynamical:
+- **v4.7:** individual hidden states were strongly decodable for future latent forcing in all 10 fresh histories (89/562 eligible carriers), but this alone was only an E1-like signal.
+- **v4.8:** the signal was not enriched by learning/evolution relative to frozen random recurrent reservoirs (mean carrier fraction 0.1242 vs 0.1221; paired sign-test p = 0.377). The v4.7 result is therefore treated as reservoir decodability, not selected knowledge.
+- **v4.9:** adding a hidden quasi-periodic resource-quality field did not create selected-representation excess (mean difference-in-differences -0.0150; 4/8 paired wins; p = 0.637), and the harvest interaction was also negative.
 
-> **The transition may be characterised by a trajectory into a rare attractor/basin rather than by a simple scalar threshold.**
+The active diagnosis is now causal rather than cosmetic: either the world does not make anticipation valuable enough, or the generic recurrent substrate cannot access/learn the relevant structure.
 
-The next confirmatory target is a trajectory-based early-warning signature — e.g. level, slope, variance, and lag-1 autocorrelation of preregistered observer variables — validated prospectively on previously unseen world seeds.
+v5.0 therefore measures the **observer-side value of perfect foresight** in the resource-wave ecology, while v5.1 prospectively tests a minimal generic input-access ablation: the recurrent controller may optionally receive normalized absolute position and the previous harvest/probe yield, both already present in `Observation`.
+
+No epistemic reward, prediction target, truth signal, science objective, technology tree, or hand-authored theory is introduced.
 
 ## Current evidence
 
@@ -250,7 +254,7 @@ The project reserves strong epistemic claims for a preregistered hierarchy:
 
 The phrase **spontaneous science** is reserved for replicated systems reaching at least E5–E6 with appropriate causal ablations.
 
-The current epistemic pilot does **not** yet reach E2 reproducibly.
+The current epistemic programme has **not yet established E1** under the reservoir-null criterion, and therefore does not yet proceed to E2.
 
 ## Repository structure
 
@@ -279,6 +283,10 @@ src/latent_worlds/
   transition_conditions.py    matched causal ecology interventions
   pretransition_prediction.py early-warning prediction tools
   epistemic_transition.py     North-Star epistemic assays
+  epistemic_convergence.py    same-physics Stage-II comparison tools
+  epistemic_decoder_controls.py capacity-controlled predictive decoders
+  epistemic_carriers.py       individual predictive-carrier audits
+  forecast_value.py           observer-side value-of-foresight assay
   search_funnel.py            attrition/statistical accounting
 
 docs/
@@ -327,9 +335,9 @@ PYTHONPATH=src python examples/benchmark_adaptive_persistence.py
 
 ## Status
 
-**Research prototype, current version: v3.7.**
+**Research prototype, current frontier: v5.1.**
 
-The current scientific task is trajectory-based prediction of the rare direct-causal information-transmission transition, while continuing to seek independent persistent adaptive replication. The longer research programme remains directed toward spontaneous non-genetic inheritance, cumulative epistemic structure, and ultimately the North Star:
+The current scientific task is to establish or falsify **E1 selected representation** under matched recurrent-reservoir controls before attempting stronger claims about collective or cumulative knowledge. In parallel, the earlier direct-causal communication programme remains evidence about a possible non-genetic inheritance substrate, but it is not being conflated with epistemic success. The longer programme remains directed toward spontaneous cumulative knowledge and ultimately the North Star:
 
 > **Can science emerge without being selected for?**
 
