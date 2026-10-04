@@ -241,7 +241,7 @@ The evolutionary currency remains ordinary demographic success.
 The project reserves strong epistemic claims for a preregistered hierarchy:
 
 - **E0 — exploitation:** behaviour covaries with hidden physics and improves fitness;
-- **E1 — representation:** internal state predicts future latent physics beyond contemporaneous surface observations;
+- **E1 — selected representation:** internal state predicts future latent physics beyond contemporaneous observations **and exceeds matched frozen recurrent/reservoir controls**;
 - **E2 — collective excess:** population state predicts latent physics better than individual representations under matched information budgets;
 - **E3 — causal social dependence:** censoring social/external-memory channels removes that collective excess;
 - **E4 — cumulative epistemic inheritance:** predictive structure survives replacement of its original carriers and improves across generations;
