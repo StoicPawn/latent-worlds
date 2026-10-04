@@ -84,8 +84,10 @@ def test_world_wires_state_plasticity_flag_without_changing_default():
             obstacle_count=0,
             pulse_spawn_rate=0.0,
             recurrent_state_plasticity_enabled=True,
+            recurrent_state_plasticity_rate=0.0007,
         ),
         seed=2,
     )
     assert off.agents[0].state_plasticity_enabled is False
     assert on.agents[0].state_plasticity_enabled is True
+    assert on.agents[0].state_plasticity_rate == 0.0007
