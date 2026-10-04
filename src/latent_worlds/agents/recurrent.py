@@ -28,8 +28,14 @@ class RecurrentAgent(BaseAgent):
         self.emissions = 0
         self.inscriptions = 0
         self._eligibility = None
+        self._eligibility_in = None
+        self._eligibility_rec = None
         self._last_aug = None
         self._last_row = None
+        self._last_x = None
+        self._last_hidden_prev = None
+        self._state_update_ready = False
+        self.state_plasticity_enabled = False
         self._reward_baseline = 0.0
 
     @staticmethod
@@ -104,6 +110,8 @@ class RecurrentAgent(BaseAgent):
         # outputs: move x/y + harvest/rest/broadcast/inscribe/pickup/drop + payload
         self.W_out = rng.normal(0.0, 0.28, size=(8 + channels, self.HIDDEN + 1))
         self._eligibility = np.zeros_like(self.W_out)
+        self._eligibility_in = np.zeros_like(self.W_in)
+        self._eligibility_rec = np.zeros_like(self.W_rec)
         self._initialized = True
 
     def inherit_from(self, parent: BaseAgent, rng, sigma: float) -> None:
@@ -113,9 +121,12 @@ class RecurrentAgent(BaseAgent):
         self.W_rec = parent.W_rec + rng.normal(0.0, sigma * 0.30, size=parent.W_rec.shape)
         self.W_out = parent.W_out + rng.normal(0.0, sigma * 0.45, size=parent.W_out.shape)
         self._eligibility = np.zeros_like(self.W_out)
+        self._eligibility_in = np.zeros_like(self.W_in)
+        self._eligibility_rec = np.zeros_like(self.W_rec)
         self._initialized = True
 
     def act(self, obs: Observation, rng) -> Action:
+        self._state_update_ready = False
         # Minimal homeostatic reflex only. It prevents arbitrary newborn brains
         # from disappearing before evolution can act, without creating a drive
         # toward objects, communication, prediction or discovery.
@@ -128,7 +139,8 @@ class RecurrentAgent(BaseAgent):
         channels = 3
         x = self._features(obs, channels)
         self._ensure(rng, len(x), channels)
-        self.hidden = np.tanh(self.W_in @ x + self.W_rec @ self.hidden)
+        hidden_prev = self.hidden.copy()
+        self.hidden = np.tanh(self.W_in @ x + self.W_rec @ hidden_prev)
         aug = np.concatenate([self.hidden, [1.0]])
         z = self.W_out @ aug
         z[:8] += rng.normal(0.0, 0.10 + 0.20 * self.genome.exploration, size=8)
@@ -167,6 +179,23 @@ class RecurrentAgent(BaseAgent):
             self._eligibility = np.zeros_like(self.W_out)
         self._eligibility *= 0.92
         self._eligibility[row] += aug
+
+        self._last_x = x.copy()
+        self._last_hidden_prev = hidden_prev
+        if self.state_plasticity_enabled:
+            if self._eligibility_in is None or self._eligibility_in.shape != self.W_in.shape:
+                self._eligibility_in = np.zeros_like(self.W_in)
+            if self._eligibility_rec is None or self._eligibility_rec.shape != self.W_rec.shape:
+                self._eligibility_rec = np.zeros_like(self.W_rec)
+            # One-step action-credit eligibility through the recurrent state.
+            # This is generic reward-modulated plasticity: no prediction target,
+            # hidden-law label or science-specific error signal is supplied.
+            credit = self.W_out[row, :self.HIDDEN] * (1.0 - self.hidden ** 2)
+            self._eligibility_in *= 0.92
+            self._eligibility_rec *= 0.92
+            self._eligibility_in += np.outer(credit, x)
+            self._eligibility_rec += np.outer(credit, hidden_prev)
+            self._state_update_ready = True
         return action
 
     def learn(self, obs: Observation, action: Action, reward: float) -> None:
@@ -180,3 +209,18 @@ class RecurrentAgent(BaseAgent):
         self.W_out += lr * advantage * self._eligibility
         self.W_out *= (1.0 - 0.0005 * self.genome.plasticity)
         np.clip(self.W_out, -4.0, 4.0, out=self.W_out)
+
+        if (
+            self.state_plasticity_enabled
+            and self._state_update_ready
+            and self._eligibility_in is not None
+            and self._eligibility_rec is not None
+        ):
+            state_lr = 0.0015 * float(self.genome.plasticity)
+            self.W_in += state_lr * advantage * self._eligibility_in
+            self.W_rec += state_lr * advantage * self._eligibility_rec
+            decay = 1.0 - 0.0002 * float(self.genome.plasticity)
+            self.W_in *= decay
+            self.W_rec *= decay
+            np.clip(self.W_in, -3.0, 3.0, out=self.W_in)
+            np.clip(self.W_rec, -3.0, 3.0, out=self.W_rec)
