@@ -17,6 +17,7 @@ class ResourcePatch:
     y: float
     richness: float
     capacity: float
+    wave_factor: float = 1.0
 
 
 @dataclass(slots=True)
@@ -407,7 +408,13 @@ class World:
     def _potential_yield(self, a) -> float:
         temp, rad = self.physical_state(a.x, a.y)
         base = self.yield_law.efficiency(temp, rad)
-        return base * self.matter_law.multiplier(a.x, a.y, temp, rad, self.objects)
+        patch = self._nearest_harvestable_patch(a)
+        wave = patch.wave_factor if patch is not None else 1.0
+        return (
+            base
+            * wave
+            * self.matter_law.multiplier(a.x, a.y, temp, rad, self.objects)
+        )
 
     def _pickup(self, a) -> bool:
         if a.held_object_id is not None:
@@ -473,7 +480,7 @@ class World:
                 temp, rad = self.physical_state(a.x, a.y)
                 base_efficiency = self.yield_law.efficiency(temp, rad)
                 matter_multiplier = self.matter_law.multiplier(a.x, a.y, temp, rad, self.objects)
-                efficiency = base_efficiency * matter_multiplier
+                efficiency = base_efficiency * patch.wave_factor * matter_multiplier
                 amount = min(patch.richness, 1.3 * efficiency)
                 patch.richness -= amount
                 a.energy += amount
@@ -543,6 +550,8 @@ class World:
 
     def step(self):
         self._next_signals = []
+        for patch, factor in zip(self.resources, self._resource_wave_factors()):
+            patch.wave_factor = factor
         current = [a for a in self.agents if a.alive]
         for a in current:
             a.prev_x, a.prev_y = a.x, a.y
@@ -597,14 +606,9 @@ class World:
                 self._spawn(type(parent), parent, genome)
                 living_count += 1
 
-        resource_wave = self._resource_wave_factors()
-        for p, wave_factor in zip(self.resources, resource_wave):
+        for p in self.resources:
             pulse = self._pulse_effect(p.x, p.y)
-            growth = (
-                self.config.resource_regrowth
-                * wave_factor
-                * max(0.1, 1.0 + 0.45 * pulse)
-            )
+            growth = self.config.resource_regrowth * max(0.1, 1.0 + 0.45 * pulse)
             p.richness = min(p.capacity, p.richness + growth)
 
         # Local transient perturbations are world dynamics, not agent tasks.
