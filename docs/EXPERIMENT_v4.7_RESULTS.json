@@ -15,6 +15,7 @@
   "histories": [
     {
       "agent_seed": 45,
+      "births": 44,
       "burn_in": 200,
       "candidate_agent_ids": [
         5,
@@ -938,12 +939,15 @@
         }
       ],
       "claim_boundary": "A carrier_candidate is a held-out individual-level E1-like diagnostic. It is not cumulative knowledge or spontaneous science and requires prospective replication on new histories.",
+      "deaths": 33,
       "eligible_carriers": 60,
+      "final_population": 47,
       "horizons": [
         10,
         35,
         70
       ],
+      "max_generation": 2,
       "max_predictive_gain": 0.2856474662720935,
       "median_predictive_gain": -0.05383800259069007,
       "min_samples": 80,
@@ -1003,10 +1007,12 @@
       },
       "steps": 1200,
       "stride": 2,
+      "total_harvest": 4220.175765949967,
       "world_seed": 11
     },
     {
       "agent_seed": 46,
+      "births": 41,
       "burn_in": 200,
       "candidate_agent_ids": [
         6,
@@ -1868,12 +1874,15 @@
         }
       ],
       "claim_boundary": "A carrier_candidate is a held-out individual-level E1-like diagnostic. It is not cumulative knowledge or spontaneous science and requires prospective replication on new histories.",
+      "deaths": 39,
       "eligible_carriers": 56,
+      "final_population": 38,
       "horizons": [
         10,
         35,
         70
       ],
+      "max_generation": 2,
       "max_predictive_gain": 0.37155748389902377,
       "median_predictive_gain": -0.057671342331784725,
       "min_samples": 80,
@@ -1933,10 +1942,12 @@
       },
       "steps": 1200,
       "stride": 2,
+      "total_harvest": 3794.7875904239454,
       "world_seed": 11
     },
     {
       "agent_seed": 47,
+      "births": 43,
       "burn_in": 200,
       "candidate_agent_ids": [
         9,
@@ -2906,12 +2917,15 @@
         }
       ],
       "claim_boundary": "A carrier_candidate is a held-out individual-level E1-like diagnostic. It is not cumulative knowledge or spontaneous science and requires prospective replication on new histories.",
+      "deaths": 36,
       "eligible_carriers": 63,
+      "final_population": 43,
       "horizons": [
         10,
         35,
         70
       ],
+      "max_generation": 3,
       "max_predictive_gain": 0.4877287775579033,
       "median_predictive_gain": -0.03628968228646898,
       "min_samples": 80,
@@ -2971,10 +2985,12 @@
       },
       "steps": 1200,
       "stride": 2,
+      "total_harvest": 4332.121449682824,
       "world_seed": 11
     },
     {
       "agent_seed": 48,
+      "births": 41,
       "burn_in": 200,
       "candidate_agent_ids": [
         0,
@@ -3671,12 +3687,15 @@
         }
       ],
       "claim_boundary": "A carrier_candidate is a held-out individual-level E1-like diagnostic. It is not cumulative knowledge or spontaneous science and requires prospective replication on new histories.",
+      "deaths": 47,
       "eligible_carriers": 45,
+      "final_population": 30,
       "horizons": [
         10,
         35,
         70
       ],
+      "max_generation": 4,
       "max_predictive_gain": 0.314557563515389,
       "median_predictive_gain": -0.04909162736592837,
       "min_samples": 80,
@@ -3736,10 +3755,12 @@
       },
       "steps": 1200,
       "stride": 2,
+      "total_harvest": 2901.3836646278432,
       "world_seed": 11
     },
     {
       "agent_seed": 49,
+      "births": 54,
       "burn_in": 200,
       "candidate_agent_ids": [
         1,
@@ -4617,12 +4638,15 @@
         }
       ],
       "claim_boundary": "A carrier_candidate is a held-out individual-level E1-like diagnostic. It is not cumulative knowledge or spontaneous science and requires prospective replication on new histories.",
+      "deaths": 48,
       "eligible_carriers": 57,
+      "final_population": 42,
       "horizons": [
         10,
         35,
         70
       ],
+      "max_generation": 3,
       "max_predictive_gain": 0.3882151251455717,
       "median_predictive_gain": -0.04317062911746756,
       "min_samples": 80,
@@ -4682,10 +4706,12 @@
       },
       "steps": 1200,
       "stride": 2,
+      "total_harvest": 3738.494563891123,
       "world_seed": 11
     },
     {
       "agent_seed": 50,
+      "births": 49,
       "burn_in": 200,
       "candidate_agent_ids": [
         3,
@@ -5516,12 +5542,15 @@
         }
       ],
       "claim_boundary": "A carrier_candidate is a held-out individual-level E1-like diagnostic. It is not cumulative knowledge or spontaneous science and requires prospective replication on new histories.",
+      "deaths": 43,
       "eligible_carriers": 54,
+      "final_population": 42,
       "horizons": [
         10,
         35,
         70
       ],
+      "max_generation": 3,
       "max_predictive_gain": 0.2870183533327016,
       "median_predictive_gain": -0.04263906118602548,
       "min_samples": 80,
@@ -5581,10 +5610,12 @@
       },
       "steps": 1200,
       "stride": 2,
+      "total_harvest": 3796.1830357728477,
       "world_seed": 11
     },
     {
       "agent_seed": 51,
+      "births": 41,
       "burn_in": 200,
       "candidate_agent_ids": [
         4,
@@ -6355,12 +6386,15 @@
         }
       ],
       "claim_boundary": "A carrier_candidate is a held-out individual-level E1-like diagnostic. It is not cumulative knowledge or spontaneous science and requires prospective replication on new histories.",
+      "deaths": 47,
       "eligible_carriers": 50,
+      "final_population": 30,
       "horizons": [
         10,
         35,
         70
       ],
+      "max_generation": 2,
       "max_predictive_gain": 0.5114417727096107,
       "median_predictive_gain": -0.029024007588043584,
       "min_samples": 80,
@@ -6420,10 +6454,12 @@
       },
       "steps": 1200,
       "stride": 2,
+      "total_harvest": 3033.1307631899053,
       "world_seed": 11
     },
     {
       "agent_seed": 52,
+      "births": 42,
       "burn_in": 200,
       "candidate_agent_ids": [
         21,
@@ -7280,12 +7316,15 @@
         }
       ],
       "claim_boundary": "A carrier_candidate is a held-out individual-level E1-like diagnostic. It is not cumulative knowledge or spontaneous science and requires prospective replication on new histories.",
+      "deaths": 36,
       "eligible_carriers": 56,
+      "final_population": 42,
       "horizons": [
         10,
         35,
         70
       ],
+      "max_generation": 2,
       "max_predictive_gain": 0.42404488286948444,
       "median_predictive_gain": -0.049046970856548175,
       "min_samples": 80,
@@ -7345,10 +7384,12 @@
       },
       "steps": 1200,
       "stride": 2,
+      "total_harvest": 4094.4024966759353,
       "world_seed": 11
     },
     {
       "agent_seed": 53,
+      "births": 41,
       "burn_in": 200,
       "candidate_agent_ids": [
         13,
@@ -8266,12 +8307,15 @@
         }
       ],
       "claim_boundary": "A carrier_candidate is a held-out individual-level E1-like diagnostic. It is not cumulative knowledge or spontaneous science and requires prospective replication on new histories.",
+      "deaths": 31,
       "eligible_carriers": 60,
+      "final_population": 46,
       "horizons": [
         10,
         35,
         70
       ],
+      "max_generation": 1,
       "max_predictive_gain": 0.562562961973021,
       "median_predictive_gain": -0.059307010166190714,
       "min_samples": 80,
@@ -8331,10 +8375,12 @@
       },
       "steps": 1200,
       "stride": 2,
+      "total_harvest": 4394.192584841915,
       "world_seed": 11
     },
     {
       "agent_seed": 54,
+      "births": 41,
       "burn_in": 200,
       "candidate_agent_ids": [
         4,
@@ -9273,12 +9319,15 @@
         }
       ],
       "claim_boundary": "A carrier_candidate is a held-out individual-level E1-like diagnostic. It is not cumulative knowledge or spontaneous science and requires prospective replication on new histories.",
+      "deaths": 41,
       "eligible_carriers": 61,
+      "final_population": 36,
       "horizons": [
         10,
         35,
         70
       ],
+      "max_generation": 2,
       "max_predictive_gain": 0.6978557711482206,
       "median_predictive_gain": -0.05630574012978447,
       "min_samples": 80,
@@ -9338,6 +9387,7 @@
       },
       "steps": 1200,
       "stride": 2,
+      "total_harvest": 3738.0470287105786,
       "world_seed": 11
     }
   ],
