@@ -12,7 +12,6 @@ permissions:
 
 jobs:
   full-adaptive-replication:
-    if: ${{ hashFiles('docs/EXPERIMENT_v4.0_RESULTS.json') != '' }}
     runs-on: ubuntu-latest
     timeout-minutes: 360
     steps:
