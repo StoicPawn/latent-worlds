@@ -200,6 +200,9 @@ class World:
             a.state_plasticity_enabled = bool(
                 self.config.recurrent_state_plasticity_enabled
             )
+            a.state_plasticity_rate = float(
+                self.config.recurrent_state_plasticity_rate
+            )
         self.next_agent_id += 1
         if parent is not None:
             if not isinstance(a, RecurrentAgent) or self.config.recurrent_weight_inheritance_enabled:
