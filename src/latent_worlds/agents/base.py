@@ -54,6 +54,9 @@ class Observation:
     nearby_objects: list[tuple[int, float, float, float, tuple[float, float, float]]]
     held_object: tuple[float, tuple[float, float, float]] | None
     nearby_agents: list[tuple[float, float, float, float]]
+    world_width: float = 30.0
+    world_height: float = 30.0
+    context_features_enabled: bool = False
 
 
 class BaseAgent:
