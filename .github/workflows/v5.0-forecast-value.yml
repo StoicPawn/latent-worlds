@@ -1,14 +1,6 @@
 name: v5.0 ecological foresight audit
 
 on:
-  push:
-    branches: [main]
-    paths:
-      - 'src/latent_worlds/forecast_value.py'
-      - 'tests/test_forecast_value.py'
-      - 'examples/benchmark_v50_forecast_value.py'
-      - 'docs/EXPERIMENT_v5.0.md'
-      - '.github/workflows/v5.0-forecast-value.yml'
   workflow_dispatch:
 
 permissions:
