@@ -1,18 +1,6 @@
 name: v5.1 recurrent context access
 
 on:
-  push:
-    branches: [main]
-    paths:
-      - 'src/latent_worlds/config.py'
-      - 'src/latent_worlds/agents/base.py'
-      - 'src/latent_worlds/agents/recurrent.py'
-      - 'src/latent_worlds/world.py'
-      - 'src/latent_worlds/epistemic_carriers.py'
-      - 'tests/test_recurrent_context.py'
-      - 'examples/benchmark_v51_context_access.py'
-      - 'docs/EXPERIMENT_v5.1.md'
-      - '.github/workflows/v5.1-context-access.yml'
   workflow_dispatch:
 
 permissions:
