@@ -1,0 +1,630 @@
+{
+  "agent_seeds": [
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72
+  ],
+  "claim_boundary": "A positive result would show that a world-side need for anticipation selectively enriches observer-decodable predictive internal state beyond a frozen recurrent reservoir. It would be an E1-selection result, not cumulative knowledge or spontaneous science.",
+  "decision_rule": "Forecast-pressure support requires a positive mean difference-in-differences in carrier fraction and a one-sided paired sign-test p <= 0.05 across non-tied population histories.",
+  "design": "2x2 resource-wave (0 vs 1.5) x recurrent full vs frozen",
+  "experiment": "v4.9",
+  "population_seed_status": "A65-A72 unseen before v4.9",
+  "preregistered": true,
+  "resource_wave_strength": 1.5,
+  "rows": [
+    {
+      "agent_seed": 65,
+      "carrier_fraction_interaction": -0.10341142895068692,
+      "control_frozen": {
+        "births": 46,
+        "candidate_fraction": 0.12307692307692308,
+        "candidate_generations": [
+          0,
+          1,
+          2
+        ],
+        "carrier_candidates": 8,
+        "deaths": 34,
+        "eligible_carriers": 65,
+        "final_population": 48,
+        "max_generation": 2,
+        "max_predictive_gain": 0.49361502365173404,
+        "median_predictive_gain": -0.055885864642377665,
+        "total_harvest": 4471.8121574719435
+      },
+      "control_full": {
+        "births": 49,
+        "candidate_fraction": 0.16666666666666666,
+        "candidate_generations": [
+          0,
+          1
+        ],
+        "carrier_candidates": 10,
+        "deaths": 42,
+        "eligible_carriers": 60,
+        "final_population": 43,
+        "max_generation": 5,
+        "max_predictive_gain": 0.3716417779606554,
+        "median_predictive_gain": -0.03820034024823955,
+        "total_harvest": 3909.686400026408
+      },
+      "harvest_excess_control": -562.1257574455353,
+      "harvest_excess_wave": -366.2644338899195,
+      "harvest_interaction": 195.86132355561585,
+      "selection_excess_control": 0.043589743589743574,
+      "selection_excess_wave": -0.059821685360943344,
+      "wave_frozen": {
+        "births": 44,
+        "candidate_fraction": 0.14754098360655737,
+        "candidate_generations": [
+          0,
+          1
+        ],
+        "carrier_candidates": 9,
+        "deaths": 35,
+        "eligible_carriers": 61,
+        "final_population": 45,
+        "max_generation": 2,
+        "max_predictive_gain": 0.3073762951041518,
+        "median_predictive_gain": -0.0359718904173849,
+        "total_harvest": 4419.188993931849
+      },
+      "wave_full": {
+        "births": 43,
+        "candidate_fraction": 0.08771929824561403,
+        "candidate_generations": [
+          0
+        ],
+        "carrier_candidates": 5,
+        "deaths": 36,
+        "eligible_carriers": 57,
+        "final_population": 43,
+        "max_generation": 2,
+        "max_predictive_gain": 0.2073979396570911,
+        "median_predictive_gain": -0.06260854195637633,
+        "total_harvest": 4052.9245600419295
+      }
+    },
+    {
+      "agent_seed": 66,
+      "carrier_fraction_interaction": -0.012493458922030354,
+      "control_frozen": {
+        "births": 38,
+        "candidate_fraction": 0.061224489795918366,
+        "candidate_generations": [
+          0,
+          1
+        ],
+        "carrier_candidates": 3,
+        "deaths": 42,
+        "eligible_carriers": 49,
+        "final_population": 32,
+        "max_generation": 1,
+        "max_predictive_gain": 0.9500003734517884,
+        "median_predictive_gain": -0.033689293433967725,
+        "total_harvest": 3338.8079214277805
+      },
+      "control_full": {
+        "births": 42,
+        "candidate_fraction": 0.11538461538461539,
+        "candidate_generations": [
+          0,
+          1
+        ],
+        "carrier_candidates": 6,
+        "deaths": 45,
+        "eligible_carriers": 52,
+        "final_population": 33,
+        "max_generation": 2,
+        "max_predictive_gain": 0.4434621776979812,
+        "median_predictive_gain": -0.06169162018027295,
+        "total_harvest": 3534.618900202343
+      },
+      "harvest_excess_control": 195.8109787745625,
+      "harvest_excess_wave": -196.60430344595488,
+      "harvest_interaction": -392.4152822205174,
+      "selection_excess_control": 0.054160125588697025,
+      "selection_excess_wave": 0.04166666666666667,
+      "wave_frozen": {
+        "births": 44,
+        "candidate_fraction": 0.08333333333333333,
+        "candidate_generations": [
+          0,
+          1
+        ],
+        "carrier_candidates": 4,
+        "deaths": 43,
+        "eligible_carriers": 48,
+        "final_population": 37,
+        "max_generation": 2,
+        "max_predictive_gain": 0.24036416993220933,
+        "median_predictive_gain": -0.037997883445858985,
+        "total_harvest": 3610.972602618757
+      },
+      "wave_full": {
+        "births": 38,
+        "candidate_fraction": 0.125,
+        "candidate_generations": [
+          0,
+          1
+        ],
+        "carrier_candidates": 6,
+        "deaths": 40,
+        "eligible_carriers": 48,
+        "final_population": 34,
+        "max_generation": 1,
+        "max_predictive_gain": 0.6127857204396345,
+        "median_predictive_gain": -0.06201520363174539,
+        "total_harvest": 3414.368299172802
+      }
+    },
+    {
+      "agent_seed": 67,
+      "carrier_fraction_interaction": 0.04531644124864462,
+      "control_frozen": {
+        "births": 42,
+        "candidate_fraction": 0.14545454545454545,
+        "candidate_generations": [
+          0,
+          1,
+          2
+        ],
+        "carrier_candidates": 8,
+        "deaths": 41,
+        "eligible_carriers": 55,
+        "final_population": 37,
+        "max_generation": 2,
+        "max_predictive_gain": 0.4225711493790378,
+        "median_predictive_gain": -0.03232018272342409,
+        "total_harvest": 3645.5102431105897
+      },
+      "control_full": {
+        "births": 44,
+        "candidate_fraction": 0.12962962962962962,
+        "candidate_generations": [
+          0,
+          1,
+          2
+        ],
+        "carrier_candidates": 7,
+        "deaths": 47,
+        "eligible_carriers": 54,
+        "final_population": 33,
+        "max_generation": 2,
+        "max_predictive_gain": 0.3845213410003359,
+        "median_predictive_gain": -0.04396054281629337,
+        "total_harvest": 3624.102008948661
+      },
+      "harvest_excess_control": -21.408234161928704,
+      "harvest_excess_wave": 387.65773667127587,
+      "harvest_interaction": 409.0659708332046,
+      "selection_excess_control": -0.015824915824915825,
+      "selection_excess_wave": 0.029491525423728793,
+      "wave_frozen": {
+        "births": 42,
+        "candidate_fraction": 0.14,
+        "candidate_generations": [
+          0,
+          1
+        ],
+        "carrier_candidates": 7,
+        "deaths": 44,
+        "eligible_carriers": 50,
+        "final_population": 34,
+        "max_generation": 2,
+        "max_predictive_gain": 0.5633760076638616,
+        "median_predictive_gain": -0.07355756764453189,
+        "total_harvest": 3355.2835786260607
+      },
+      "wave_full": {
+        "births": 53,
+        "candidate_fraction": 0.1694915254237288,
+        "candidate_generations": [
+          0,
+          1,
+          3
+        ],
+        "carrier_candidates": 10,
+        "deaths": 54,
+        "eligible_carriers": 59,
+        "final_population": 35,
+        "max_generation": 5,
+        "max_predictive_gain": 0.568963421470352,
+        "median_predictive_gain": -0.0542113856668432,
+        "total_harvest": 3742.9413152973366
+      }
+    },
+    {
+      "agent_seed": 68,
+      "carrier_fraction_interaction": 0.053607239844105536,
+      "control_frozen": {
+        "births": 53,
+        "candidate_fraction": 0.16129032258064516,
+        "candidate_generations": [
+          0,
+          1
+        ],
+        "carrier_candidates": 10,
+        "deaths": 47,
+        "eligible_carriers": 62,
+        "final_population": 42,
+        "max_generation": 2,
+        "max_predictive_gain": 0.6861292166188736,
+        "median_predictive_gain": -0.017104627712669726,
+        "total_harvest": 4063.8941188419567
+      },
+      "control_full": {
+        "births": 54,
+        "candidate_fraction": 0.06349206349206349,
+        "candidate_generations": [
+          0,
+          1
+        ],
+        "carrier_candidates": 4,
+        "deaths": 43,
+        "eligible_carriers": 63,
+        "final_population": 47,
+        "max_generation": 4,
+        "max_predictive_gain": 0.5047391680725497,
+        "median_predictive_gain": -0.06120910776291181,
+        "total_harvest": 4221.875581634867
+      },
+      "harvest_excess_control": 157.98146279290995,
+      "harvest_excess_wave": 88.57412809254674,
+      "harvest_interaction": -69.40733470036321,
+      "selection_excess_control": -0.09779825908858167,
+      "selection_excess_wave": -0.04419101924447613,
+      "wave_frozen": {
+        "births": 50,
+        "candidate_fraction": 0.13114754098360656,
+        "candidate_generations": [
+          0,
+          1
+        ],
+        "carrier_candidates": 8,
+        "deaths": 41,
+        "eligible_carriers": 61,
+        "final_population": 45,
+        "max_generation": 2,
+        "max_predictive_gain": 0.22017383266752155,
+        "median_predictive_gain": -0.035681930146092555,
+        "total_harvest": 4232.087326881884
+      },
+      "wave_full": {
+        "births": 56,
+        "candidate_fraction": 0.08695652173913043,
+        "candidate_generations": [
+          0,
+          1,
+          4
+        ],
+        "carrier_candidates": 6,
+        "deaths": 43,
+        "eligible_carriers": 69,
+        "final_population": 49,
+        "max_generation": 4,
+        "max_predictive_gain": 0.5429995654700634,
+        "median_predictive_gain": -0.03896053674596412,
+        "total_harvest": 4320.661454974431
+      }
+    },
+    {
+      "agent_seed": 69,
+      "carrier_fraction_interaction": 0.008741582616802052,
+      "control_frozen": {
+        "births": 43,
+        "candidate_fraction": 0.15517241379310345,
+        "candidate_generations": [
+          0,
+          1
+        ],
+        "carrier_candidates": 9,
+        "deaths": 36,
+        "eligible_carriers": 58,
+        "final_population": 43,
+        "max_generation": 2,
+        "max_predictive_gain": 0.3259798114776062,
+        "median_predictive_gain": -0.04679600712811086,
+        "total_harvest": 4045.8845100932263
+      },
+      "control_full": {
+        "births": 41,
+        "candidate_fraction": 0.22807017543859648,
+        "candidate_generations": [
+          0,
+          1,
+          2
+        ],
+        "carrier_candidates": 13,
+        "deaths": 37,
+        "eligible_carriers": 57,
+        "final_population": 40,
+        "max_generation": 2,
+        "max_predictive_gain": 0.6463226327935149,
+        "median_predictive_gain": -0.025837464302236945,
+        "total_harvest": 3934.889488841411
+      },
+      "harvest_excess_control": -110.99502125181516,
+      "harvest_excess_wave": -617.6379524505423,
+      "harvest_interaction": -506.6429311987272,
+      "selection_excess_control": 0.07289776164549303,
+      "selection_excess_wave": 0.08163934426229508,
+      "wave_frozen": {
+        "births": 44,
+        "candidate_fraction": 0.09836065573770492,
+        "candidate_generations": [
+          0,
+          1
+        ],
+        "carrier_candidates": 6,
+        "deaths": 35,
+        "eligible_carriers": 61,
+        "final_population": 45,
+        "max_generation": 4,
+        "max_predictive_gain": 0.21696954116908554,
+        "median_predictive_gain": -0.024497577159289602,
+        "total_harvest": 4116.373909771042
+      },
+      "wave_full": {
+        "births": 38,
+        "candidate_fraction": 0.18,
+        "candidate_generations": [
+          0,
+          1
+        ],
+        "carrier_candidates": 9,
+        "deaths": 39,
+        "eligible_carriers": 50,
+        "final_population": 35,
+        "max_generation": 1,
+        "max_predictive_gain": 0.4387035398250495,
+        "median_predictive_gain": -0.025354614144497765,
+        "total_harvest": 3498.7359573205
+      }
+    },
+    {
+      "agent_seed": 70,
+      "carrier_fraction_interaction": -0.09099190283400807,
+      "control_frozen": {
+        "births": 53,
+        "candidate_fraction": 0.1076923076923077,
+        "candidate_generations": [
+          0,
+          1,
+          2
+        ],
+        "carrier_candidates": 7,
+        "deaths": 43,
+        "eligible_carriers": 65,
+        "final_population": 46,
+        "max_generation": 3,
+        "max_predictive_gain": 0.45672599243705747,
+        "median_predictive_gain": -0.027735022402996492,
+        "total_harvest": 4272.592626762373
+      },
+      "control_full": {
+        "births": 41,
+        "candidate_fraction": 0.14035087719298245,
+        "candidate_generations": [
+          0,
+          1
+        ],
+        "carrier_candidates": 8,
+        "deaths": 34,
+        "eligible_carriers": 57,
+        "final_population": 43,
+        "max_generation": 2,
+        "max_predictive_gain": 0.3793994241956693,
+        "median_predictive_gain": -0.03335333636788688,
+        "total_harvest": 4020.1507524081435
+      },
+      "harvest_excess_control": -252.44187435422918,
+      "harvest_excess_wave": 197.17347490657994,
+      "harvest_interaction": 449.6153492608091,
+      "selection_excess_control": 0.03265856950067475,
+      "selection_excess_wave": -0.05833333333333332,
+      "wave_frozen": {
+        "births": 43,
+        "candidate_fraction": 0.18333333333333332,
+        "candidate_generations": [
+          0,
+          1
+        ],
+        "carrier_candidates": 11,
+        "deaths": 36,
+        "eligible_carriers": 60,
+        "final_population": 43,
+        "max_generation": 2,
+        "max_predictive_gain": 0.6574876761554993,
+        "median_predictive_gain": -0.04976762829141697,
+        "total_harvest": 4186.835754641375
+      },
+      "wave_full": {
+        "births": 45,
+        "candidate_fraction": 0.125,
+        "candidate_generations": [
+          0,
+          1
+        ],
+        "carrier_candidates": 7,
+        "deaths": 32,
+        "eligible_carriers": 56,
+        "final_population": 49,
+        "max_generation": 2,
+        "max_predictive_gain": 0.2130668619042687,
+        "median_predictive_gain": -0.03492572817273716,
+        "total_harvest": 4384.009229547955
+      }
+    },
+    {
+      "agent_seed": 71,
+      "carrier_fraction_interaction": 0.04530181385667559,
+      "control_frozen": {
+        "births": 53,
+        "candidate_fraction": 0.11666666666666667,
+        "candidate_generations": [
+          0,
+          1
+        ],
+        "carrier_candidates": 7,
+        "deaths": 42,
+        "eligible_carriers": 60,
+        "final_population": 47,
+        "max_generation": 2,
+        "max_predictive_gain": 0.37161173880721915,
+        "median_predictive_gain": -0.051923868343393464,
+        "total_harvest": 4367.920702759179
+      },
+      "control_full": {
+        "births": 52,
+        "candidate_fraction": 0.1016949152542373,
+        "candidate_generations": [
+          0,
+          1,
+          2
+        ],
+        "carrier_candidates": 6,
+        "deaths": 39,
+        "eligible_carriers": 59,
+        "final_population": 49,
+        "max_generation": 2,
+        "max_predictive_gain": 0.5145063619884133,
+        "median_predictive_gain": -0.05595700944687752,
+        "total_harvest": 4360.552498952886
+      },
+      "harvest_excess_control": -7.3682038062934225,
+      "harvest_excess_wave": 19.257545041306912,
+      "harvest_interaction": 26.625748847600335,
+      "selection_excess_control": -0.014971751412429374,
+      "selection_excess_wave": 0.030330062444246214,
+      "wave_frozen": {
+        "births": 50,
+        "candidate_fraction": 0.10526315789473684,
+        "candidate_generations": [
+          0,
+          1,
+          2
+        ],
+        "carrier_candidates": 6,
+        "deaths": 41,
+        "eligible_carriers": 57,
+        "final_population": 45,
+        "max_generation": 2,
+        "max_predictive_gain": 0.2916791012262009,
+        "median_predictive_gain": -0.049978949829022304,
+        "total_harvest": 4222.364078336233
+      },
+      "wave_full": {
+        "births": 50,
+        "candidate_fraction": 0.13559322033898305,
+        "candidate_generations": [
+          0,
+          1
+        ],
+        "carrier_candidates": 8,
+        "deaths": 42,
+        "eligible_carriers": 59,
+        "final_population": 44,
+        "max_generation": 3,
+        "max_predictive_gain": 0.575393574084181,
+        "median_predictive_gain": -0.028276464020152135,
+        "total_harvest": 4241.62162337754
+      }
+    },
+    {
+      "agent_seed": 72,
+      "carrier_fraction_interaction": -0.06590825960231332,
+      "control_frozen": {
+        "births": 52,
+        "candidate_fraction": 0.140625,
+        "candidate_generations": [
+          0,
+          1,
+          2
+        ],
+        "carrier_candidates": 9,
+        "deaths": 42,
+        "eligible_carriers": 64,
+        "final_population": 46,
+        "max_generation": 2,
+        "max_predictive_gain": 0.5128284686698849,
+        "median_predictive_gain": -0.04150883178422169,
+        "total_harvest": 4292.044491098167
+      },
+      "control_full": {
+        "births": 52,
+        "candidate_fraction": 0.14492753623188406,
+        "candidate_generations": [
+          0,
+          1
+        ],
+        "carrier_candidates": 10,
+        "deaths": 32,
+        "eligible_carriers": 69,
+        "final_population": 56,
+        "max_generation": 3,
+        "max_predictive_gain": 0.3936877443803155,
+        "median_predictive_gain": -0.05205408518066985,
+        "total_harvest": 4853.479346768229
+      },
+      "harvest_excess_control": 561.4348556700625,
+      "harvest_excess_wave": -173.14456231139047,
+      "harvest_interaction": -734.5794179814529,
+      "selection_excess_control": 0.004302536231884063,
+      "selection_excess_wave": -0.06160572337042926,
+      "wave_frozen": {
+        "births": 56,
+        "candidate_fraction": 0.13513513513513514,
+        "candidate_generations": [
+          0,
+          1,
+          2
+        ],
+        "carrier_candidates": 10,
+        "deaths": 36,
+        "eligible_carriers": 74,
+        "final_population": 56,
+        "max_generation": 2,
+        "max_predictive_gain": 0.6808997756812304,
+        "median_predictive_gain": -0.037441976224949866,
+        "total_harvest": 4816.528808632177
+      },
+      "wave_full": {
+        "births": 50,
+        "candidate_fraction": 0.07352941176470588,
+        "candidate_generations": [
+          0,
+          1
+        ],
+        "carrier_candidates": 5,
+        "deaths": 36,
+        "eligible_carriers": 68,
+        "final_population": 50,
+        "max_generation": 2,
+        "max_predictive_gain": 0.33716834989087074,
+        "median_predictive_gain": -0.04978510703973334,
+        "total_harvest": 4643.384246320787
+      }
+    }
+  ],
+  "summary": {
+    "carrier_fraction_interaction_sign_test": {
+      "non_ties": 8,
+      "p_upper": 0.63671875,
+      "wins": 4
+    },
+    "forecast_pressure_selected_representation_supported": false,
+    "mean_candidate_fraction_control_frozen": 0.12640033363251374,
+    "mean_candidate_fraction_control_full": 0.13627705991133443,
+    "mean_candidate_fraction_wave_frozen": 0.12801426750305095,
+    "mean_candidate_fraction_wave_full": 0.12291124718902026,
+    "mean_carrier_fraction_interaction": -0.014979746592851359,
+    "mean_harvest_interaction": -77.73457170047885
+  },
+  "world_seed": 11
+}
