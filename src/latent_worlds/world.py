@@ -197,7 +197,8 @@ class World:
         a = cls(self.next_agent_id, x, y, energy, genome)
         self.next_agent_id += 1
         if parent is not None:
-            a.inherit_from(parent, self.agent_rng, self.config.mutation_sigma)
+            if not isinstance(a, RecurrentAgent) or self.config.recurrent_weight_inheritance_enabled:
+                a.inherit_from(parent, self.agent_rng, self.config.mutation_sigma)
             a.parent_id = parent.id
             a.generation = parent.generation + 1
             parent.children += 1
@@ -539,7 +540,8 @@ class World:
                     "conspecifics": len(obs.nearby_agents), "action": action.kind.value,
                     "dx": float(action.dx), "dy": float(action.dy), "reward": float(reward),
                 })
-            a.learn(obs, action, reward)
+            if not isinstance(a, RecurrentAgent) or self.config.recurrent_learning_enabled:
+                a.learn(obs, action, reward)
             a.age += 1
             if a.energy <= 0:
                 if a.held_object_id is not None:
