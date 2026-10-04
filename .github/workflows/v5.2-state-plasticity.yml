@@ -1,0 +1,41 @@
+name: v5.2 recurrent state plasticity
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'src/latent_worlds/config.py'
+      - 'src/latent_worlds/agents/recurrent.py'
+      - 'src/latent_worlds/world.py'
+      - 'tests/test_recurrent_state_plasticity.py'
+      - 'examples/benchmark_v52_state_plasticity.py'
+      - 'docs/EXPERIMENT_v5.2.md'
+      - '.github/workflows/v5.2-state-plasticity.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  state-plasticity:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install --upgrade pip
+      - run: pip install -e '.[dev]'
+      - name: Regression tests
+        run: pytest -q tests/test_recurrent_state_plasticity.py tests/test_recurrent_context.py tests/test_predictive_ecology.py tests/test_recurrent_null_controls.py tests/test_epistemic_carriers.py tests/test_epistemic_decoder_controls.py tests/test_epistemic_convergence.py tests/test_world.py
+      - name: Prospective state-plasticity experiment
+        run: PYTHONPATH=src python examples/benchmark_v52_state_plasticity.py > docs/EXPERIMENT_v5.2_RESULTS.json
+      - name: Persist result in Git
+        run: |
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add docs/EXPERIMENT_v5.2_RESULTS.json
+          git commit -m 'Record v5.2 state-plasticity results' || exit 0
+          git pull --rebase origin main
+          git push
