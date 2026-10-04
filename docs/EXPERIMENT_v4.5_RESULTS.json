@@ -1,0 +1,1003 @@
+{
+  "agent_seeds": [
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34
+  ],
+  "burn_in": 200,
+  "diagnostic_summary": {
+    "active_technology_histories": 0,
+    "histories": 10,
+    "mean_active_technology_cosine": null,
+    "mean_pairwise_prediction_agreement_all": 0.3588436740569411,
+    "mean_pairwise_prediction_agreement_predictive": null,
+    "mean_pairwise_representation_cka_all": 0.6921073292453316,
+    "mean_pairwise_representation_cka_predictive": null,
+    "predictive_representation_candidates": 0
+  },
+  "experiment": "v4.5",
+  "histories": [
+    {
+      "agent_seed": 25,
+      "completed_time": 1200,
+      "final_population": 29,
+      "horizons": [
+        10,
+        35,
+        70
+      ],
+      "max_generation": 2,
+      "prediction": {
+        "collective_nrmse": 2.043438036894745,
+        "per_horizon_collective_nrmse": [
+          1.8294519028461842,
+          1.4678452456532713,
+          2.8330169621847796
+        ],
+        "per_horizon_raw_nrmse": [
+          0.6502110549318786,
+          1.1693999166191245,
+          1.944996751549509
+        ],
+        "predictive_gain_over_raw": -0.6284071440079125,
+        "predictive_representation_candidate": false,
+        "raw_nrmse": 1.254869241033504,
+        "samples": 201
+      },
+      "samples": 201,
+      "technology": {
+        "active_candidate": false,
+        "functional_gain": -0.0003141063245341069,
+        "functional_strength": 0.00176509370257873,
+        "successful_drops": 58
+      },
+      "world_seed": 11
+    },
+    {
+      "agent_seed": 26,
+      "completed_time": 1200,
+      "final_population": 47,
+      "horizons": [
+        10,
+        35,
+        70
+      ],
+      "max_generation": 6,
+      "prediction": {
+        "collective_nrmse": 1.7979629323658959,
+        "per_horizon_collective_nrmse": [
+          1.6568666228776703,
+          1.6990491077995584,
+          2.037973066420459
+        ],
+        "per_horizon_raw_nrmse": [
+          0.6063277944412203,
+          1.1167326290456103,
+          1.0194560094348348
+        ],
+        "predictive_gain_over_raw": -0.9667662634026422,
+        "predictive_representation_candidate": false,
+        "raw_nrmse": 0.9141721443072219,
+        "samples": 201
+      },
+      "samples": 201,
+      "technology": {
+        "active_candidate": false,
+        "functional_gain": -0.0002272939437869148,
+        "functional_strength": 0.0012718606514235092,
+        "successful_drops": 14
+      },
+      "world_seed": 11
+    },
+    {
+      "agent_seed": 27,
+      "completed_time": 1200,
+      "final_population": 41,
+      "horizons": [
+        10,
+        35,
+        70
+      ],
+      "max_generation": 2,
+      "prediction": {
+        "collective_nrmse": 1.4970616994098762,
+        "per_horizon_collective_nrmse": [
+          1.3235059190146135,
+          1.5351448216540884,
+          1.6325343575609272
+        ],
+        "per_horizon_raw_nrmse": [
+          0.6508856245026631,
+          1.3226017141576614,
+          0.9877569858661384
+        ],
+        "predictive_gain_over_raw": -0.5166546917562505,
+        "predictive_representation_candidate": false,
+        "raw_nrmse": 0.9870814415088209,
+        "samples": 201
+      },
+      "samples": 201,
+      "technology": {
+        "active_candidate": false,
+        "functional_gain": -0.0002219496579064062,
+        "functional_strength": 0.0013915018883556406,
+        "successful_drops": 8
+      },
+      "world_seed": 11
+    },
+    {
+      "agent_seed": 28,
+      "completed_time": 1200,
+      "final_population": 34,
+      "horizons": [
+        10,
+        35,
+        70
+      ],
+      "max_generation": 3,
+      "prediction": {
+        "collective_nrmse": 2.0042137298532263,
+        "per_horizon_collective_nrmse": [
+          1.428869445580923,
+          1.9722033809558366,
+          2.6115683630229185
+        ],
+        "per_horizon_raw_nrmse": [
+          0.5908132139367132,
+          1.3121774490345284,
+          0.6370498633250743
+        ],
+        "predictive_gain_over_raw": -1.3671438023576858,
+        "predictive_representation_candidate": false,
+        "raw_nrmse": 0.8466801754321053,
+        "samples": 201
+      },
+      "samples": 201,
+      "technology": {
+        "active_candidate": false,
+        "functional_gain": 0.00021832067620018768,
+        "functional_strength": 0.002107035849190652,
+        "successful_drops": 26
+      },
+      "world_seed": 11
+    },
+    {
+      "agent_seed": 29,
+      "completed_time": 1200,
+      "final_population": 33,
+      "horizons": [
+        10,
+        35,
+        70
+      ],
+      "max_generation": 3,
+      "prediction": {
+        "collective_nrmse": 1.6021308072598057,
+        "per_horizon_collective_nrmse": [
+          1.3526800078508487,
+          1.7899808211127861,
+          1.6637315928157825
+        ],
+        "per_horizon_raw_nrmse": [
+          0.6787206222105512,
+          1.4548740817724817,
+          1.0943353039340882
+        ],
+        "predictive_gain_over_raw": -0.48900143745087815,
+        "predictive_representation_candidate": false,
+        "raw_nrmse": 1.075976669305707,
+        "samples": 201
+      },
+      "samples": 201,
+      "technology": {
+        "active_candidate": false,
+        "functional_gain": 2.9651153152774335e-05,
+        "functional_strength": 0.0006020634010000279,
+        "successful_drops": 35
+      },
+      "world_seed": 11
+    },
+    {
+      "agent_seed": 30,
+      "completed_time": 1200,
+      "final_population": 39,
+      "horizons": [
+        10,
+        35,
+        70
+      ],
+      "max_generation": 1,
+      "prediction": {
+        "collective_nrmse": 1.6978633183794816,
+        "per_horizon_collective_nrmse": [
+          1.176921437834796,
+          1.9926166688765607,
+          1.9240518484270874
+        ],
+        "per_horizon_raw_nrmse": [
+          0.7410310141124169,
+          1.3759725816859267,
+          1.1158380794243021
+        ],
+        "predictive_gain_over_raw": -0.5755766804718793,
+        "predictive_representation_candidate": false,
+        "raw_nrmse": 1.0776138917408817,
+        "samples": 201
+      },
+      "samples": 201,
+      "technology": {
+        "active_candidate": false,
+        "functional_gain": 9.124382006374888e-05,
+        "functional_strength": 0.0009247862896395791,
+        "successful_drops": 38
+      },
+      "world_seed": 11
+    },
+    {
+      "agent_seed": 31,
+      "completed_time": 1200,
+      "final_population": 48,
+      "horizons": [
+        10,
+        35,
+        70
+      ],
+      "max_generation": 2,
+      "prediction": {
+        "collective_nrmse": 1.5072884719548352,
+        "per_horizon_collective_nrmse": [
+          1.1279455646036358,
+          1.5175945726286242,
+          1.8763252786322453
+        ],
+        "per_horizon_raw_nrmse": [
+          0.6228072783310766,
+          1.352995036441591,
+          1.1775888658751634
+        ],
+        "predictive_gain_over_raw": -0.433969069113568,
+        "predictive_representation_candidate": false,
+        "raw_nrmse": 1.051130393549277,
+        "samples": 201
+      },
+      "samples": 201,
+      "technology": {
+        "active_candidate": false,
+        "functional_gain": -0.00011149419242519886,
+        "functional_strength": 0.0004989054545285556,
+        "successful_drops": 79
+      },
+      "world_seed": 11
+    },
+    {
+      "agent_seed": 32,
+      "completed_time": 1200,
+      "final_population": 37,
+      "horizons": [
+        10,
+        35,
+        70
+      ],
+      "max_generation": 2,
+      "prediction": {
+        "collective_nrmse": 1.5153064040294586,
+        "per_horizon_collective_nrmse": [
+          1.3942578982270215,
+          1.5287978588729616,
+          1.6228634549883925
+        ],
+        "per_horizon_raw_nrmse": [
+          0.8095008492656781,
+          1.4094299284969898,
+          1.5044792374124791
+        ],
+        "predictive_gain_over_raw": -0.2209021283073867,
+        "predictive_representation_candidate": false,
+        "raw_nrmse": 1.241136671725049,
+        "samples": 201
+      },
+      "samples": 201,
+      "technology": {
+        "active_candidate": false,
+        "functional_gain": 0.0008002080262839418,
+        "functional_strength": 0.002860936665820048,
+        "successful_drops": 131
+      },
+      "world_seed": 11
+    },
+    {
+      "agent_seed": 33,
+      "completed_time": 1200,
+      "final_population": 40,
+      "horizons": [
+        10,
+        35,
+        70
+      ],
+      "max_generation": 3,
+      "prediction": {
+        "collective_nrmse": 1.932171331011368,
+        "per_horizon_collective_nrmse": [
+          1.1807065555341059,
+          2.2097886175395254,
+          2.406018819960473
+        ],
+        "per_horizon_raw_nrmse": [
+          0.8778588783239261,
+          2.4326607896165506,
+          1.066915384725371
+        ],
+        "predictive_gain_over_raw": -0.3241804671674207,
+        "predictive_representation_candidate": false,
+        "raw_nrmse": 1.4591450175552823,
+        "samples": 201
+      },
+      "samples": 201,
+      "technology": {
+        "active_candidate": false,
+        "functional_gain": 7.856375537851346e-05,
+        "functional_strength": 0.000744935159224103,
+        "successful_drops": 24
+      },
+      "world_seed": 11
+    },
+    {
+      "agent_seed": 34,
+      "completed_time": 1200,
+      "final_population": 47,
+      "horizons": [
+        10,
+        35,
+        70
+      ],
+      "max_generation": 1,
+      "prediction": {
+        "collective_nrmse": 2.8248320934927857,
+        "per_horizon_collective_nrmse": [
+          2.2804376357947245,
+          2.3782623937532064,
+          3.815796250930426
+        ],
+        "per_horizon_raw_nrmse": [
+          0.6130666847855617,
+          1.1520380100807395,
+          1.7046390973522123
+        ],
+        "predictive_gain_over_raw": -1.4423982829752005,
+        "predictive_representation_candidate": false,
+        "raw_nrmse": 1.1565812640728377,
+        "samples": 201
+      },
+      "samples": 201,
+      "technology": {
+        "active_candidate": false,
+        "functional_gain": -3.684158174448449e-05,
+        "functional_strength": 0.00032959431132492656,
+        "successful_drops": 19
+      },
+      "world_seed": 11
+    }
+  ],
+  "horizons": [
+    10,
+    35,
+    70
+  ],
+  "interpretation_scope": "pre-Q2 diagnostic only",
+  "north_star_stage_ii": {
+    "claim_boundary": "Stage-II universality/contingency inference is disabled unless at least three histories are supplied as independently qualified by the Stage-I spontaneous-science protocol.",
+    "eligible_pair_count": 0,
+    "externally_science_qualified_histories": [],
+    "inference_allowed": false,
+    "mean_eligible_prediction_agreement": null,
+    "mean_eligible_representation_cka": null
+  },
+  "pairwise": [
+    {
+      "agent_seed_a": 25,
+      "agent_seed_b": 26,
+      "matched_samples": 201,
+      "prediction_agreement": 0.32674227176221515,
+      "prediction_divergence_nrmse": 2.060516151175396,
+      "representation_cka": 0.5135348912485774,
+      "target_match_max_abs": 0.0,
+      "technology_active_pair": false,
+      "technology_cosine": 0.9328799746258459,
+      "world_seed": 11
+    },
+    {
+      "agent_seed_a": 25,
+      "agent_seed_b": 27,
+      "matched_samples": 201,
+      "prediction_agreement": 0.3247362439724039,
+      "prediction_divergence_nrmse": 2.0794222035929564,
+      "representation_cka": 0.4492039438321455,
+      "target_match_max_abs": 0.0,
+      "technology_active_pair": false,
+      "technology_cosine": 0.8376914955598608,
+      "world_seed": 11
+    },
+    {
+      "agent_seed_a": 25,
+      "agent_seed_b": 28,
+      "matched_samples": 201,
+      "prediction_agreement": 0.36733083018064067,
+      "prediction_divergence_nrmse": 1.7223416000999272,
+      "representation_cka": 0.6649571368633281,
+      "target_match_max_abs": 0.0,
+      "technology_active_pair": false,
+      "technology_cosine": -0.9227330905513788,
+      "world_seed": 11
+    },
+    {
+      "agent_seed_a": 25,
+      "agent_seed_b": 29,
+      "matched_samples": 201,
+      "prediction_agreement": 0.3181609931613799,
+      "prediction_divergence_nrmse": 2.1430628565229957,
+      "representation_cka": 0.6547836532467464,
+      "target_match_max_abs": 0.0,
+      "technology_active_pair": false,
+      "technology_cosine": 0.07551898105323049,
+      "world_seed": 11
+    },
+    {
+      "agent_seed_a": 25,
+      "agent_seed_b": 30,
+      "matched_samples": 201,
+      "prediction_agreement": 0.3129068991720441,
+      "prediction_divergence_nrmse": 2.195838770720663,
+      "representation_cka": 0.5262176543806181,
+      "target_match_max_abs": 0.0,
+      "technology_active_pair": false,
+      "technology_cosine": -0.816219095345595,
+      "world_seed": 11
+    },
+    {
+      "agent_seed_a": 25,
+      "agent_seed_b": 31,
+      "matched_samples": 201,
+      "prediction_agreement": 0.3446317444992143,
+      "prediction_divergence_nrmse": 1.9016479647082534,
+      "representation_cka": 0.4292399218021009,
+      "target_match_max_abs": 0.0,
+      "technology_active_pair": false,
+      "technology_cosine": 0.34333817654538507,
+      "world_seed": 11
+    },
+    {
+      "agent_seed_a": 25,
+      "agent_seed_b": 32,
+      "matched_samples": 201,
+      "prediction_agreement": 0.32251750729958334,
+      "prediction_divergence_nrmse": 2.100606873632785,
+      "representation_cka": 0.660969474750503,
+      "target_match_max_abs": 0.0,
+      "technology_active_pair": false,
+      "technology_cosine": -0.9268414588657753,
+      "world_seed": 11
+    },
+    {
+      "agent_seed_a": 25,
+      "agent_seed_b": 33,
+      "matched_samples": 201,
+      "prediction_agreement": 0.3316934985402689,
+      "prediction_divergence_nrmse": 2.014831476651919,
+      "representation_cka": 0.683783212452901,
+      "target_match_max_abs": 0.0,
+      "technology_active_pair": false,
+      "technology_cosine": -0.7122529602817135,
+      "world_seed": 11
+    },
+    {
+      "agent_seed_a": 25,
+      "agent_seed_b": 34,
+      "matched_samples": 201,
+      "prediction_agreement": 0.3371809328527534,
+      "prediction_divergence_nrmse": 1.965766751813036,
+      "representation_cka": 0.5528181226723404,
+      "target_match_max_abs": 0.0,
+      "technology_active_pair": false,
+      "technology_cosine": -0.10907356049378193,
+      "world_seed": 11
+    },
+    {
+      "agent_seed_a": 26,
+      "agent_seed_b": 27,
+      "matched_samples": 201,
+      "prediction_agreement": 0.37812020115448053,
+      "prediction_divergence_nrmse": 1.644661663002372,
+      "representation_cka": 0.677890749119414,
+      "target_match_max_abs": 0.0,
+      "technology_active_pair": false,
+      "technology_cosine": 0.7874932293792005,
+      "world_seed": 11
+    },
+    {
+      "agent_seed_a": 26,
+      "agent_seed_b": 28,
+      "matched_samples": 201,
+      "prediction_agreement": 0.3695235771166203,
+      "prediction_divergence_nrmse": 1.7061872690315607,
+      "representation_cka": 0.6735034648606976,
+      "target_match_max_abs": 0.0,
+      "technology_active_pair": false,
+      "technology_cosine": -0.9442145028074906,
+      "world_seed": 11
+    },
+    {
+      "agent_seed_a": 26,
+      "agent_seed_b": 29,
+      "matched_samples": 201,
+      "prediction_agreement": 0.39872087412994156,
+      "prediction_divergence_nrmse": 1.5080201837491558,
+      "representation_cka": 0.47399806514512255,
+      "target_match_max_abs": 0.0,
+      "technology_active_pair": false,
+      "technology_cosine": 0.02979032032676194,
+      "world_seed": 11
+    },
+    {
+      "agent_seed_a": 26,
+      "agent_seed_b": 30,
+      "matched_samples": 201,
+      "prediction_agreement": 0.40551550127470254,
+      "prediction_divergence_nrmse": 1.4659969763340424,
+      "representation_cka": 0.5372012811889119,
+      "target_match_max_abs": 0.0,
+      "technology_active_pair": false,
+      "technology_cosine": -0.6644125266852349,
+      "world_seed": 11
+    },
+    {
+      "agent_seed_a": 26,
+      "agent_seed_b": 31,
+      "matched_samples": 201,
+      "prediction_agreement": 0.40373339170073697,
+      "prediction_divergence_nrmse": 1.4768820725664407,
+      "representation_cka": 0.6324809306233938,
+      "target_match_max_abs": 0.0,
+      "technology_active_pair": false,
+      "technology_cosine": 0.23553494628326252,
+      "world_seed": 11
+    },
+    {
+      "agent_seed_a": 26,
+      "agent_seed_b": 32,
+      "matched_samples": 201,
+      "prediction_agreement": 0.4217267150614683,
+      "prediction_divergence_nrmse": 1.3712038253356706,
+      "representation_cka": 0.7819822861593505,
+      "target_match_max_abs": 0.0,
+      "technology_active_pair": false,
+      "technology_cosine": -0.8979045635646445,
+      "world_seed": 11
+    },
+    {
+      "agent_seed_a": 26,
+      "agent_seed_b": 33,
+      "matched_samples": 201,
+      "prediction_agreement": 0.33255154359793526,
+      "prediction_divergence_nrmse": 2.0070526486836275,
+      "representation_cka": 0.7387319352315873,
+      "target_match_max_abs": 0.0,
+      "technology_active_pair": false,
+      "technology_cosine": -0.5754207793492977,
+      "world_seed": 11
+    },
+    {
+      "agent_seed_a": 26,
+      "agent_seed_b": 34,
+      "matched_samples": 201,
+      "prediction_agreement": 0.27534019179952746,
+      "prediction_divergence_nrmse": 2.631870790327953,
+      "representation_cka": 0.6004731201275848,
+      "target_match_max_abs": 0.0,
+      "technology_active_pair": false,
+      "technology_cosine": 0.036885650600024016,
+      "world_seed": 11
+    },
+    {
+      "agent_seed_a": 27,
+      "agent_seed_b": 28,
+      "matched_samples": 201,
+      "prediction_agreement": 0.3285911448070177,
+      "prediction_divergence_nrmse": 2.0432956450707223,
+      "representation_cka": 0.6414079985768033,
+      "target_match_max_abs": 0.0,
+      "technology_active_pair": false,
+      "technology_cosine": -0.817464619825263,
+      "world_seed": 11
+    },
+    {
+      "agent_seed_a": 27,
+      "agent_seed_b": 29,
+      "matched_samples": 201,
+      "prediction_agreement": 0.4249981244230443,
+      "prediction_divergence_nrmse": 1.3529515603334692,
+      "representation_cka": 0.7281159450471467,
+      "target_match_max_abs": 0.0,
+      "technology_active_pair": false,
+      "technology_cosine": -0.1766265672237301,
+      "world_seed": 11
+    },
+    {
+      "agent_seed_a": 27,
+      "agent_seed_b": 30,
+      "matched_samples": 201,
+      "prediction_agreement": 0.40161033093189985,
+      "prediction_divergence_nrmse": 1.4899757874245712,
+      "representation_cka": 0.6739856368732027,
+      "target_match_max_abs": 0.0,
+      "technology_active_pair": false,
+      "technology_cosine": -0.7059327572794496,
+      "world_seed": 11
+    },
+    {
+      "agent_seed_a": 27,
+      "agent_seed_b": 31,
+      "matched_samples": 201,
+      "prediction_agreement": 0.44105672442391836,
+      "prediction_divergence_nrmse": 1.2672820628823638,
+      "representation_cka": 0.7901863449074834,
+      "target_match_max_abs": 0.0,
+      "technology_active_pair": false,
+      "technology_cosine": 0.2910447569348167,
+      "world_seed": 11
+    },
+    {
+      "agent_seed_a": 27,
+      "agent_seed_b": 32,
+      "matched_samples": 201,
+      "prediction_agreement": 0.4447280841366405,
+      "prediction_divergence_nrmse": 1.2485649898663809,
+      "representation_cka": 0.749336330686877,
+      "target_match_max_abs": 0.0,
+      "technology_active_pair": false,
+      "technology_cosine": -0.8594376606435291,
+      "world_seed": 11
+    },
+    {
+      "agent_seed_a": 27,
+      "agent_seed_b": 33,
+      "matched_samples": 201,
+      "prediction_agreement": 0.38713729029869726,
+      "prediction_divergence_nrmse": 1.5830629729015413,
+      "representation_cka": 0.7987252043444192,
+      "target_match_max_abs": 0.0,
+      "technology_active_pair": false,
+      "technology_cosine": -0.6657148947892286,
+      "world_seed": 11
+    },
+    {
+      "agent_seed_a": 27,
+      "agent_seed_b": 34,
+      "matched_samples": 201,
+      "prediction_agreement": 0.2535272178611711,
+      "prediction_divergence_nrmse": 2.944349677467726,
+      "representation_cka": 0.7725877658494449,
+      "target_match_max_abs": 0.0,
+      "technology_active_pair": false,
+      "technology_cosine": -0.050930776766004604,
+      "world_seed": 11
+    },
+    {
+      "agent_seed_a": 28,
+      "agent_seed_b": 29,
+      "matched_samples": 201,
+      "prediction_agreement": 0.35798550201893486,
+      "prediction_divergence_nrmse": 1.7934092145080978,
+      "representation_cka": 0.6032226325808833,
+      "target_match_max_abs": 0.0,
+      "technology_active_pair": false,
+      "technology_cosine": 0.08445822893881073,
+      "world_seed": 11
+    },
+    {
+      "agent_seed_a": 28,
+      "agent_seed_b": 30,
+      "matched_samples": 201,
+      "prediction_agreement": 0.35864897815780916,
+      "prediction_divergence_nrmse": 1.7882415980563307,
+      "representation_cka": 0.6345940873491346,
+      "target_match_max_abs": 0.0,
+      "technology_active_pair": false,
+      "technology_cosine": 0.7349871785587222,
+      "world_seed": 11
+    },
+    {
+      "agent_seed_a": 28,
+      "agent_seed_b": 31,
+      "matched_samples": 201,
+      "prediction_agreement": 0.36931422480666243,
+      "prediction_divergence_nrmse": 1.7077213192194376,
+      "representation_cka": 0.5905766999461912,
+      "target_match_max_abs": 0.0,
+      "technology_active_pair": false,
+      "technology_cosine": -0.04734678620943552,
+      "world_seed": 11
+    },
+    {
+      "agent_seed_a": 28,
+      "agent_seed_b": 32,
+      "matched_samples": 201,
+      "prediction_agreement": 0.3459594346233973,
+      "prediction_divergence_nrmse": 1.8905122968783166,
+      "representation_cka": 0.7847697999207889,
+      "target_match_max_abs": 0.0,
+      "technology_active_pair": false,
+      "technology_cosine": 0.8875858411353524,
+      "world_seed": 11
+    },
+    {
+      "agent_seed_a": 28,
+      "agent_seed_b": 33,
+      "matched_samples": 201,
+      "prediction_agreement": 0.3100886488140994,
+      "prediction_divergence_nrmse": 2.2248842510823668,
+      "representation_cka": 0.7607172442129468,
+      "target_match_max_abs": 0.0,
+      "technology_active_pair": false,
+      "technology_cosine": 0.7470266828078683,
+      "world_seed": 11
+    },
+    {
+      "agent_seed_a": 28,
+      "agent_seed_b": 34,
+      "matched_samples": 201,
+      "prediction_agreement": 0.29409999509469453,
+      "prediction_divergence_nrmse": 2.400204068952872,
+      "representation_cka": 0.6700623635729813,
+      "target_match_max_abs": 0.0,
+      "technology_active_pair": false,
+      "technology_cosine": -0.008438348722636565,
+      "world_seed": 11
+    },
+    {
+      "agent_seed_a": 29,
+      "agent_seed_b": 30,
+      "matched_samples": 201,
+      "prediction_agreement": 0.4264636638565552,
+      "prediction_divergence_nrmse": 1.3448656585578622,
+      "representation_cka": 0.7263098488022612,
+      "target_match_max_abs": 0.0,
+      "technology_active_pair": false,
+      "technology_cosine": -0.08104654461607723,
+      "world_seed": 11
+    },
+    {
+      "agent_seed_a": 29,
+      "agent_seed_b": 31,
+      "matched_samples": 201,
+      "prediction_agreement": 0.43616535956934804,
+      "prediction_divergence_nrmse": 1.292708437431527,
+      "representation_cka": 0.7633700045871012,
+      "target_match_max_abs": 0.0,
+      "technology_active_pair": false,
+      "technology_cosine": 0.5745563878520059,
+      "world_seed": 11
+    },
+    {
+      "agent_seed_a": 29,
+      "agent_seed_b": 32,
+      "matched_samples": 201,
+      "prediction_agreement": 0.40876557891499155,
+      "prediction_divergence_nrmse": 1.4463899398142914,
+      "representation_cka": 0.7050436092427906,
+      "target_match_max_abs": 0.0,
+      "technology_active_pair": false,
+      "technology_cosine": 0.03388627322378701,
+      "world_seed": 11
+    },
+    {
+      "agent_seed_a": 29,
+      "agent_seed_b": 33,
+      "matched_samples": 201,
+      "prediction_agreement": 0.35829654041625414,
+      "prediction_divergence_nrmse": 1.7909842468426886,
+      "representation_cka": 0.800489112710111,
+      "target_match_max_abs": 0.0,
+      "technology_active_pair": false,
+      "technology_cosine": 0.23426736781841334,
+      "world_seed": 11
+    },
+    {
+      "agent_seed_a": 29,
+      "agent_seed_b": 34,
+      "matched_samples": 201,
+      "prediction_agreement": 0.26336069750461427,
+      "prediction_divergence_nrmse": 2.79707378312392,
+      "representation_cka": 0.8200842214271787,
+      "target_match_max_abs": 0.0,
+      "technology_active_pair": false,
+      "technology_cosine": -0.3650179016381057,
+      "world_seed": 11
+    },
+    {
+      "agent_seed_a": 30,
+      "agent_seed_b": 31,
+      "matched_samples": 201,
+      "prediction_agreement": 0.4311851893743948,
+      "prediction_divergence_nrmse": 1.319189120226733,
+      "representation_cka": 0.7210718648940811,
+      "target_match_max_abs": 0.0,
+      "technology_active_pair": false,
+      "technology_cosine": -0.28434194636244137,
+      "world_seed": 11
+    },
+    {
+      "agent_seed_a": 30,
+      "agent_seed_b": 32,
+      "matched_samples": 201,
+      "prediction_agreement": 0.4410484325857623,
+      "prediction_divergence_nrmse": 1.2673246884412157,
+      "representation_cka": 0.7620916928824628,
+      "target_match_max_abs": 0.0,
+      "technology_active_pair": false,
+      "technology_cosine": 0.7325702163586544,
+      "world_seed": 11
+    },
+    {
+      "agent_seed_a": 30,
+      "agent_seed_b": 33,
+      "matched_samples": 201,
+      "prediction_agreement": 0.3847154423724722,
+      "prediction_divergence_nrmse": 1.5993237854794093,
+      "representation_cka": 0.7222247505951745,
+      "target_match_max_abs": 0.0,
+      "technology_active_pair": false,
+      "technology_cosine": 0.6287551106499399,
+      "world_seed": 11
+    },
+    {
+      "agent_seed_a": 30,
+      "agent_seed_b": 34,
+      "matched_samples": 201,
+      "prediction_agreement": 0.267795094361333,
+      "prediction_divergence_nrmse": 2.7341983518589443,
+      "representation_cka": 0.8993480333669687,
+      "target_match_max_abs": 0.0,
+      "technology_active_pair": false,
+      "technology_cosine": 0.4623711572374054,
+      "world_seed": 11
+    },
+    {
+      "agent_seed_a": 31,
+      "agent_seed_b": 32,
+      "matched_samples": 201,
+      "prediction_agreement": 0.4723088439503388,
+      "prediction_divergence_nrmse": 1.1172586810700198,
+      "representation_cka": 0.7539691399734425,
+      "target_match_max_abs": 0.0,
+      "technology_active_pair": false,
+      "technology_cosine": -0.24202453589368125,
+      "world_seed": 11
+    },
+    {
+      "agent_seed_a": 31,
+      "agent_seed_b": 33,
+      "matched_samples": 201,
+      "prediction_agreement": 0.3950627580076562,
+      "prediction_divergence_nrmse": 1.5312434030560282,
+      "representation_cka": 0.7626541256537571,
+      "target_match_max_abs": 0.0,
+      "technology_active_pair": false,
+      "technology_cosine": 0.07795525222809077,
+      "world_seed": 11
+    },
+    {
+      "agent_seed_a": 31,
+      "agent_seed_b": 34,
+      "matched_samples": 201,
+      "prediction_agreement": 0.2660191325630218,
+      "prediction_divergence_nrmse": 2.7591281137009687,
+      "representation_cka": 0.7903669155762179,
+      "target_match_max_abs": 0.0,
+      "technology_active_pair": false,
+      "technology_cosine": -0.20941135478894862,
+      "world_seed": 11
+    },
+    {
+      "agent_seed_a": 32,
+      "agent_seed_b": 33,
+      "matched_samples": 201,
+      "prediction_agreement": 0.3524182731384468,
+      "prediction_divergence_nrmse": 1.8375373135295743,
+      "representation_cka": 0.8439018578687135,
+      "target_match_max_abs": 0.0,
+      "technology_active_pair": false,
+      "technology_cosine": 0.7273451532562294,
+      "world_seed": 11
+    },
+    {
+      "agent_seed_a": 32,
+      "agent_seed_b": 34,
+      "matched_samples": 201,
+      "prediction_agreement": 0.257123754408681,
+      "prediction_divergence_nrmse": 2.889177809727245,
+      "representation_cka": 0.8077204778087922,
+      "target_match_max_abs": 0.0,
+      "technology_active_pair": false,
+      "technology_cosine": 0.039665394998397274,
+      "world_seed": 11
+    },
+    {
+      "agent_seed_a": 33,
+      "agent_seed_b": 34,
+      "matched_samples": 201,
+      "prediction_agreement": 0.29835795386457653,
+      "prediction_divergence_nrmse": 2.3516787035411024,
+      "representation_cka": 0.8161262630772455,
+      "target_match_max_abs": 0.0,
+      "technology_active_pair": false,
+      "technology_cosine": -0.08706155811591736,
+      "world_seed": 11
+    }
+  ],
+  "physics_signature": {
+    "climate": {
+      "forcing_scale": 4.534170065409787,
+      "gradient_x": 0.04875343711855312,
+      "gradient_y": -0.03144165030485016,
+      "mean": 16.5866276263342
+    },
+    "forcing": {
+      "amplitudes": [
+        0.37008230586036117,
+        0.45354825920421915
+      ],
+      "coupling": -0.10366329416819658,
+      "periods": [
+        67.46750380980518,
+        214.24722900785397
+      ],
+      "phases": [
+        5.832121861426727,
+        0.4424655294151707
+      ]
+    },
+    "hidden_source_count": 2,
+    "matter": {
+      "field_scale": 0.29612003933163467,
+      "influence_radius": 2.643431828053927,
+      "interaction_length": 1.0470122257275305,
+      "material_weights": [
+        0.12357983459002386,
+        -0.037663197076208244,
+        -0.3374678333609694
+      ],
+      "pair_scale": 0.3843798356139255,
+      "pair_weights": [
+        0.18319060789808694,
+        -0.5293975366648389,
+        0.6044053675569669
+      ]
+    },
+    "radiation": {
+      "baseline": 1.3639900667617595,
+      "forcing_scale": 0.30518722914678215,
+      "gradient_y": -0.011234559211943536,
+      "phase_shift": 4.2119997725450515,
+      "thermal_coupling": 0.2016277161527943
+    },
+    "yield": {
+      "interaction": -0.41368675413793715,
+      "optimum_radiation": 1.3236129033050394,
+      "optimum_temperature": 15.173352388764247,
+      "radiation_width": 0.7423654557189222,
+      "temperature_width": 7.266945743878632
+    }
+  },
+  "population_seed_status": "A25-A34 not used in v4.0-v4.4 discovery/confirmation",
+  "preregistered": true,
+  "steps": 1200,
+  "stride": 5,
+  "world_seed": 11
+}
