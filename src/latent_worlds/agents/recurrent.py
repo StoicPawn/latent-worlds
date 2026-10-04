@@ -36,6 +36,7 @@ class RecurrentAgent(BaseAgent):
         self._last_hidden_prev = None
         self._state_update_ready = False
         self.state_plasticity_enabled = False
+        self.state_plasticity_rate = 0.0015
         self._reward_baseline = 0.0
 
     @staticmethod
@@ -216,7 +217,7 @@ class RecurrentAgent(BaseAgent):
             and self._eligibility_in is not None
             and self._eligibility_rec is not None
         ):
-            state_lr = 0.0015 * float(self.genome.plasticity)
+            state_lr = float(self.state_plasticity_rate) * float(self.genome.plasticity)
             self.W_in += state_lr * advantage * self._eligibility_in
             self.W_rec += state_lr * advantage * self._eligibility_rec
             decay = 1.0 - 0.0002 * float(self.genome.plasticity)
