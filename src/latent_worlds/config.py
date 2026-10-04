@@ -58,3 +58,4 @@ class SimulationConfig:
     # Defaults preserve the publication mainline exactly.
     recurrent_learning_enabled: bool = True
     recurrent_weight_inheritance_enabled: bool = True
+    recurrent_context_features_enabled: bool = False
