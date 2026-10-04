@@ -196,6 +196,10 @@ class World:
             y = min(self.config.height, max(0.0, parent.y + float(self.agent_rng.normal(0, 0.35))))
             energy = self.config.reproduction_cost * 0.75
         a = cls(self.next_agent_id, x, y, energy, genome)
+        if isinstance(a, RecurrentAgent):
+            a.state_plasticity_enabled = bool(
+                self.config.recurrent_state_plasticity_enabled
+            )
         self.next_agent_id += 1
         if parent is not None:
             if not isinstance(a, RecurrentAgent) or self.config.recurrent_weight_inheritance_enabled:
