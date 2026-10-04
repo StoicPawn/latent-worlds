@@ -1,17 +1,6 @@
 name: v4.9 forecast pressure factorial
 
 on:
-  push:
-    branches: [main]
-    paths:
-      - 'src/latent_worlds/config.py'
-      - 'src/latent_worlds/world.py'
-      - 'src/latent_worlds/epistemic_carriers.py'
-      - 'tests/test_predictive_ecology.py'
-      - 'tests/test_recurrent_null_controls.py'
-      - 'examples/benchmark_v49_forecast_pressure.py'
-      - 'docs/EXPERIMENT_v4.9.md'
-      - '.github/workflows/v4.9-forecast-pressure.yml'
   workflow_dispatch:
 
 permissions:
