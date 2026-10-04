@@ -1,0 +1,705 @@
+{
+  "agent_seeds": [
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44
+  ],
+  "burn_in": 200,
+  "claim_boundary": "This capacity-control experiment can validate or reject an E1-like predictive-representation diagnostic. It cannot establish E2-E6 or Stage-II scientific universality/contingency.",
+  "experiment": "v4.6",
+  "histories": [
+    {
+      "agent_seed": 35,
+      "completed_time": 1200,
+      "final_population": 36,
+      "max_generation": 3,
+      "prediction": {
+        "best_internal_nrmse": 1.0226797595483579,
+        "best_internal_representation": "hidden_mean",
+        "collective": {
+          "alpha": 100.0,
+          "nrmse": 1.0441584725656945,
+          "per_horizon_nrmse": [
+            0.9270533341068828,
+            1.1385504225508962,
+            1.0668716610393048
+          ]
+        },
+        "hidden_mean": {
+          "alpha": 100.0,
+          "nrmse": 1.0226797595483579,
+          "per_horizon_nrmse": [
+            0.9723984194757997,
+            1.068332166117296,
+            1.0273086930519781
+          ]
+        },
+        "predictive_gain_over_raw": -0.03455660396663347,
+        "predictive_representation_candidate": false,
+        "raw": {
+          "alpha": 100.0,
+          "nrmse": 0.9885198698913736,
+          "per_horizon_nrmse": [
+            0.6974772311223508,
+            1.1800772905897696,
+            1.0880050879620002
+          ]
+        },
+        "samples": 201,
+        "selection_protocol": {
+          "alphas": [
+            0.0001,
+            0.001,
+            0.01,
+            0.1,
+            1.0,
+            10.0,
+            100.0
+          ],
+          "future_test_used_for_selection": false,
+          "inner_split_within_development": 0.7,
+          "outer_split": 0.65
+        }
+      },
+      "samples": 201,
+      "technology": {
+        "functional_gain": 0.0003221415450661036,
+        "functional_strength": 0.001346217066094836,
+        "successful_drops": 96
+      },
+      "world_seed": 11
+    },
+    {
+      "agent_seed": 36,
+      "completed_time": 1200,
+      "final_population": 41,
+      "max_generation": 1,
+      "prediction": {
+        "best_internal_nrmse": 1.090506923294569,
+        "best_internal_representation": "hidden_mean",
+        "collective": {
+          "alpha": 100.0,
+          "nrmse": 1.1858557451342076,
+          "per_horizon_nrmse": [
+            0.9382803821228755,
+            1.3332837058422358,
+            1.2860031474375115
+          ]
+        },
+        "hidden_mean": {
+          "alpha": 100.0,
+          "nrmse": 1.090506923294569,
+          "per_horizon_nrmse": [
+            1.0703993192713535,
+            1.0374324062934008,
+            1.1636890443189525
+          ]
+        },
+        "predictive_gain_over_raw": -0.17850129571230433,
+        "predictive_representation_candidate": false,
+        "raw": {
+          "alpha": 100.0,
+          "nrmse": 0.9253336651067913,
+          "per_horizon_nrmse": [
+            0.6883330490160484,
+            1.1751163071664734,
+            0.9125516391378521
+          ]
+        },
+        "samples": 201,
+        "selection_protocol": {
+          "alphas": [
+            0.0001,
+            0.001,
+            0.01,
+            0.1,
+            1.0,
+            10.0,
+            100.0
+          ],
+          "future_test_used_for_selection": false,
+          "inner_split_within_development": 0.7,
+          "outer_split": 0.65
+        }
+      },
+      "samples": 201,
+      "technology": {
+        "functional_gain": -2.0629570104762073e-05,
+        "functional_strength": 0.0002096394465315959,
+        "successful_drops": 8
+      },
+      "world_seed": 11
+    },
+    {
+      "agent_seed": 37,
+      "completed_time": 1200,
+      "final_population": 45,
+      "max_generation": 1,
+      "prediction": {
+        "best_internal_nrmse": 1.1258125343801595,
+        "best_internal_representation": "hidden_mean",
+        "collective": {
+          "alpha": 100.0,
+          "nrmse": 1.1565381931285514,
+          "per_horizon_nrmse": [
+            0.9616986987449411,
+            1.0634161642616622,
+            1.444499716379051
+          ]
+        },
+        "hidden_mean": {
+          "alpha": 100.0,
+          "nrmse": 1.1258125343801595,
+          "per_horizon_nrmse": [
+            1.0475767965683456,
+            1.0626772943674803,
+            1.2671835122046526
+          ]
+        },
+        "predictive_gain_over_raw": -0.2843819507536478,
+        "predictive_representation_candidate": false,
+        "raw": {
+          "alpha": 100.0,
+          "nrmse": 0.8765402952910984,
+          "per_horizon_nrmse": [
+            0.6598509124572599,
+            1.093241213683929,
+            0.8765287597321065
+          ]
+        },
+        "samples": 201,
+        "selection_protocol": {
+          "alphas": [
+            0.0001,
+            0.001,
+            0.01,
+            0.1,
+            1.0,
+            10.0,
+            100.0
+          ],
+          "future_test_used_for_selection": false,
+          "inner_split_within_development": 0.7,
+          "outer_split": 0.65
+        }
+      },
+      "samples": 201,
+      "technology": {
+        "functional_gain": -0.000419887159394845,
+        "functional_strength": 0.0017148311527818809,
+        "successful_drops": 34
+      },
+      "world_seed": 11
+    },
+    {
+      "agent_seed": 38,
+      "completed_time": 1200,
+      "final_population": 44,
+      "max_generation": 3,
+      "prediction": {
+        "best_internal_nrmse": 1.1367323330290213,
+        "best_internal_representation": "hidden_mean",
+        "collective": {
+          "alpha": 100.0,
+          "nrmse": 1.1558908570244035,
+          "per_horizon_nrmse": [
+            0.9299313612869768,
+            1.332536012381876,
+            1.2052051974043578
+          ]
+        },
+        "hidden_mean": {
+          "alpha": 100.0,
+          "nrmse": 1.1367323330290213,
+          "per_horizon_nrmse": [
+            1.042848147258071,
+            1.152271690221872,
+            1.2150771616071203
+          ]
+        },
+        "predictive_gain_over_raw": -0.280883273116883,
+        "predictive_representation_candidate": false,
+        "raw": {
+          "alpha": 100.0,
+          "nrmse": 0.8874597372662328,
+          "per_horizon_nrmse": [
+            0.6523316727351887,
+            1.0665352895497549,
+            0.9435122495137552
+          ]
+        },
+        "samples": 201,
+        "selection_protocol": {
+          "alphas": [
+            0.0001,
+            0.001,
+            0.01,
+            0.1,
+            1.0,
+            10.0,
+            100.0
+          ],
+          "future_test_used_for_selection": false,
+          "inner_split_within_development": 0.7,
+          "outer_split": 0.65
+        }
+      },
+      "samples": 201,
+      "technology": {
+        "functional_gain": -0.00011002458491449652,
+        "functional_strength": 0.0005853368797532362,
+        "successful_drops": 39
+      },
+      "world_seed": 11
+    },
+    {
+      "agent_seed": 39,
+      "completed_time": 1200,
+      "final_population": 39,
+      "max_generation": 2,
+      "prediction": {
+        "best_internal_nrmse": 1.0441130756572796,
+        "best_internal_representation": "collective",
+        "collective": {
+          "alpha": 100.0,
+          "nrmse": 1.0441130756572796,
+          "per_horizon_nrmse": [
+            0.9371959680396551,
+            1.0477224864286778,
+            1.1474207725035057
+          ]
+        },
+        "hidden_mean": {
+          "alpha": 100.0,
+          "nrmse": 1.1456024451954872,
+          "per_horizon_nrmse": [
+            1.1735974714934143,
+            1.1170325240969796,
+            1.1461773399960677
+          ]
+        },
+        "predictive_gain_over_raw": -0.12363094996233624,
+        "predictive_representation_candidate": false,
+        "raw": {
+          "alpha": 100.0,
+          "nrmse": 0.9292313242993867,
+          "per_horizon_nrmse": [
+            0.6650546601791878,
+            1.0922460632574107,
+            1.030393249461562
+          ]
+        },
+        "samples": 201,
+        "selection_protocol": {
+          "alphas": [
+            0.0001,
+            0.001,
+            0.01,
+            0.1,
+            1.0,
+            10.0,
+            100.0
+          ],
+          "future_test_used_for_selection": false,
+          "inner_split_within_development": 0.7,
+          "outer_split": 0.65
+        }
+      },
+      "samples": 201,
+      "technology": {
+        "functional_gain": 0.000978855105568095,
+        "functional_strength": 0.004243104956120587,
+        "successful_drops": 58
+      },
+      "world_seed": 11
+    },
+    {
+      "agent_seed": 40,
+      "completed_time": 1200,
+      "final_population": 26,
+      "max_generation": 1,
+      "prediction": {
+        "best_internal_nrmse": 1.0981130328622155,
+        "best_internal_representation": "hidden_mean",
+        "collective": {
+          "alpha": 100.0,
+          "nrmse": 1.2069028149221355,
+          "per_horizon_nrmse": [
+            1.08714634503646,
+            1.2032558527216477,
+            1.3303062470082985
+          ]
+        },
+        "hidden_mean": {
+          "alpha": 100.0,
+          "nrmse": 1.0981130328622155,
+          "per_horizon_nrmse": [
+            1.026119980656017,
+            1.1555654450825723,
+            1.1126536728480574
+          ]
+        },
+        "predictive_gain_over_raw": -0.15991875410317813,
+        "predictive_representation_candidate": false,
+        "raw": {
+          "alpha": 100.0,
+          "nrmse": 0.9467154738016549,
+          "per_horizon_nrmse": [
+            0.6674146974125911,
+            1.0866044560921209,
+            1.0861272679002525
+          ]
+        },
+        "samples": 201,
+        "selection_protocol": {
+          "alphas": [
+            0.0001,
+            0.001,
+            0.01,
+            0.1,
+            1.0,
+            10.0,
+            100.0
+          ],
+          "future_test_used_for_selection": false,
+          "inner_split_within_development": 0.7,
+          "outer_split": 0.65
+        }
+      },
+      "samples": 201,
+      "technology": {
+        "functional_gain": -7.987342861804248e-05,
+        "functional_strength": 0.000537520358530372,
+        "successful_drops": 108
+      },
+      "world_seed": 11
+    },
+    {
+      "agent_seed": 41,
+      "completed_time": 1200,
+      "final_population": 59,
+      "max_generation": 10,
+      "prediction": {
+        "best_internal_nrmse": 1.1039305887494217,
+        "best_internal_representation": "hidden_mean",
+        "collective": {
+          "alpha": 100.0,
+          "nrmse": 1.1217431872676091,
+          "per_horizon_nrmse": [
+            0.9725858128756942,
+            1.1421283573845507,
+            1.250515391542583
+          ]
+        },
+        "hidden_mean": {
+          "alpha": 100.0,
+          "nrmse": 1.1039305887494217,
+          "per_horizon_nrmse": [
+            1.0935149381230345,
+            1.0782061068853654,
+            1.1400707212398653
+          ]
+        },
+        "predictive_gain_over_raw": -0.16871259346004316,
+        "predictive_representation_candidate": false,
+        "raw": {
+          "alpha": 100.0,
+          "nrmse": 0.9445697726942169,
+          "per_horizon_nrmse": [
+            0.6444013175452588,
+            1.0995675137926315,
+            1.0897404867447602
+          ]
+        },
+        "samples": 201,
+        "selection_protocol": {
+          "alphas": [
+            0.0001,
+            0.001,
+            0.01,
+            0.1,
+            1.0,
+            10.0,
+            100.0
+          ],
+          "future_test_used_for_selection": false,
+          "inner_split_within_development": 0.7,
+          "outer_split": 0.65
+        }
+      },
+      "samples": 201,
+      "technology": {
+        "functional_gain": -7.885348731736298e-05,
+        "functional_strength": 0.0007214323947841039,
+        "successful_drops": 41
+      },
+      "world_seed": 11
+    },
+    {
+      "agent_seed": 42,
+      "completed_time": 1200,
+      "final_population": 41,
+      "max_generation": 2,
+      "prediction": {
+        "best_internal_nrmse": 1.094150692302762,
+        "best_internal_representation": "hidden_mean",
+        "collective": {
+          "alpha": 100.0,
+          "nrmse": 1.3025076192820757,
+          "per_horizon_nrmse": [
+            1.0161028405653976,
+            1.2949947274943334,
+            1.5964252897864963
+          ]
+        },
+        "hidden_mean": {
+          "alpha": 100.0,
+          "nrmse": 1.094150692302762,
+          "per_horizon_nrmse": [
+            1.0718844355959247,
+            1.161156910476733,
+            1.0494107308356282
+          ]
+        },
+        "predictive_gain_over_raw": -0.16145647274324423,
+        "predictive_representation_candidate": false,
+        "raw": {
+          "alpha": 100.0,
+          "nrmse": 0.9420505356679336,
+          "per_horizon_nrmse": [
+            0.6743649432608357,
+            1.1490997112783496,
+            1.0026869524646154
+          ]
+        },
+        "samples": 201,
+        "selection_protocol": {
+          "alphas": [
+            0.0001,
+            0.001,
+            0.01,
+            0.1,
+            1.0,
+            10.0,
+            100.0
+          ],
+          "future_test_used_for_selection": false,
+          "inner_split_within_development": 0.7,
+          "outer_split": 0.65
+        }
+      },
+      "samples": 201,
+      "technology": {
+        "functional_gain": -1.2000603687578603e-05,
+        "functional_strength": 0.00035256319761992093,
+        "successful_drops": 7
+      },
+      "world_seed": 11
+    },
+    {
+      "agent_seed": 43,
+      "completed_time": 1200,
+      "final_population": 41,
+      "max_generation": 5,
+      "prediction": {
+        "best_internal_nrmse": 1.2242852494643393,
+        "best_internal_representation": "hidden_mean",
+        "collective": {
+          "alpha": 100.0,
+          "nrmse": 1.2845735820400168,
+          "per_horizon_nrmse": [
+            0.949069521905381,
+            1.1803079174320832,
+            1.7243433067825864
+          ]
+        },
+        "hidden_mean": {
+          "alpha": 100.0,
+          "nrmse": 1.2242852494643393,
+          "per_horizon_nrmse": [
+            1.0858350771329466,
+            1.2196919561634596,
+            1.3673287150966116
+          ]
+        },
+        "predictive_gain_over_raw": -0.027779152758336947,
+        "predictive_representation_candidate": false,
+        "raw": {
+          "alpha": 1.0,
+          "nrmse": 1.1911948653352449,
+          "per_horizon_nrmse": [
+            0.7406906955299147,
+            1.2972346929401075,
+            1.5356592075357125
+          ]
+        },
+        "samples": 201,
+        "selection_protocol": {
+          "alphas": [
+            0.0001,
+            0.001,
+            0.01,
+            0.1,
+            1.0,
+            10.0,
+            100.0
+          ],
+          "future_test_used_for_selection": false,
+          "inner_split_within_development": 0.7,
+          "outer_split": 0.65
+        }
+      },
+      "samples": 201,
+      "technology": {
+        "functional_gain": -6.775470078521195e-05,
+        "functional_strength": 0.000657238525975054,
+        "successful_drops": 48
+      },
+      "world_seed": 11
+    },
+    {
+      "agent_seed": 44,
+      "completed_time": 1200,
+      "final_population": 47,
+      "max_generation": 2,
+      "prediction": {
+        "best_internal_nrmse": 1.006154574837436,
+        "best_internal_representation": "collective",
+        "collective": {
+          "alpha": 100.0,
+          "nrmse": 1.006154574837436,
+          "per_horizon_nrmse": [
+            0.8817774141424081,
+            1.1157096533625521,
+            1.0209766570073477
+          ]
+        },
+        "hidden_mean": {
+          "alpha": 100.0,
+          "nrmse": 1.0564236348181526,
+          "per_horizon_nrmse": [
+            1.0192692127229968,
+            1.1292551124565777,
+            1.0207465792748835
+          ]
+        },
+        "predictive_gain_over_raw": -0.07772721147017006,
+        "predictive_representation_candidate": false,
+        "raw": {
+          "alpha": 100.0,
+          "nrmse": 0.9335892831961634,
+          "per_horizon_nrmse": [
+            0.6911542777711961,
+            1.143763945015973,
+            0.9658496268013211
+          ]
+        },
+        "samples": 201,
+        "selection_protocol": {
+          "alphas": [
+            0.0001,
+            0.001,
+            0.01,
+            0.1,
+            1.0,
+            10.0,
+            100.0
+          ],
+          "future_test_used_for_selection": false,
+          "inner_split_within_development": 0.7,
+          "outer_split": 0.65
+        }
+      },
+      "samples": 201,
+      "technology": {
+        "functional_gain": 2.7764175066709028e-05,
+        "functional_strength": 0.0004110876560585379,
+        "successful_drops": 25
+      },
+      "world_seed": 11
+    }
+  ],
+  "horizons": [
+    10,
+    35,
+    70
+  ],
+  "interpretation_scope": "capacity-control E1-like diagnostic only",
+  "physics_signature": {
+    "climate": {
+      "forcing_scale": 4.534170065409787,
+      "gradient_x": 0.04875343711855312,
+      "gradient_y": -0.03144165030485016,
+      "mean": 16.5866276263342
+    },
+    "forcing": {
+      "amplitudes": [
+        0.37008230586036117,
+        0.45354825920421915
+      ],
+      "coupling": -0.10366329416819658,
+      "periods": [
+        67.46750380980518,
+        214.24722900785397
+      ],
+      "phases": [
+        5.832121861426727,
+        0.4424655294151707
+      ]
+    },
+    "hidden_source_count": 2,
+    "matter": {
+      "field_scale": 0.29612003933163467,
+      "influence_radius": 2.643431828053927,
+      "interaction_length": 1.0470122257275305,
+      "material_weights": [
+        0.12357983459002386,
+        -0.037663197076208244,
+        -0.3374678333609694
+      ],
+      "pair_scale": 0.3843798356139255,
+      "pair_weights": [
+        0.18319060789808694,
+        -0.5293975366648389,
+        0.6044053675569669
+      ]
+    },
+    "radiation": {
+      "baseline": 1.3639900667617595,
+      "forcing_scale": 0.30518722914678215,
+      "gradient_y": -0.011234559211943536,
+      "phase_shift": 4.2119997725450515,
+      "thermal_coupling": 0.2016277161527943
+    },
+    "yield": {
+      "interaction": -0.41368675413793715,
+      "optimum_radiation": 1.3236129033050394,
+      "optimum_temperature": 15.173352388764247,
+      "radiation_width": 0.7423654557189222,
+      "temperature_width": 7.266945743878632
+    }
+  },
+  "population_seed_status": "A35-A44 unseen before v4.6",
+  "preregistered": true,
+  "steps": 1200,
+  "stride": 5,
+  "summary": {
+    "best_representation_counts": {
+      "collective": 2,
+      "hidden_mean": 8
+    },
+    "candidate_agent_seeds": [],
+    "histories": 10,
+    "max_predictive_gain_over_raw": -0.027779152758336947,
+    "mean_predictive_gain_over_raw": -0.14975482580467775,
+    "predictive_representation_candidates": 0
+  },
+  "world_seed": 11
+}
