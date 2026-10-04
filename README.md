@@ -10,15 +10,40 @@ The simulator defines physics, resources, energetic constraints, reproduction, m
 
 ## North Star
 
-> **Can science emerge without being selected for?**
+> **Can science emerge spontaneously, and if it does, how universal is the science that emerges?**
 
 More precisely:
 
-> **Can a population selected only for ordinary survival and reproduction spontaneously become a system that discovers, preserves, improves, and generalises true predictive knowledge about hidden laws of its universe?**
+> **Can populations selected only for ordinary survival and reproduction spontaneously discover, preserve, improve, and generalise true predictive knowledge about hidden laws — and, across independent histories governed by the same physics, do they converge on the same representations, laws, experiments, and technologies, or can contingent discoveries produce different but equally effective sciences?**
 
-The project deliberately distinguishes behavioural success from genuine epistemic structure. A population that merely learns profitable state → action mappings has not necessarily discovered anything about the underlying world.
+Latent Worlds therefore has a two-stage North Star.
 
-The long-run target is a transition of the form:
+### Stage I — Emergence
+
+The first question is the project's current experimental core:
+
+> **Can science emerge without being selected for?**
+
+A population must progress from ordinary adaptation to cumulative predictive knowledge, causal experimentation, law generalisation, and technology without receiving any reward for truth, discovery, communication, culture, or science.
+
+### Stage II — Universality and contingency
+
+Only after spontaneous science is demonstrated reproducibly does the second question become experimentally meaningful:
+
+> **Which parts of science are properties of the universe, and which are properties of the history of those who study it?**
+
+Hold the hidden physics fixed and run many independent evolutionary histories. Compare the resulting epistemic systems at several levels:
+
+1. **predictive convergence** — do populations make the same successful predictions?
+2. **causal convergence** — do they identify equivalent intervention structure?
+3. **representational convergence** — do internal abstractions encode the same latent regularities?
+4. **theoretical convergence** — do independently accumulated models become equivalent up to transformation?
+5. **technological convergence** — do populations exploit the same physical affordances, or construct different technological lineages?
+6. **historical contingency** — do small early differences or controlled early discoveries causally redirect later science and technology?
+
+The objective is **not** to test whether artificial populations rediscover human scientific vocabulary. Agents are never rewarded for reproducing our concepts. The target is to distinguish functional or structural invariants forced by the world from conventions and trajectories selected by history.
+
+The full long-run programme is therefore:
 
 ```text
 survival
@@ -36,7 +61,25 @@ causal models and experimentation
 cumulative technology / externalised knowledge
   ↓
 spontaneous science
+  ↓
+independent scientific histories under identical physics
+  ↓
+measure convergence, equivalence and divergence
+  ↓
+controlled counterfactual perturbations of discovery history
+  ↓
+epistemic invariants vs historical contingencies
 ```
+
+A successful programme would therefore answer two distinct causal questions:
+
+```text
+Can science emerge?
+        ↓
+If it emerges repeatedly, must it take the same form?
+```
+
+The project deliberately distinguishes behavioural success from genuine epistemic structure, and genuine epistemic structure from historical convergence. A population that merely learns profitable state → action mappings has not necessarily discovered anything about the underlying world; two populations that discover equally predictive models have not necessarily developed the same science.
 
 ## Current bridge question
 
