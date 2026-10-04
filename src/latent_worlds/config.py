@@ -53,4 +53,7 @@ class SimulationConfig:
     occlusion_enabled: bool = True
     generic_population_only: bool = False
     agent_seed: int | None = None
-
+    # Observer/control switches used only for matched recurrent-null experiments.
+    # Defaults preserve the publication mainline exactly.
+    recurrent_learning_enabled: bool = True
+    recurrent_weight_inheritance_enabled: bool = True
