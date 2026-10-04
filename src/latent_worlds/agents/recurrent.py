@@ -84,9 +84,17 @@ class RecurrentAgent(BaseAgent):
             math.sin(0.019 * obs.time),
             math.cos(0.019 * obs.time),
         ], dtype=float)
+        if obs.context_features_enabled:
+            context = np.asarray([
+                obs.x / max(obs.world_width, 1e-9),
+                obs.y / max(obs.world_height, 1e-9),
+                0.0 if obs.last_yield is None else float(obs.last_yield) / 2.0,
+            ], dtype=float)
+        else:
+            context = np.empty(0, dtype=float)
         # Anonymous social channels remain last; observer-side metrics can locate
         # them without assuming the ecological feature count.
-        return np.concatenate([base, obj, held, social, sig, marks])
+        return np.concatenate([base, context, obj, held, social, sig, marks])
 
     def _ensure(self, rng, input_dim: int, channels: int) -> None:
         if self._initialized:
