@@ -54,6 +54,7 @@ def _raw_carrier_baseline(world: World, agent: RecurrentAgent) -> np.ndarray:
         nearest[1] / 5.0,
         nearest[2] / 8.0,
         living / 100.0,
+        0.0 if agent.last_yield is None else float(agent.last_yield) / 2.0,
         math.sin(0.019 * world.time),
         math.cos(0.019 * world.time),
     ], dtype=float)
