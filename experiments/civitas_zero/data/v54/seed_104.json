@@ -1,0 +1,30 @@
+{
+  "agent_seed": 104,
+  "world_seed": 11,
+  "conditions": {
+    "frozen": {
+      "eligible_carriers": 59,
+      "carrier_candidates": 4,
+      "candidate_fraction": 0.06779661016949153,
+      "total_harvest": 4162.021907706961,
+      "final_population": 48,
+      "max_generation": 2
+    },
+    "output_only": {
+      "eligible_carriers": 55,
+      "carrier_candidates": 8,
+      "candidate_fraction": 0.14545454545454545,
+      "total_harvest": 3997.976585834482,
+      "final_population": 44,
+      "max_generation": 2
+    },
+    "state": {
+      "eligible_carriers": 52,
+      "carrier_candidates": 10,
+      "candidate_fraction": 0.19230769230769232,
+      "total_harvest": 3965.0089208412137,
+      "final_population": 42,
+      "max_generation": 2
+    }
+  }
+}

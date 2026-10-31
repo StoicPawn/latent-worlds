@@ -1,0 +1,46 @@
+{
+  "completed_seeds": [
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108
+  ],
+  "n_completed": 16,
+  "evaluation": {
+    "eligible_complete": 16,
+    "missing_eligibility": 0,
+    "carrier_fraction_tests": {
+      "frozen": {
+        "positive": 9,
+        "negative": 7,
+        "ties": 0,
+        "effective_n": 16,
+        "p_one_sided": 0.4018096923828125,
+        "mean_difference": 0.028916076828377213
+      },
+      "output_only": {
+        "positive": 10,
+        "negative": 6,
+        "ties": 0,
+        "effective_n": 16,
+        "p_one_sided": 0.2272491455078125,
+        "mean_difference": 0.022856149507737643
+      }
+    },
+    "mean_harvest_state_minus_output": 64.58107441676697,
+    "gate_passed": false,
+    "interpretation": "E1 candidate requiring independent world holdout; never evidence for civilisation or consciousness"
+  }
+}

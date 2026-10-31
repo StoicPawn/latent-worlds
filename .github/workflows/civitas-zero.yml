@@ -1,0 +1,42 @@
+name: CIVITAS ZERO · scientific artifact audit
+
+on:
+  push:
+    branches:
+      - "research/civitas-*"
+  pull_request:
+    paths:
+      - "experiments/civitas_zero/**"
+      - "tests/test_civitas_*.py"
+      - ".github/workflows/civitas-zero.yml"
+  workflow_dispatch:
+
+jobs:
+  audit:
+    name: Reproduce v5.4 numerical results
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install tested environment
+        run: python -m pip install -e ".[dev]"
+      - name: Verify frozen experiment and data provenance
+        run: python -m pytest -q tests/test_civitas_v54.py tests/test_civitas_analysis.py tests/test_civitas_foresight.py
+      - name: Regenerate summary and vector figure
+        run: python experiments/civitas_zero/analysis/analyze_v54.py
+      - name: Regenerate observer-only ecological opportunity figure
+        run: python experiments/civitas_zero/analysis/plot_foresight_pilot.py
+      - name: Assert deterministic release artifacts
+        run: |
+          git diff --exit-code -- experiments/civitas_zero/figures
+          test "$(find experiments/civitas_zero/data/v54 -name 'seed_*.json' | wc -l)" -eq 16
+      - name: Publish audit artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: civitas-zero-v54-paper-assets
+          path: |
+            experiments/civitas_zero/figures/
+            experiments/civitas_zero/data/v54/summary.json

@@ -342,3 +342,11 @@ The current scientific task is to establish or falsify **E1 selected representat
 > **Can science emerge without being selected for?**
 
 For the complete chronological research record, including failed hypotheses and falsified candidates, see [`docs/RESEARCH.md`](docs/RESEARCH.md) and the versioned experiment reports in [`docs/`](docs/).
+
+## CIVITAS ZERO — experimental research programme
+
+This repository also hosts [CIVITAS ZERO](experiments/civitas_zero/README.md), a
+reproducible artificial-life research programme. The frozen v5.4 prospective
+replication **failed** its prespecified gate; raw results, figures, tests, and
+a bounded working manuscript are included on the research branch. This does not
+claim spontaneously evolved science or consciousness.

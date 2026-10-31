@@ -1,0 +1,121 @@
+{
+  "status": "EXPLORATORY_ONLY",
+  "worlds": [
+    11,
+    21,
+    31
+  ],
+  "waves": [
+    0.0,
+    1.5
+  ],
+  "times": [
+    0,
+    120,
+    240,
+    360,
+    480,
+    600,
+    720,
+    840,
+    960,
+    1080,
+    1200
+  ],
+  "grid": 4,
+  "speed": 1.0,
+  "rows": [
+    {
+      "world_seed": 11,
+      "wave_strength": 0.0,
+      "speed": 1.0,
+      "samples": 176,
+      "mean_myopic_realized_value": 0.8296919126421923,
+      "mean_foresight_realized_value": 0.8299220102632212,
+      "mean_foresight_advantage": 0.0002300976210288027,
+      "median_foresight_advantage": 0.0,
+      "p90_foresight_advantage": 0.0,
+      "positive_advantage_fraction": 0.03409090909090909,
+      "choice_divergence_fraction": 0.03409090909090909,
+      "relative_mean_advantage": 0.0002773289910661491,
+      "mean_oracle_travel_horizon": 2.7045454545454546
+    },
+    {
+      "world_seed": 11,
+      "wave_strength": 1.5,
+      "speed": 1.0,
+      "samples": 176,
+      "mean_myopic_realized_value": 1.22522632315493,
+      "mean_foresight_realized_value": 2.3511666661413244,
+      "mean_foresight_advantage": 1.1259403429863946,
+      "median_foresight_advantage": 0.9821799283666326,
+      "p90_foresight_advantage": 2.416882490864788,
+      "positive_advantage_fraction": 0.875,
+      "choice_divergence_fraction": 0.875,
+      "relative_mean_advantage": 0.9189651917427987,
+      "mean_oracle_travel_horizon": 11.869318181818182
+    },
+    {
+      "world_seed": 21,
+      "wave_strength": 0.0,
+      "speed": 1.0,
+      "samples": 176,
+      "mean_myopic_realized_value": 0.2590563464180848,
+      "mean_foresight_realized_value": 0.2686927057033994,
+      "mean_foresight_advantage": 0.009636359285314705,
+      "median_foresight_advantage": 0.0,
+      "p90_foresight_advantage": 0.04356865488044621,
+      "positive_advantage_fraction": 0.22727272727272727,
+      "choice_divergence_fraction": 0.22727272727272727,
+      "relative_mean_advantage": 0.03719792785837726,
+      "mean_oracle_travel_horizon": 4.0
+    },
+    {
+      "world_seed": 21,
+      "wave_strength": 1.5,
+      "speed": 1.0,
+      "samples": 176,
+      "mean_myopic_realized_value": 0.4969948447440263,
+      "mean_foresight_realized_value": 1.1682740331513168,
+      "mean_foresight_advantage": 0.671279188407291,
+      "median_foresight_advantage": 0.3818531400129662,
+      "p90_foresight_advantage": 1.8300847525588413,
+      "positive_advantage_fraction": 0.6761363636363636,
+      "choice_divergence_fraction": 0.6761363636363636,
+      "relative_mean_advantage": 1.350676361146218,
+      "mean_oracle_travel_horizon": 9.653409090909092
+    },
+    {
+      "world_seed": 31,
+      "wave_strength": 0.0,
+      "speed": 1.0,
+      "samples": 176,
+      "mean_myopic_realized_value": 0.030405753605046725,
+      "mean_foresight_realized_value": 0.03043094890301927,
+      "mean_foresight_advantage": 2.5195297972542424e-05,
+      "median_foresight_advantage": 0.0,
+      "p90_foresight_advantage": 0.0,
+      "positive_advantage_fraction": 0.005681818181818182,
+      "choice_divergence_fraction": 0.005681818181818182,
+      "relative_mean_advantage": 0.0008286358660868885,
+      "mean_oracle_travel_horizon": 2.7556818181818183
+    },
+    {
+      "world_seed": 31,
+      "wave_strength": 1.5,
+      "speed": 1.0,
+      "samples": 176,
+      "mean_myopic_realized_value": 0.05356652785915776,
+      "mean_foresight_realized_value": 0.2167052879490398,
+      "mean_foresight_advantage": 0.16313876008988198,
+      "median_foresight_advantage": 0.0,
+      "p90_foresight_advantage": 0.5227324918333467,
+      "positive_advantage_fraction": 0.42045454545454547,
+      "choice_divergence_fraction": 0.42045454545454547,
+      "relative_mean_advantage": 3.045535460480508,
+      "mean_oracle_travel_horizon": 5.920454545454546
+    }
+  ],
+  "elapsed_seconds": 185.27,
+  "claim_boundary": "Observer-side perfect ecological foresight opportunity only; NOT evidence that any agent can learn, use, or represent it. No world-level significance can be inferred from three pilot worlds."
+}

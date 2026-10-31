@@ -1,23 +1,74 @@
-# CIVITAS ZERO / Latent Worlds — prospective v5.4
+# CIVITAS ZERO
 
-This is an **independent preregistered research extension**, not a new world simulator.
-Parent source commit: `2cca2dc019541f296285b75daa8e416c7818b15e` (unchanged world/agents).
-The v5.3 discovery grid used W11/A89–A92 and selected state-plasticity rate 0.0003; none of these seed results count as confirmatory evidence.
+**From a decodable state to knowledge that changes survival.**
 
-Frozen v5.4: W11, agent seeds A93–A108 inclusive; three matched conditions
-`frozen`, `output_only`, `state` with rate 0.0003. Each runs 1200 world steps,
-burn-in=200, stride=2, prediction horizons (10,35,70) and carrier min_samples=80.
+CIVITAS ZERO is an open, experiment-first artificial-life research programme built on [Latent Worlds](../../README.md). The physical laws, reproduction, energy budget, and agent reward **do not contain** a prescribed language, civilisation, science, or curiosity objective.
 
-Primary gate: full eligibility, positive paired mean carrier fraction improvement over BOTH baselines,
-exact one-sided sign p <= 0.05 for BOTH; no mean harvest loss vs output_only.
-This is a within-world research gate, not E1 certification. No civiliation/consciousness claim.
+[![CIVITAS ZERO CI](https://github.com/StoicPawn/latent-worlds/actions/workflows/civitas-zero.yml/badge.svg)](https://github.com/StoicPawn/latent-worlds/actions/workflows/civitas-zero.yml)
 
-To run (use the repository virtualenv, do not install global packages):
+![Frozen prospective result](figures/v54_effects.svg)
 
-```bash
-PYTHONPATH=src OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 .venv/bin/python experiments/civitas_zero/benchmark_v54_prospective.py --seed 93 --output-dir artifacts/v54_prospective
-PYTHONPATH=src OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 .venv/bin/python experiments/civitas_zero/benchmark_v54_prospective.py --aggregate-only --output-dir artifacts/v54_prospective
-```
+### The world contains a genuine forecasting opportunity
 
-Repeat for 93..108; do not retune using confirmation seeds. Script refuses to overwrite prior seed outputs. The exact run manifest records immutable source commit. Results stay local until reviewed and independently archived.
-Follow-up if the gate passes: preregister W21 transfer with new population seeds, not just more W11 seeds.
+![Observer-only forecasting opportunity](figures/foresight_opportunity.svg)
+
+Three *exploratory* independent world laws (W11, W21, W31) were tested with the original observer-side ideal foresight comparator. A resource wave of strength 1.5 creates substantial energetic value for future-informed route selection; no agent receives that knowledge. See [pilot table](figures/FORESIGHT_RESULTS.md). This is a physical affordance check, **not a claim of learning**.
+
+
+## At a glance
+
+| Milestone | Question | Evidence status |
+|:--|:--|:--|
+| v3–v4 | Does semantically empty information transmission support cumulative adaptation? | Rare mechanisms; strong adaptive replication not established |
+| v5.3 | Does recurrent-state plasticity create excess predictive carriers? | **Exploratory**; selected rate 0.0003 from 5 candidates |
+| v5.4 | Does that rate survive 16 *new* population seeds? | **Failed preregistered joint gate** |
+| Next | Are decoded hidden features causally used for decisions, and does the effect transfer across independent physical worlds? | **Unrun hypothesis** |
+
+The latest archived result is a **negative** replication, not a discovery of cognition.
+
+### Reproduce every figure and number
+
+The 16 seed-level observations, frozen manifest and original summary live in [data/v54](data/v54).
+No simulation is required to regenerate the result:
+
+~~~bash
+python experiments/civitas_zero/analysis/analyze_v54.py
+python experiments/civitas_zero/analysis/plot_foresight_pilot.py
+python -m pytest -q tests/test_civitas_analysis.py tests/test_civitas_v54.py
+~~~
+
+Outputs:
+
+- [Scientifically audited table](figures/V54_RESULTS.md)
+- [Full numerical reanalysis](figures/v54_audit.json)
+- [Vector figure suitable for manuscripts](figures/v54_effects.svg)
+- [Observer-side opportunity pilot data](data/foresight_pilot/results.json)
+
+To rerun the **expensive original experiment**, use the existing [v5.4 prospective runner](benchmark_v54_prospective.py), Python >= 3.11 and the project's environment. The 16 population histories share world W11; they are not 16 independent world laws. Replaying all three treatments for all seeds is time-consuming. Existing archived seed records are never silently overwritten.
+
+## Proposed paper
+
+**Working title:** *The Decodability–Selection Gap: Prospective Tests of Predictive State in Survival-Driven Artificial Life.*
+
+- [Manuscript skeleton](paper/MANUSCRIPT.md)
+- [Publication-grade acceptance criteria and next experiment](paper/PROTOCOL.md)
+- [Novelty audit and competing work](paper/PRIOR_ART.md)
+
+A successful **mechanism** paper must demonstrate predictive information that is causally needed for useful action, with matched controls and independent world generalization. Alternatively, a strong **negative benchmark** paper must establish practically meaningful failure, with sufficient precision to distinguish absence of an effect from an underpowered experiment. Nonsignificant p-values alone support neither route.
+
+## Scientific guardrails
+
+1. Do **not** add a "discovery" bonus, explicit truth labels, a science agent or a technology tree.
+2. Observer-only decoders never feed hidden law parameters back to the agents.
+3. Distinguish *decodable information*, *selection by survival*, *causal behavioral use*, and *socially inherited knowledge*.
+4. Keep pre-registered results even when they fail.
+5. Never infer phenomenal consciousness from a simulated society or an introspection metric.
+
+## Repository design
+
+- Python source and tests remain small, readable, and deterministic.
+- Data provenance is immutable: world seeds, population seeds and the fixed treatment appear in each artifact.
+- Plots use a pure-standard-library SVG generator, so the paper figure does not require notebook state or a proprietary dashboard.
+- Work is isolated on a research branch; the publication baseline remains untouched.
+
+Source: [Latent Worlds](https://github.com/StoicPawn/latent-worlds). See [project-wide methods](paper/PROTOCOL.md).
