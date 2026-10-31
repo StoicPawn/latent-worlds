@@ -98,7 +98,7 @@
       "world_seed": 31
     }
   ],
-  "source_global": "/home/stoicpawn/projects/latent-worlds/experiments/civitas_zero/data/foresight_pilot/results.json",
+  "source_global": "experiments/civitas_zero/data/foresight_pilot/results.json",
   "status": "EXPLORATORY_ONLY",
   "study": "CIVITAS ZERO v5.5 action-set accessibility pilot",
   "waves": [

@@ -205,7 +205,7 @@ def main() -> None:
         "status": "EXPLORATORY_ONLY",
         "worlds": list(WORLDS),
         "waves": list(WAVES),
-        "source_global": str(PREVIOUS),
+        "source_global": "experiments/civitas_zero/data/foresight_pilot/results.json",
         "rows": rows,
         "limits": [
             "Visible-only candidate patches match the agent's sensor radius and occlusion.",

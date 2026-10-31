@@ -54,3 +54,11 @@ def test_foresight_does_not_lose_with_identical_choice_set():
                     r["oracle_realized"] - r["myopic_realized"],
                     r["advantage"], atol=1e-10
                 )
+
+
+def test_accessibility_manifest_is_portable_across_machines():
+    import json
+    from local_foresight_pilot import DATA
+    obj = json.loads(DATA.read_text())
+    assert obj["source_global"] == "experiments/civitas_zero/data/foresight_pilot/results.json"
+    assert len(obj["rows"]) == 6
