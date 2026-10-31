@@ -29,6 +29,10 @@ jobs:
         run: python -m pip install -e ".[dev]"
       - name: Verify AI consciousness objective and research integrity
         run: python -m pytest -q tests/test_civitas_consciousness_scope.py
+      - name: Audit all 14 original consciousness indicators and dated sources
+        run: |
+          python -m pytest -q tests/test_civitas_literature.py
+          python experiments/civitas_zero/literature/audit.py --check
       - name: Verify frozen experiment and data provenance
         run: python -m pytest -q tests/test_civitas_v54.py tests/test_civitas_analysis.py tests/test_civitas_foresight.py
       - name: Falsification pilot and sensory-access unit tests

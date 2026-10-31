@@ -1,0 +1,194 @@
+{
+  "updated_on": "2026-10-31",
+  "review_type": "targeted_critical_narrative_not_systematic",
+  "important_note": "Publication status and precise online dates documented when verified; when year only known, YYYY is not claimed as an exact release date. No empirical consciousness ground truth.",
+  "entries": [
+    {
+      "id": "butlin2026",
+      "authors": "Butlin et al.",
+      "title": "Identifying indicators of consciousness in AI systems",
+      "online_date": "2025-11-10",
+      "year": "2026-06",
+      "status": "review/opinion",
+      "url": "https://doi.org/10.1016/j.tics.2025.10.011",
+      "lesson": "Canonical theory-derived 14-indicator framework; no indicator known necessary nor any combination sufficient",
+      "role": "core"
+    },
+    {
+      "id": "butlin2023",
+      "authors": "Butlin et al.",
+      "title": "Consciousness in Artificial Intelligence: Insights from the Science of Consciousness",
+      "online_date": "2023-08-17",
+      "year": "2023",
+      "status": "preprint/technical report",
+      "url": "https://arxiv.org/abs/2308.08708",
+      "lesson": "Original AI indicator list RPT/GWT/HOT/AST/PP/AE",
+      "role": "core"
+    },
+    {
+      "id": "bayne2024",
+      "authors": "Bayne et al.",
+      "title": "Tests for consciousness in humans and beyond",
+      "online_date": "2024",
+      "year": "2024",
+      "status": "peer-reviewed review",
+      "url": "https://doi.org/10.1016/j.tics.2024.01.010",
+      "lesson": "Validation of consciousness tests is an unsolved challenge beyond benchmark humans",
+      "role": "critical"
+    },
+    {
+      "id": "cogitate2025",
+      "authors": "Cogitate Consortium et al.",
+      "title": "Adversarial testing of global neuronal workspace and integrated information theories of consciousness",
+      "online_date": "2025-04-30",
+      "year": "2025",
+      "status": "peer-reviewed human-neuroscience experiment",
+      "url": "https://doi.org/10.1038/s41586-025-08888-1",
+      "lesson": "Preregistered divergent predictions; challenges central tenets of both GNWT and IIT; no winner",
+      "role": "core"
+    },
+    {
+      "id": "laukkonen2025",
+      "authors": "Laukkonen, Friston and Chandaria",
+      "title": "A beautiful loop: An active inference theory of consciousness",
+      "online_date": "2025-07-30",
+      "year": "2025",
+      "status": "peer-reviewed theoretical review",
+      "url": "https://doi.org/10.1016/j.neubiorev.2025.106296",
+      "lesson": "Global precision meta-forecasting theory; minimal awareness need not require explicit self-modeling",
+      "role": "core"
+    },
+    {
+      "id": "dossa2024",
+      "authors": "Dossa et al.",
+      "title": "Design and evaluation of a global workspace agent embodied in a realistic multimodal environment",
+      "online_date": "2024-06-14",
+      "year": "2024",
+      "status": "peer-reviewed AI experiment",
+      "url": "https://doi.org/10.3389/fncom.2024.1352685",
+      "lesson": "Embodied global workspace architecture already exists: direct implementation prior art",
+      "role": "near-duplicate"
+    },
+    {
+      "id": "kumaran2026",
+      "authors": "Kumaran et al.",
+      "title": "Causal evidence that language models use confidence to drive behaviour",
+      "online_date": "2026-09-07",
+      "year": "2026",
+      "status": "peer-reviewed AI experiment",
+      "url": "https://doi.org/10.1038/s42256-026-01293-x",
+      "lesson": "Causal link from confidence representations to abstention: confidence-guided behavior not novel",
+      "role": "near-duplicate"
+    },
+    {
+      "id": "lindsey2026",
+      "authors": "Lindsey",
+      "title": "Emergent Introspective Awareness in Large Language Models",
+      "online_date": "2026-01-05",
+      "year": "2026",
+      "status": "preprint",
+      "url": "https://arxiv.org/abs/2601.01828",
+      "lesson": "Injected internal concepts can sometimes be detected; reported introspection fragile and context dependent",
+      "role": "near-duplicate"
+    },
+    {
+      "id": "tang2026",
+      "authors": "Tang et al.",
+      "title": "Interventional Training Reduces Causal Bypass in In-Context Introspection",
+      "online_date": "2026-10-28",
+      "year": "2026",
+      "status": "preprint",
+      "url": "https://arxiv.org/abs/2610.38911",
+      "lesson": "Interventional training and causal bypass in introspection studied: explicit near prior art",
+      "role": "near-duplicate"
+    },
+    {
+      "id": "chella2026",
+      "authors": "Chella",
+      "title": "Sentient AI in robots and agents: prolegomena for an evidence-based research program",
+      "online_date": "2026",
+      "year": "2026",
+      "status": "peer-reviewed perspective/framework",
+      "url": "https://doi.org/10.3389/fpsyg.2026.1903644",
+      "lesson": "Multi-theory indicator assessment, causal sensorimotor lesions, self-location and anti-anthropomorphism controls already proposed",
+      "role": "near-duplicate"
+    },
+    {
+      "id": "koch2026",
+      "authors": "Koch",
+      "title": "Calibration and transfer in indicator-based assessments of artificial consciousness",
+      "online_date": "2026-09-22",
+      "year": "2026",
+      "status": "peer-reviewed commentary",
+      "url": "https://doi.org/10.1093/nc/niag061",
+      "lesson": "No independently validated artificial phenomenal-consciousness ground truth; biological transfer assumptions not established",
+      "role": "critical"
+    },
+    {
+      "id": "sethblocktononi2026",
+      "authors": "Seth, Block and Tononi",
+      "title": "Three reasons why AI is not conscious and perhaps never will be",
+      "online_date": "2026-10-19",
+      "year": "2026",
+      "status": "Nature commentary/opinion",
+      "url": "https://doi.org/10.1038/d41586-026-03313-7",
+      "lesson": "Skeptical critique: intelligence versus experience, functionalism and digital physical substrate",
+      "role": "critical"
+    },
+    {
+      "id": "schwitzgebel2026",
+      "authors": "Schwitzgebel",
+      "title": "AI and Consciousness: A Skeptical Overview",
+      "online_date": "2026-08-07",
+      "year": "2026",
+      "status": "academic philosophy book/element",
+      "url": "https://doi.org/10.1017/9781009694285",
+      "lesson": "Philosophical examination of uncertainty; no consensus that apparently humanlike AI is conscious",
+      "role": "critical"
+    },
+    {
+      "id": "schlicht2026",
+      "authors": "Schlicht",
+      "title": "Can we assess consciousness in AI?",
+      "online_date": "2026",
+      "year": "2026",
+      "status": "philosophy research work",
+      "url": "https://escholarship.org/uc/item/0rz4d8zf",
+      "lesson": "Questions computational functionalism and adequacy of transferring neurobiological indicators",
+      "role": "critical"
+    },
+    {
+      "id": "seven2026",
+      "authors": "Multiple authors",
+      "title": "From the mechanics of consciousness to the consciousness of machines: Seven approaches",
+      "online_date": "2026-09",
+      "year": "2026",
+      "status": "peer-reviewed conceptual research",
+      "url": "https://doi.org/10.1016/j.cogsys.2026.101489",
+      "lesson": "Different definitions and approaches imply incompatible machine-consciousness experimental priorities",
+      "role": "core"
+    },
+    {
+      "id": "tolle2026",
+      "authors": "Tolle et al.",
+      "title": "Evolving reservoir computers reveal bidirectional coupling between predictive power and emergent dynamics",
+      "online_date": "2026",
+      "year": "2026",
+      "status": "peer-reviewed AI/artificial-life experiment",
+      "url": "https://doi.org/10.1016/j.patter.2025.101457",
+      "lesson": "Reservoir predictive capacity emergence studied; basic prediction/emergence not novel",
+      "role": "near-duplicate"
+    },
+    {
+      "id": "frontiers2026review",
+      "authors": "Chella, Perconti and Plebe",
+      "title": "Artificial intelligence and consciousness",
+      "online_date": "2026",
+      "year": "2026",
+      "status": "academic book chapter",
+      "url": "https://doi.org/10.1016/b978-0-443-29258-3.00038-0",
+      "lesson": "Separates phenomenal/access/self consciousness and examines robots vs LLMs",
+      "role": "core"
+    }
+  ]
+}

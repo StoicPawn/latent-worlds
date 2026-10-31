@@ -1,12 +1,12 @@
 # Working manuscript — not submission-ready
 
-# Can Survival-Evolved Agents Acquire Causally Useful Self-Models?
-## A Theory-Guided Experimental Test of Computational Indicators of AI Consciousness
+# Causal Specificity of Computational Indicators of AI Consciousness
+## Theory-Guided Adversarial Tests in Survival-Evolved Agents
 
 **Status:** research design; C1–C3 have NOT been executed and there are
 NO positive or negative consciousness-indicator results to report.
 
-**Target contribution:** empirically distinguish an agent's representation
+**Target contribution, under C0 literature gate:** empirically distinguish an agent's representation
 of its *own computational condition* from ordinary world modeling,
 confidence estimation, and environmental-error attribution, using
 paired interventions, held-out lesion classes and independent world laws.
@@ -55,7 +55,7 @@ recurrent processing and active-inference perspectives suggest
 different computational organizations. We will not force a single
 composite "consciousness score" or treat any indicator as sufficient.
 
-## 2. Falsifiable hypotheses (NOT preregistered yet)
+## 2. Candidate hypotheses AFTER the C0 literature gate (NOT preregistered yet)
 
 H1: A distinct self-state route improves performance following
 held-out *internal* mechanism faults above matched external-only,
@@ -134,3 +134,21 @@ the label of consciousness research.
   in In-Context Introspection* (2026).
 
 Experimental contract: [CONSCIOUSNESS_RESEARCH_PROGRAM.md](CONSCIOUSNESS_RESEARCH_PROGRAM.md).
+
+## Theory-first amendment (31 October 2026)
+
+The previous self-model-first sequence is too strong: explicit self-modeling
+is not a universally accepted *necessary* precursor of awareness.
+Laukkonen et al. (2025) propose that minimal awareness could occur
+before richer self-modeling. We therefore precommit to a broader
+theory-sensitive approach. The first deliverable is a faithful audit
+of the 14 canonical indicators, not just our three C1/C2/C3
+engineering suites. Distinct tests target GWT, HOT, AST, PP and RPT;
+IIT and substrate-sensitive critiques remain an explicit limitation
+on what a digital functional assay can conclude.
+
+Literature: ../literature/REVIEW_2026-10-31.md
+Theory-specific nulls: ../literature/THEORY_ADJUDICATION.md
+Main empirical question is now *indicator proxy validity and causal
+specificity*, with C1 self-modeling one mechanism family, not an axiom.
+All results sections remain UNRUN for consciousness indicators.

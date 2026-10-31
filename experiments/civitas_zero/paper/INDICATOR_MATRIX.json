@@ -23,7 +23,12 @@
         "oracle information upper bound"
       ],
       "required_evidence": "benefit on external reward under equal baseline performance, lost after selective self-state lesion and replicated across new world laws",
-      "not_sufficient_for": "phenomenal consciousness"
+      "not_sufficient_for": "phenomenal consciousness",
+      "canonical_refs": [
+        "HOT-2",
+        "HOT-3",
+        "AE-2"
+      ]
     },
     {
       "id": "C2",
@@ -40,7 +45,13 @@
         "matched generic lesions"
       ],
       "required_evidence": "selective causal global access with same compute and input budget, replicated on new tasks/worlds",
-      "not_sufficient_for": "phenomenal consciousness"
+      "not_sufficient_for": "phenomenal consciousness",
+      "canonical_refs": [
+        "GWT-2",
+        "GWT-3",
+        "GWT-4",
+        "RPT-1"
+      ]
     },
     {
       "id": "C3",
@@ -59,7 +70,13 @@
         "feedforward equal-parameter controller"
       ],
       "required_evidence": "novel-perturbation action benefit conditional on standard confidence, selective lesion effect, separate from C1 and C2",
-      "not_sufficient_for": "phenomenal consciousness"
+      "not_sufficient_for": "phenomenal consciousness",
+      "canonical_refs": [
+        "HOT-2",
+        "HOT-3",
+        "AST-1",
+        "PP-1"
+      ]
     }
   ],
   "historic_results": [
@@ -73,5 +90,7 @@
       "status": "EXPLORATORY",
       "role": "synchrony/perceptual-access confound studies, NOT consciousness data"
     }
-  ]
+  ],
+  "literature_gate": "C0 required; review ../literature/REVIEW_2026-10-31.md and BUTLIN_INDICATORS.json before claiming relevance",
+  "not_canonical_indicators_note": "C1/C2/C3 are experimental assay families, not Butlin's 14 indicator IDs or a complete ontology of consciousness"
 }

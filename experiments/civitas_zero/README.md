@@ -2,6 +2,17 @@
 
 **Primary objective: falsifiable research on functional indicators of AI consciousness.**
 
+**Theory-first gate C0 (mandatory before designing new agent experiments):**
+[critical literature review, cutoff 31 October 2026](literature/REVIEW_2026-10-31.md)
+· [14 canonical theory-derived indicators](literature/INDICATOR_MATRIX.md)
+· [adversarial theory-specific predictions](literature/THEORY_ADJUDICATION.md)
+· [peer-reviewed/preprint source ledger](literature/SOURCES.json).
+· [literature-first research decision / paper gate](literature/RESEARCH_DECISION.md).
+**The three C1–C3 labels are our ASSAY GROUPS, not canonical indicators.**
+Some theories explicitly allow minimal awareness without an explicit self-model;
+none of these computations is a validated sufficient test of experience.
+
+
 **Can an AI agent develop a causally useful model of its OWN computation, distinguish
 internal damage from environmental difficulty, and selectively use that information?**
 The world and any civilisation that emerges are experimental tools, NOT evidence

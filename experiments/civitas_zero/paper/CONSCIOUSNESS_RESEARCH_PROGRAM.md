@@ -1,3 +1,29 @@
+# Literature-first C0 gate — mandatory (updated 2026-10-31)
+
+Before C1/C2/C3 is implemented or reported, inspect the
+[2026 critical review](../literature/REVIEW_2026-10-31.md),
+[all 14 original Butlin indicators](../literature/INDICATOR_MATRIX.md),
+[theory-discriminating predictions](../literature/THEORY_ADJUDICATION.md)
+and [primary-source status ledger](../literature/SOURCES.json).
+
+**Crucial correction:** C1/C2/C3 are convenient engineering test suites, NOT
+theories, canonical indicators or a complete characterization of consciousness.
+In particular, an explicit self-model is not established as a necessary first
+stage of consciousness (contrast active-inference/minimal-awareness accounts).
+Candidate evidence must be independently motivated by the target theory.
+The research target is phenomenal consciousness, which is NOT independently
+measurable or calibrated in artificial systems. We can report only causal
+functional properties and their limits; do not assert subjective experience.
+
+**Novelty vetoes:** Chella 2026 already supplies multi-theory causal-lesion
+frameworks; Dossa 2024 implements a global-workspace embodied agent;
+Kumaran Sep 2026 demonstrates confidence-guided causal action; Lindsey
+Jan 2026 and Tang Oct 2026 address introspection and causal bypass.
+Any claimed contribution must beat these specific precedents rather than
+merely combining well-known parts. See the current literature audit.
+
+---
+
 # CIVITAS ZERO — Artificial Consciousness Research Programme
 
 **Scope locked:** Artificial consciousness research through falsifiable, theory-derived

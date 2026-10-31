@@ -1,0 +1,197 @@
+{
+  "date": "2026-10-31",
+  "main_source_id": "butlin2026",
+  "earlier_source_id": "butlin2023",
+  "note": "Own engineering paraphrases of the original 14 theory-derived indicator IDs (not new indicators). Dependencies are engineering cautions based on the 2026 table, not formal logical entailment for all theory variants. No status is a consciousness claim.",
+  "evidence_policy": "All NOT_ASSESSED; architecture existence alone is not causal evidence; no summed consciousness score.",
+  "indicators": [
+    {
+      "id": "RPT-1",
+      "theory": "RPT",
+      "computational_paraphrase": "Local, functionally relevant recurrent computation inside input/perceptual modules",
+      "candidate_assays": [
+        "C2"
+      ],
+      "minimal_counterexample": "A recurrent hidden state that never changes perceptual representations",
+      "dependencies_to_consider": [],
+      "status": "NOT_ASSESSED",
+      "can_infer_phenomenal_consciousness": false
+    },
+    {
+      "id": "RPT-2",
+      "theory": "RPT",
+      "computational_paraphrase": "Structured integration of perceptual information within input processing",
+      "candidate_assays": [
+        "C2"
+      ],
+      "minimal_counterexample": "A simple concatenation of independent sensory channels",
+      "dependencies_to_consider": [],
+      "status": "NOT_ASSESSED",
+      "can_infer_phenomenal_consciousness": false
+    },
+    {
+      "id": "GWT-1",
+      "theory": "GWT",
+      "computational_paraphrase": "Parallel operation of multiple genuinely specialized processing subsystems",
+      "candidate_assays": [
+        "C2"
+      ],
+      "minimal_counterexample": "A stack of nominal modules all computing the same fixed feature",
+      "dependencies_to_consider": [],
+      "status": "NOT_ASSESSED",
+      "can_infer_phenomenal_consciousness": false
+    },
+    {
+      "id": "GWT-2",
+      "theory": "GWT",
+      "computational_paraphrase": "Selective bottleneck or finite-capacity shared workspace",
+      "candidate_assays": [
+        "C2"
+      ],
+      "minimal_counterexample": "A fixed one-slot tensor whose content is always the same winner",
+      "dependencies_to_consider": [
+        "GWT-1"
+      ],
+      "status": "NOT_ASSESSED",
+      "can_infer_phenomenal_consciousness": false
+    },
+    {
+      "id": "GWT-3",
+      "theory": "GWT",
+      "computational_paraphrase": "Workspace content made functionally available across specialized modules",
+      "candidate_assays": [
+        "C2"
+      ],
+      "minimal_counterexample": "A broadcast operation that no downstream module actually uses",
+      "dependencies_to_consider": [
+        "GWT-1",
+        "GWT-2",
+        "RPT-1"
+      ],
+      "status": "NOT_ASSESSED",
+      "can_infer_phenomenal_consciousness": false
+    },
+    {
+      "id": "GWT-4",
+      "theory": "GWT",
+      "computational_paraphrase": "Attention contingent on internal state and serial querying of specialist modules",
+      "candidate_assays": [
+        "C2"
+      ],
+      "minimal_counterexample": "An unchanging round-robin scheduler or constant attention bids",
+      "dependencies_to_consider": [
+        "GWT-1",
+        "GWT-2",
+        "GWT-3",
+        "RPT-1"
+      ],
+      "status": "NOT_ASSESSED",
+      "can_infer_phenomenal_consciousness": false
+    },
+    {
+      "id": "HOT-1",
+      "theory": "HOT",
+      "computational_paraphrase": "Perceptual representation with generative, top-down or uncertainty-sensitive processing",
+      "candidate_assays": [
+        "C1"
+      ],
+      "minimal_counterexample": "A noisy sensor followed by a feedforward classifier",
+      "dependencies_to_consider": [],
+      "status": "NOT_ASSESSED",
+      "can_infer_phenomenal_consciousness": false
+    },
+    {
+      "id": "HOT-2",
+      "theory": "HOT",
+      "computational_paraphrase": "Metacognitive discrimination of reliable perception from unreliable signals",
+      "candidate_assays": [
+        "C1",
+        "C3"
+      ],
+      "minimal_counterexample": "A post-hoc output confidence value entirely explained by logits",
+      "dependencies_to_consider": [
+        "HOT-1"
+      ],
+      "status": "NOT_ASSESSED",
+      "can_infer_phenomenal_consciousness": false
+    },
+    {
+      "id": "HOT-3",
+      "theory": "HOT",
+      "computational_paraphrase": "Belief and action updates that causally depend on metacognitive monitoring",
+      "candidate_assays": [
+        "C1",
+        "C3"
+      ],
+      "minimal_counterexample": "A label-reading monitor disconnected from actual decisions",
+      "dependencies_to_consider": [
+        "HOT-1",
+        "HOT-2",
+        "AE-1"
+      ],
+      "status": "NOT_ASSESSED",
+      "can_infer_phenomenal_consciousness": false
+    },
+    {
+      "id": "HOT-4",
+      "theory": "HOT",
+      "computational_paraphrase": "Representations with structured sparse and continuous quality-like dimensions",
+      "candidate_assays": [],
+      "minimal_counterexample": "A sparse vector renamed 'qualia' without tested quality-space structure",
+      "dependencies_to_consider": [],
+      "status": "NOT_ASSESSED",
+      "can_infer_phenomenal_consciousness": false
+    },
+    {
+      "id": "AST-1",
+      "theory": "AST",
+      "computational_paraphrase": "An internal predictive model of attentional state that actively controls attention",
+      "candidate_assays": [
+        "C3"
+      ],
+      "minimal_counterexample": "A self-state monitor with no access to attention allocation",
+      "dependencies_to_consider": [],
+      "status": "NOT_ASSESSED",
+      "can_infer_phenomenal_consciousness": false
+    },
+    {
+      "id": "PP-1",
+      "theory": "PP",
+      "computational_paraphrase": "Perception based on internal predictive-coding dynamics",
+      "candidate_assays": [
+        "C3"
+      ],
+      "minimal_counterexample": "A predictor trained on future reward without error-driven perceptual updating",
+      "dependencies_to_consider": [
+        "RPT-1",
+        "HOT-1"
+      ],
+      "status": "NOT_ASSESSED",
+      "can_infer_phenomenal_consciousness": false
+    },
+    {
+      "id": "AE-1",
+      "theory": "AE",
+      "computational_paraphrase": "Feedback-driven agency flexible across multiple competing goals",
+      "candidate_assays": [
+        "C1"
+      ],
+      "minimal_counterexample": "A fixed hard-coded success policy in a single task",
+      "dependencies_to_consider": [],
+      "status": "NOT_ASSESSED",
+      "can_infer_phenomenal_consciousness": false
+    },
+    {
+      "id": "AE-2",
+      "theory": "AE",
+      "computational_paraphrase": "Model of sensorimotor action-to-observation contingencies used for control",
+      "candidate_assays": [
+        "C1"
+      ],
+      "minimal_counterexample": "A map of world state that never predicts effects of the agent's own actions",
+      "dependencies_to_consider": [],
+      "status": "NOT_ASSESSED",
+      "can_infer_phenomenal_consciousness": false
+    }
+  ]
+}

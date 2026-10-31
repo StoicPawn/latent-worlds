@@ -1,3 +1,16 @@
+# Literature-first prerequisite (2026-10-31)
+
+This file preserves the historical ecology methods and experiments. The
+current AI-consciousness paper now REQUIRES a C0 theory audit BEFORE
+choosing a functional indicator or experiment. C1/C2/C3 are not official
+indicator categories. Self-modeling is not assumed to precede minimal
+awareness in all theories. See
+[critical review](../literature/REVIEW_2026-10-31.md),
+[14 indicators](../literature/INDICATOR_MATRIX.md), and
+[discriminating experiments](../literature/THEORY_ADJUDICATION.md).
+
+---
+
 # Scientific priority amendment — AI consciousness indicators (2026-10-31)
 
 The completed ecology/predictive-representation work below is a **supporting
