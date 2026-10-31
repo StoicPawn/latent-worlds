@@ -1,3 +1,16 @@
+# Scientific priority amendment — AI consciousness indicators (2026-10-31)
+
+The completed ecology/predictive-representation work below is a **supporting
+methods archive**. It is not the main scientific objective of CIVITAS ZERO.
+The current and future study targets theory-derived COMPUTATIONAL INDICATORS
+OF AI CONSCIOUSNESS: causal self-world distinction, selective global
+availability, recursive self-monitoring. The society is a stress-test ecology.
+All consciousness-indicator experiments are currently **UNTESTED**.
+See [the current scientific contract](CONSCIOUSNESS_RESEARCH_PROGRAM.md)
+and [primary manuscript draft](CONSCIOUSNESS_PAPER_DRAFT.md).
+
+---
+
 # Paper protocol and publication gates
 
 **Status:** publication plan and preregistration candidate; NOT evidence of artificial consciousness.

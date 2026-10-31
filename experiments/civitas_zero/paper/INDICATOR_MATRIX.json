@@ -1,0 +1,77 @@
+{
+  "programme": "CIVITAS ZERO",
+  "research_field": "AI consciousness — theory-derived functional indicators",
+  "phenomenal_consciousness_demonstrated": false,
+  "evidence_status": "No consciousness-indicator experiment has been run",
+  "experimental_world": "Latent Worlds ecology (apparatus, not target claim)",
+  "primary_question": "Can an agent evolve and causally use information about its own computation, beyond an external world model?",
+  "indicators": [
+    {
+      "id": "C1",
+      "name": "Causal self-model and self/world discrimination",
+      "theoretical_relevance": [
+        "higher_order_metacognitive",
+        "predictive_processing"
+      ],
+      "status": "UNTESTED",
+      "primary_test": "novel internal-competence lesions versus externally generated matched error, with causal adaptation outcome",
+      "controls": [
+        "self-state shuffled with another agent at the same time",
+        "environment-only state",
+        "matched-compute sham",
+        "matched-action damage",
+        "oracle information upper bound"
+      ],
+      "required_evidence": "benefit on external reward under equal baseline performance, lost after selective self-state lesion and replicated across new world laws",
+      "not_sufficient_for": "phenomenal consciousness"
+    },
+    {
+      "id": "C2",
+      "name": "Selective global availability",
+      "theoretical_relevance": [
+        "global_workspace"
+      ],
+      "status": "UNTESTED",
+      "primary_test": "flexible use of selected internal information by multiple task-specialist processes after held-out task changes",
+      "controls": [
+        "local specialists without workspace",
+        "duplicate broadcast",
+        "random routing with equal connectivity",
+        "matched generic lesions"
+      ],
+      "required_evidence": "selective causal global access with same compute and input budget, replicated on new tasks/worlds",
+      "not_sufficient_for": "phenomenal consciousness"
+    },
+    {
+      "id": "C3",
+      "name": "Recursive internal reliability regulation",
+      "theoretical_relevance": [
+        "higher_order_metacognitive",
+        "active_inference",
+        "recurrent_processing"
+      ],
+      "status": "UNTESTED",
+      "primary_test": "agent internally predicts changes in precision of its own inference under held-out perturbations and changes action",
+      "controls": [
+        "task confidence calibration",
+        "external difficulty predictor",
+        "time-yoked monitor",
+        "feedforward equal-parameter controller"
+      ],
+      "required_evidence": "novel-perturbation action benefit conditional on standard confidence, selective lesion effect, separate from C1 and C2",
+      "not_sufficient_for": "phenomenal consciousness"
+    }
+  ],
+  "historic_results": [
+    {
+      "id": "v5.4",
+      "status": "FAILED_CONFIRMATION",
+      "role": "foraging/predictive-carrier methodology pilot, NOT consciousness data"
+    },
+    {
+      "id": "v5.5",
+      "status": "EXPLORATORY",
+      "role": "synchrony/perceptual-access confound studies, NOT consciousness data"
+    }
+  ]
+}

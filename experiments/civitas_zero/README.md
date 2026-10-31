@@ -1,6 +1,20 @@
 # CIVITAS ZERO
 
-**From a decodable state to knowledge that changes survival.**
+**Primary objective: falsifiable research on functional indicators of AI consciousness.**
+
+**Can an AI agent develop a causally useful model of its OWN computation, distinguish
+internal damage from environmental difficulty, and selectively use that information?**
+The world and any civilisation that emerges are experimental tools, NOT evidence
+of consciousness. This programme does not claim to prove phenomenal experience.
+
+[**Consciousness programme and preregistration roadmap**](paper/CONSCIOUSNESS_RESEARCH_PROGRAM.md)
+· [**AI-consciousness working manuscript**](paper/CONSCIOUSNESS_PAPER_DRAFT.md)
+· [**Machine-readable indicator matrix**](paper/INDICATOR_MATRIX.json)
+
+**C1 self/world causal attribution**, **C2 global access**, **C3 recursive
+monitoring**: all **UNTESTED**. The archived v5.4/v5.5 observations are
+methodological controls and feasibility results, never consciousness data.
+
 
 CIVITAS ZERO is an open, experiment-first artificial-life research programme built on [Latent Worlds](../../README.md). The physical laws, reproduction, energy budget, and agent reward **do not contain** a prescribed language, civilisation, science, or curiosity objective.
 
@@ -64,9 +78,15 @@ Outputs:
 
 To rerun the **expensive original experiment**, use the existing [v5.4 prospective runner](benchmark_v54_prospective.py), Python >= 3.11 and the project's environment. The 16 population histories share world W11; they are not 16 independent world laws. Replaying all three treatments for all seeds is time-consuming. Existing archived seed records are never silently overwritten.
 
-## Proposed paper
+## Publication objective
 
-**Working title:** *The Decodability–Selection Gap: Prospective Tests of Predictive State in Survival-Driven Artificial Life.*
+**Primary working title:** *Can Survival-Evolved AI Agents Acquire Causally Useful Self-Models?*
+A theory-guided experimental study of computational indicators of artificial
+consciousness. **Results do not exist yet.**
+
+The older ecology-focused manuscript below is kept only as a transparent
+methods/negative-results record, not as the primary paper.
+
 
 - [Manuscript skeleton](paper/MANUSCRIPT.md)
 - [Publication-grade acceptance criteria and next experiment](paper/PROTOCOL.md)

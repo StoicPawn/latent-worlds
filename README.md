@@ -350,3 +350,5 @@ reproducible artificial-life research programme. The frozen v5.4 prospective
 replication **failed** its prespecified gate; raw results, figures, tests, and
 a bounded working manuscript are included on the research branch. This does not
 claim spontaneously evolved science or consciousness.
+
+The original scientific focus of Latent Worlds is distinct from the CIVITAS ZERO consciousness-indicator study. For that study's live objective, see [AI consciousness research programme](experiments/civitas_zero/paper/CONSCIOUSNESS_RESEARCH_PROGRAM.md). Ecological/civilisation outcomes are not consciousness evidence.

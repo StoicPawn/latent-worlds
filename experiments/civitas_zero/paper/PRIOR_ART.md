@@ -58,3 +58,27 @@ Good reporting standards:
 - POMDP value-of-information and observation constraints are established (e.g. Avalos et al., Online Planning in POMDPs with State-Requests, RLJ 2024). Local action-set restrictions are NOT a new theorem.
 
 Provisional original empirical opportunity: quantify the interaction among accessibility of action alternatives, naturally selected hidden forecast representations and CAUSAL survival value across independent physical-law worlds. Current pilots do not meet that standard.
+
+## Consciousness indicator-specific audit (primary, 2026-10-31)
+
+- Butlin et al. (2023), *Consciousness in Artificial Intelligence:
+  Insights from the Science of Consciousness*, arXiv:2308.08708.
+- Butlin et al. (2026 print, 2025 online), *Identifying indicators of
+  consciousness in AI systems*, Trends in Cognitive Sciences,
+  DOI 10.1016/j.tics.2025.10.011. Indicators are neither individually
+  necessary nor jointly sufficient.
+- Laukkonen, Friston et al. (2025), *A beautiful loop: An active
+  inference theory of consciousness*, Neuroscience & Biobehavioral
+  Reviews, DOI 10.1016/j.neubiorev.2025.106296. Recursive precision-
+  control / meta-inference hypothesis already exists.
+- Cogitate Consortium (2025), *Adversarial testing of global neuronal
+  workspace and integrated information theories of consciousness*,
+  Nature, DOI 10.1038/s41586-025-08888-1.
+- Tang et al. (2026), *Interventional Training Reduces Causal Bypass in
+  In-Context Introspection*, arXiv:2610.38911. A causal self-report
+  effect by itself is not a new mechanism.
+
+Do NOT claim self-modeling, recursive meta-inference, broadcast, self-
+monitoring or a multi-indicator framework to be original independently.
+Novelty would need specific well-controlled **new empirical causal
+dissociations** and new world/lesion generalization, not new terminology.
