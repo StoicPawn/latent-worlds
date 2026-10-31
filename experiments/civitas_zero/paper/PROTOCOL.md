@@ -151,3 +151,7 @@ Artificial societies, collective coordination and functional self-monitoring
 do not establish subjective experience. Do not treat arbitrary generative
 simulations as empirically validated models of real human civilisation.
 No external data or private user files are required.
+
+## Amendment — action-accessibility confound, introduced AFTER v5.4
+
+The original forecast opportunity was computed using global resource patches, not the limited local choice set that actual agents can observe. In the recurrent controller only the nearest patch explicitly enters the current feature vector. The new discovery pilots (W11/W21/W31) show substantial divergence of global versus local-choice-set oracle benefits. The current scientific candidate is a prospectively designed INTERACTION TEST: perceptual rank-invariant candidate access (matched network capacity) × generic recurrent-state plasticity × resource-wave forecast pressure. Primary endpoint: actual survival/harvest world-level interaction; subordinate: individualized forecast prediction beyond synchronized-state controls. All confirmation world seeds, effect thresholds and sampling budgets must be fixed PRIOR to running that experiment. No new claims from existing exploratory seeds.

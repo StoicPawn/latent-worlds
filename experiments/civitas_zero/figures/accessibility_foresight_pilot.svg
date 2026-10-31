@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 540" role="img" aria-label="Forecast value under global and visible-only candidate sets">
+<rect width="940" height="540" fill="#fff"/>
+<text x="38" y="48" font-family="Arial,sans-serif" fill="#0f172a" font-weight="700" font-size="24">A forecast the agent cannot act on?</text>
+<text x="38" y="76" font-family="Arial,sans-serif" fill="#64748b" font-size="14">Observer-only route-choice pilot · paired candidate sets · same world physics and input times</text>
+<text x="38" y="110" font-family="Arial,sans-serif" fill="#475569" font-size="13">Mean extra energetic value of perfect foresight (units per decision)</text>
+<rect x="65" y="358.00" width="32" height="2.00" rx="5" fill="#94a3b8"/>
+<text x="81" y="349.00" font-family="Arial,sans-serif" text-anchor="middle" font-size="12" fill="#94a3b8">0.000</text>
+<rect x="109" y="358.00" width="32" height="2.00" rx="5" fill="#0f766e"/>
+<text x="125" y="349.00" font-family="Arial,sans-serif" text-anchor="middle" font-size="12" fill="#0f766e">0.000</text>
+<text x="103" y="386" font-family="Arial,sans-serif" text-anchor="middle" font-size="15" fill="#0f172a" font-weight="600">W11</text>
+<text x="103" y="403" font-family="Arial,sans-serif" text-anchor="middle" font-size="12" fill="#475569">wave 0.0</text>
+<rect x="212" y="155.00" width="32" height="205.00" rx="5" fill="#94a3b8"/>
+<text x="228" y="146.00" font-family="Arial,sans-serif" text-anchor="middle" font-size="12" fill="#94a3b8">1.126</text>
+<rect x="256" y="357.26" width="32" height="2.74" rx="5" fill="#0f766e"/>
+<text x="272" y="348.26" font-family="Arial,sans-serif" text-anchor="middle" font-size="12" fill="#0f766e">0.015</text>
+<text x="250" y="386" font-family="Arial,sans-serif" text-anchor="middle" font-size="15" fill="#0f172a" font-weight="600">W11</text>
+<text x="250" y="403" font-family="Arial,sans-serif" text-anchor="middle" font-size="12" fill="#475569">wave 1.5</text>
+<rect x="359" y="358.00" width="32" height="2.00" rx="5" fill="#94a3b8"/>
+<text x="375" y="349.00" font-family="Arial,sans-serif" text-anchor="middle" font-size="12" fill="#94a3b8">0.010</text>
+<rect x="403" y="358.00" width="32" height="2.00" rx="5" fill="#0f766e"/>
+<text x="419" y="349.00" font-family="Arial,sans-serif" text-anchor="middle" font-size="12" fill="#0f766e">0.003</text>
+<text x="397" y="386" font-family="Arial,sans-serif" text-anchor="middle" font-size="15" fill="#0f172a" font-weight="600">W21</text>
+<text x="397" y="403" font-family="Arial,sans-serif" text-anchor="middle" font-size="12" fill="#475569">wave 0.0</text>
+<rect x="506" y="237.78" width="32" height="122.22" rx="5" fill="#94a3b8"/>
+<text x="522" y="228.78" font-family="Arial,sans-serif" text-anchor="middle" font-size="12" fill="#94a3b8">0.671</text>
+<rect x="550" y="356.93" width="32" height="3.07" rx="5" fill="#0f766e"/>
+<text x="566" y="347.93" font-family="Arial,sans-serif" text-anchor="middle" font-size="12" fill="#0f766e">0.017</text>
+<text x="544" y="386" font-family="Arial,sans-serif" text-anchor="middle" font-size="15" fill="#0f172a" font-weight="600">W21</text>
+<text x="544" y="403" font-family="Arial,sans-serif" text-anchor="middle" font-size="12" fill="#475569">wave 1.5</text>
+<rect x="653" y="358.00" width="32" height="2.00" rx="5" fill="#94a3b8"/>
+<text x="669" y="349.00" font-family="Arial,sans-serif" text-anchor="middle" font-size="12" fill="#94a3b8">0.000</text>
+<rect x="697" y="358.00" width="32" height="2.00" rx="5" fill="#0f766e"/>
+<text x="713" y="349.00" font-family="Arial,sans-serif" text-anchor="middle" font-size="12" fill="#0f766e">0.000</text>
+<text x="691" y="386" font-family="Arial,sans-serif" text-anchor="middle" font-size="15" fill="#0f172a" font-weight="600">W31</text>
+<text x="691" y="403" font-family="Arial,sans-serif" text-anchor="middle" font-size="12" fill="#475569">wave 0.0</text>
+<rect x="800" y="330.30" width="32" height="29.70" rx="5" fill="#94a3b8"/>
+<text x="816" y="321.30" font-family="Arial,sans-serif" text-anchor="middle" font-size="12" fill="#94a3b8">0.163</text>
+<rect x="844" y="358.00" width="32" height="2.00" rx="5" fill="#0f766e"/>
+<text x="860" y="349.00" font-family="Arial,sans-serif" text-anchor="middle" font-size="12" fill="#0f766e">0.008</text>
+<text x="838" y="386" font-family="Arial,sans-serif" text-anchor="middle" font-size="15" fill="#0f172a" font-weight="600">W31</text>
+<text x="838" y="403" font-family="Arial,sans-serif" text-anchor="middle" font-size="12" fill="#475569">wave 1.5</text>
+<line x1="42" x2="919" y1="360" y2="360" stroke="#64748b"/>
+<rect x="240" y="452" width="16" height="12" rx="2" fill="#94a3b8"/>
+<text x="264" y="463" font-family="Arial,sans-serif" font-size="13" fill="#475569">All-world patches</text>
+<rect x="490" y="452" width="16" height="12" rx="2" fill="#0f766e"/>
+<text x="514" y="463" font-family="Arial,sans-serif" font-size="13" fill="#475569">Currently visible patches only</text>
+<text x="38" y="509" font-family="Arial,sans-serif" font-size="12" fill="#64748b">Comparing incremental advantages on different choice sets does NOT imply a monotone upper-bound relation.</text>
+<text x="38" y="528" font-family="Arial,sans-serif" font-size="12" fill="#64748b">Exploratory only · 3 independent physical worlds · no claim of agent learning, cognition, or consciousness</text>
+</svg>

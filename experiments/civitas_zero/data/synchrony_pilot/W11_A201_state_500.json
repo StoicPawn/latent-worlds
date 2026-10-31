@@ -1,0 +1,85 @@
+{
+  "agent_seed": 201,
+  "claim_limits": "Same-time exchange is an established style of conditioning/shuffling. It does not imply that agent memory is useless, nor does a decoder improvement prove endogenous prediction or causality. Agent rows are NOT independent: all have identical Y_t at time t.",
+  "experiment": "CIVITAS ZERO v5.5 diagnostic/pilot, NOT confirmatory",
+  "max_agents_per_time": 79,
+  "min_agents_per_time": 52,
+  "mode": "state",
+  "n_agent_rows": 9060,
+  "n_distinct_world_times": 140,
+  "n_final": 52,
+  "n_initial": 36,
+  "outcomes": {
+    "individual_hidden": {
+      "chosen_alpha": 1000.0,
+      "mean_nrmse": 1.4727592896324593,
+      "n_test_rows": 2346,
+      "n_test_times": 42,
+      "n_train_rows": 6714,
+      "n_train_times": 98,
+      "per_horizon_nrmse": [
+        0.7490212818287202,
+        1.8762654470326898,
+        1.792991140035968
+      ]
+    },
+    "population_mean_hidden": {
+      "chosen_alpha": 1000.0,
+      "mean_nrmse": 1.7619637651118005,
+      "n_test_rows": 2346,
+      "n_test_times": 42,
+      "n_train_rows": 6714,
+      "n_train_times": 98,
+      "per_horizon_nrmse": [
+        0.8319877003399044,
+        1.6418022951521714,
+        2.812101299843326
+      ]
+    },
+    "raw_only": {
+      "chosen_alpha": 1000.0,
+      "mean_nrmse": 1.4715259416006499,
+      "n_test_rows": 2346,
+      "n_test_times": 42,
+      "n_train_rows": 6714,
+      "n_train_times": 98,
+      "per_horizon_nrmse": [
+        0.7498542820818547,
+        1.8756635556812562,
+        1.7890599870388388
+      ]
+    },
+    "time_matched_exchange": {
+      "chosen_alpha": 1000.0,
+      "mean_nrmse": 1.4743559661996486,
+      "n_test_rows": 2346,
+      "n_test_times": 42,
+      "n_train_rows": 6714,
+      "n_train_times": 98,
+      "per_horizon_nrmse": [
+        0.7508676264263167,
+        1.8763836383006216,
+        1.795816633872008
+      ]
+    },
+    "time_misaligned_mean": {
+      "chosen_alpha": 1000.0,
+      "mean_nrmse": 1.7969327635171333,
+      "n_test_rows": 2346,
+      "n_test_times": 42,
+      "n_train_rows": 6714,
+      "n_train_times": 98,
+      "per_horizon_nrmse": [
+        0.8553086328321124,
+        1.573487600210756,
+        2.9620020575085313
+      ]
+    }
+  },
+  "past_only_control_revision": "strict_past_only_lag_no_cyclic_wrap_v1",
+  "runtime_seconds": 93.41,
+  "shared_target_max_disagreement": 0.0,
+  "source_world": 11,
+  "steps": 500,
+  "total_harvest": 1832.8206210882959
+}

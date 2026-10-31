@@ -1,0 +1,86 @@
+{
+  "agent_seed": 201,
+  "claim_limits": "Same-time exchange is an established style of conditioning/shuffling. It does not imply that agent memory is useless, nor does a decoder improvement prove endogenous prediction or causality. Agent rows are NOT independent: all have identical Y_t at time t.",
+  "experiment": "CIVITAS ZERO v5.5 diagnostic/pilot, NOT confirmatory",
+  "max_agents_per_time": 73,
+  "min_agents_per_time": 34,
+  "mode": "frozen",
+  "n_agent_rows": 7505,
+  "n_distinct_world_times": 140,
+  "n_final": 34,
+  "n_initial": 36,
+  "outcomes": {
+    "individual_hidden": {
+      "chosen_alpha": 1000.0,
+      "mean_nrmse": 1.1393061649602192,
+      "n_test_rows": 1719,
+      "n_test_times": 42,
+      "n_train_rows": 5786,
+      "n_train_times": 98,
+      "per_horizon_nrmse": [
+        0.5043086917415532,
+        1.1043871419310667,
+        1.809222661208038
+      ]
+    },
+    "population_mean_hidden": {
+      "chosen_alpha": 1000.0,
+      "mean_nrmse": 1.394688078417164,
+      "n_test_rows": 1719,
+      "n_test_times": 42,
+      "n_train_rows": 5786,
+      "n_train_times": 98,
+      "per_horizon_nrmse": [
+        0.8393936547608986,
+        1.154360840501354,
+        2.1903097399892397
+      ]
+    },
+    "raw_only": {
+      "chosen_alpha": 1000.0,
+      "mean_nrmse": 1.13871112088887,
+      "n_test_rows": 1719,
+      "n_test_times": 42,
+      "n_train_rows": 5786,
+      "n_train_times": 98,
+      "per_horizon_nrmse": [
+        0.5029196650846436,
+        1.1035452354940063,
+        1.8096684620879606
+      ]
+    },
+    "time_matched_exchange": {
+      "chosen_alpha": 1000.0,
+      "mean_nrmse": 1.1397413743846074,
+      "n_test_rows": 1719,
+      "n_test_times": 42,
+      "n_train_rows": 5786,
+      "n_train_times": 98,
+      "per_horizon_nrmse": [
+        0.5039930102532204,
+        1.1040209217402652,
+        1.8112101911603364
+      ]
+    },
+    "time_misaligned_mean": {
+      "chosen_alpha": 1000.0,
+      "mean_nrmse": 1.3934408179537023,
+      "n_test_rows": 1719,
+      "n_test_times": 42,
+      "n_train_rows": 5786,
+      "n_train_times": 98,
+      "per_horizon_nrmse": [
+        1.6806146649355782,
+        1.5030994911305455,
+        0.9966082977949831
+      ]
+    }
+  },
+  "past_only_control_revision": "strict_past_only_lag_no_cyclic_wrap_v1",
+  "runtime_seconds": 55.83,
+  "shared_target_max_disagreement": 0.0,
+  "source_world": 21,
+  "steps": 500,
+  "total_harvest": 1374.6104889129115,
+  "trace_path": "experiments/civitas_zero/data/synchrony_pilot/W21_A201_frozen_500.npz"
+}

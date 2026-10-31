@@ -8,11 +8,27 @@ CIVITAS ZERO is an open, experiment-first artificial-life research programme bui
 
 ![Frozen prospective result](figures/v54_effects.svg)
 
-### The world contains a genuine forecasting opportunity
+### A strong-looking forecasting opportunity — but whose actions are available?
 
 ![Observer-only forecasting opportunity](figures/foresight_opportunity.svg)
 
-Three *exploratory* independent world laws (W11, W21, W31) were tested with the original observer-side ideal foresight comparator. A resource wave of strength 1.5 creates substantial energetic value for future-informed route selection; no agent receives that knowledge. See [pilot table](figures/FORESIGHT_RESULTS.md). This is a physical affordance check, **not a claim of learning**.
+Three *exploratory* independent world laws (W11, W21, W31) were tested with the original observer-side ideal foresight comparator. A resource wave of strength 1.5 creates substantial energetic value for future-informed route selection; no agent receives that knowledge. See [pilot table](figures/FORESIGHT_RESULTS.md). The original oracle chooses globally among all resource patches, whereas simulated agents perceive only local patches. This is a *privileged upper-context comparison*, not proof that the agent can realize its value.
+
+### A new experimental falsification: perception versus theoretical information value
+
+![Global versus locally visible choice sets](figures/accessibility_foresight_pilot.svg)
+
+In three PILOT worlds with resource waves, the global-choice extra value (1.126, 0.671, 0.163) drops to 0.015, 0.017, 0.008 when **both** forecasters can choose only among resources presently visible under the world's exact observation radius and obstacle occlusion. This comparison of incremental values is DESCRIPTIVE: shrinking the set of actions is not generally monotone in value-of-information gain, and agents may explore to reveal new patches. See [full accessibility audit](figures/ACCESSIBILITY_PILOT.md).
+
+A separate source-level test establishes that the generic recurrent controller explicitly encodes only the **nearest** resource, despite the observation API returning multiple visible patches. This is a specific architecture bottleneck worth testing causally; it is not a general impossibility result.
+
+### Could synchronized world time masquerade as individual knowledge?
+
+![Individual synchrony audit](figures/synchrony_learning_modes.svg)
+
+The new two-world PILOT exchanges complete hidden states among agents at *the same world timestamp* and trains time-ordered observer decoders with identical raw cues. In both worlds, most individual hidden states fail to beat a different agent's matched-time state. [Detailed methods, all frozen controls, negative findings and preregistration candidate](synchrony/RESULTS_AND_NEXT.md). The negative result is not yet a causal claim. A discovered lookahead bug in a secondary negative control was corrected *before publishing*; raw trajectories and [the correction log](data/synchrony_pilot/CORRECTION_LOG.md) are retained.
+
+
 
 
 ## At a glance
@@ -43,6 +59,8 @@ Outputs:
 - [Full numerical reanalysis](figures/v54_audit.json)
 - [Vector figure suitable for manuscripts](figures/v54_effects.svg)
 - [Observer-side opportunity pilot data](data/foresight_pilot/results.json)
+- [Local access pilot](data/local_foresight_pilot/results.json)
+- [Matched-time exchange trace and statistical controls](synchrony/PROTOCOL.md)
 
 To rerun the **expensive original experiment**, use the existing [v5.4 prospective runner](benchmark_v54_prospective.py), Python >= 3.11 and the project's environment. The 16 population histories share world W11; they are not 16 independent world laws. Replaying all three treatments for all seeds is time-consuming. Existing archived seed records are never silently overwritten.
 

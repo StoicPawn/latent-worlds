@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 525" role="img" aria-label="World matched individual memory advantage">
+<rect width="920" height="525" fill="#ffffff"/>
+<text x="46" y="52" font-family="Arial,sans-serif" font-size="25" fill="#0f172a" font-weight="700">Is the forecast in the individual?</text>
+<text x="46" y="80" font-family="Arial,sans-serif" font-size="14" fill="#64748b">Exploratory diagnostic · 500 steps per world · state plasticity fixed at 0.0003</text>
+<text x="46" y="116" font-family="Arial,sans-serif" font-size="13" fill="#475569">Improvement in NRMSE: exchanged memory − own memory (positive = own better)</text>
+<text x="46" y="113" font-family="Arial,sans-serif" font-size="12" fill="#475569">+2.51</text>
+<text x="46" y="427" font-family="Arial,sans-serif" font-size="12" fill="#475569">−2.51</text>
+<line x1="90" x2="850" y1="265" y2="265" stroke="#334155" stroke-width="1.8" stroke-dasharray="7 5"/>
+<text x="858" y="270" font-family="Arial,sans-serif" font-size="12" fill="#334155">zero</text>
+<circle cx="354" cy="274.86" r="4.6" fill="#2563eb" fill-opacity=".55"/>
+<circle cx="252" cy="270.51" r="4.6" fill="#2563eb" fill-opacity=".55"/>
+<circle cx="275" cy="268.93" r="4.6" fill="#2563eb" fill-opacity=".55"/>
+<circle cx="298" cy="272.89" r="4.6" fill="#2563eb" fill-opacity=".55"/>
+<circle cx="321" cy="271.05" r="4.6" fill="#2563eb" fill-opacity=".55"/>
+<circle cx="344" cy="266.73" r="4.6" fill="#2563eb" fill-opacity=".55"/>
+<circle cx="242" cy="314.85" r="4.6" fill="#2563eb" fill-opacity=".55"/>
+<circle cx="265" cy="270.35" r="4.6" fill="#2563eb" fill-opacity=".55"/>
+<circle cx="288" cy="269.27" r="4.6" fill="#2563eb" fill-opacity=".55"/>
+<circle cx="311" cy="268.12" r="4.6" fill="#2563eb" fill-opacity=".55"/>
+<circle cx="357" cy="267.34" r="4.6" fill="#2563eb" fill-opacity=".55"/>
+<circle cx="278" cy="270.86" r="4.6" fill="#2563eb" fill-opacity=".55"/>
+<circle cx="324" cy="263.77" r="4.6" fill="#2563eb" fill-opacity=".55"/>
+<circle cx="245" cy="268.40" r="4.6" fill="#2563eb" fill-opacity=".55"/>
+<circle cx="268" cy="267.46" r="4.6" fill="#2563eb" fill-opacity=".55"/>
+<circle cx="314" cy="269.51" r="4.6" fill="#2563eb" fill-opacity=".55"/>
+<circle cx="235" cy="270.64" r="4.6" fill="#2563eb" fill-opacity=".55"/>
+<circle cx="258" cy="273.77" r="4.6" fill="#2563eb" fill-opacity=".55"/>
+<circle cx="281" cy="410.37" r="4.6" fill="#2563eb" fill-opacity=".55"/>
+<circle cx="304" cy="270.01" r="4.6" fill="#2563eb" fill-opacity=".55"/>
+<circle cx="327" cy="270.56" r="4.6" fill="#2563eb" fill-opacity=".55"/>
+<circle cx="350" cy="269.59" r="4.6" fill="#2563eb" fill-opacity=".55"/>
+<circle cx="248" cy="270.01" r="4.6" fill="#2563eb" fill-opacity=".55"/>
+<circle cx="294" cy="265.86" r="4.6" fill="#2563eb" fill-opacity=".55"/>
+<circle cx="317" cy="263.78" r="4.6" fill="#2563eb" fill-opacity=".55"/>
+<circle cx="340" cy="266.43" r="4.6" fill="#2563eb" fill-opacity=".55"/>
+<circle cx="261" cy="267.25" r="4.6" fill="#2563eb" fill-opacity=".55"/>
+<circle cx="284" cy="270.37" r="4.6" fill="#2563eb" fill-opacity=".55"/>
+<circle cx="307" cy="265.32" r="4.6" fill="#2563eb" fill-opacity=".55"/>
+<circle cx="353" cy="266.89" r="4.6" fill="#2563eb" fill-opacity=".55"/>
+<circle cx="251" cy="269.54" r="4.6" fill="#2563eb" fill-opacity=".55"/>
+<circle cx="274" cy="270.51" r="4.6" fill="#2563eb" fill-opacity=".55"/>
+<circle cx="320" cy="268.52" r="4.6" fill="#2563eb" fill-opacity=".55"/>
+<circle cx="343" cy="271.00" r="4.6" fill="#2563eb" fill-opacity=".55"/>
+<circle cx="264" cy="275.54" r="4.6" fill="#2563eb" fill-opacity=".55"/>
+<circle cx="310" cy="251.42" r="4.6" fill="#2563eb" fill-opacity=".55"/>
+<circle cx="333" cy="271.14" r="4.6" fill="#2563eb" fill-opacity=".55"/>
+<circle cx="356" cy="254.82" r="4.6" fill="#2563eb" fill-opacity=".55"/>
+<circle cx="254" cy="264.97" r="4.6" fill="#2563eb" fill-opacity=".55"/>
+<circle cx="300" cy="269.05" r="4.6" fill="#2563eb" fill-opacity=".55"/>
+<circle cx="323" cy="271.17" r="4.6" fill="#2563eb" fill-opacity=".55"/>
+<circle cx="244" cy="267.49" r="4.6" fill="#2563eb" fill-opacity=".55"/>
+<circle cx="267" cy="269.93" r="4.6" fill="#2563eb" fill-opacity=".55"/>
+<circle cx="313" cy="267.99" r="4.6" fill="#2563eb" fill-opacity=".55"/>
+<circle cx="336" cy="272.57" r="4.6" fill="#2563eb" fill-opacity=".55"/>
+<circle cx="234" cy="267.59" r="4.6" fill="#2563eb" fill-opacity=".55"/>
+<circle cx="257" cy="266.88" r="4.6" fill="#2563eb" fill-opacity=".55"/>
+<circle cx="280" cy="277.62" r="4.6" fill="#2563eb" fill-opacity=".55"/>
+<circle cx="303" cy="271.37" r="4.6" fill="#2563eb" fill-opacity=".55"/>
+<circle cx="247" cy="266.92" r="4.6" fill="#2563eb" fill-opacity=".55"/>
+<circle cx="270" cy="269.22" r="4.6" fill="#2563eb" fill-opacity=".55"/>
+<circle cx="293" cy="267.60" r="4.6" fill="#2563eb" fill-opacity=".55"/>
+<circle cx="339" cy="264.95" r="4.6" fill="#2563eb" fill-opacity=".55"/>
+<circle cx="237" cy="271.24" r="4.6" fill="#2563eb" fill-opacity=".55"/>
+<circle cx="260" cy="262.78" r="4.6" fill="#2563eb" fill-opacity=".55"/>
+<circle cx="283" cy="269.75" r="4.6" fill="#2563eb" fill-opacity=".55"/>
+<circle cx="306" cy="270.73" r="4.6" fill="#2563eb" fill-opacity=".55"/>
+<circle cx="329" cy="279.33" r="4.6" fill="#2563eb" fill-opacity=".55"/>
+<circle cx="352" cy="270.54" r="4.6" fill="#2563eb" fill-opacity=".55"/>
+<circle cx="250" cy="269.36" r="4.6" fill="#2563eb" fill-opacity=".55"/>
+<circle cx="273" cy="270.98" r="4.6" fill="#2563eb" fill-opacity=".55"/>
+<line x1="272" x2="318" y1="271.94" y2="271.94" stroke="#2563eb" stroke-width="6"/>
+<text x="295" y="458" text-anchor="middle" font-family="Arial,sans-serif" fill="#0f172a" font-size="18" font-weight="700">W11</text>
+<text x="295" y="481" text-anchor="middle" font-family="Arial,sans-serif" fill="#2563eb" font-size="14">61 eligible agents · mean -0.111</text>
+<circle cx="666" cy="268.24" r="4.6" fill="#0f766e" fill-opacity=".55"/>
+<circle cx="610" cy="259.84" r="4.6" fill="#0f766e" fill-opacity=".55"/>
+<circle cx="656" cy="267.98" r="4.6" fill="#0f766e" fill-opacity=".55"/>
+<circle cx="679" cy="265.96" r="4.6" fill="#0f766e" fill-opacity=".55"/>
+<circle cx="702" cy="300.74" r="4.6" fill="#0f766e" fill-opacity=".55"/>
+<circle cx="623" cy="266.63" r="4.6" fill="#0f766e" fill-opacity=".55"/>
+<circle cx="646" cy="262.14" r="4.6" fill="#0f766e" fill-opacity=".55"/>
+<circle cx="613" cy="276.07" r="4.6" fill="#0f766e" fill-opacity=".55"/>
+<circle cx="636" cy="274.98" r="4.6" fill="#0f766e" fill-opacity=".55"/>
+<circle cx="659" cy="268.88" r="4.6" fill="#0f766e" fill-opacity=".55"/>
+<circle cx="705" cy="266.04" r="4.6" fill="#0f766e" fill-opacity=".55"/>
+<circle cx="603" cy="266.61" r="4.6" fill="#0f766e" fill-opacity=".55"/>
+<circle cx="649" cy="264.72" r="4.6" fill="#0f766e" fill-opacity=".55"/>
+<circle cx="695" cy="270.57" r="4.6" fill="#0f766e" fill-opacity=".55"/>
+<circle cx="639" cy="382.50" r="4.6" fill="#0f766e" fill-opacity=".55"/>
+<circle cx="662" cy="217.24" r="4.6" fill="#0f766e" fill-opacity=".55"/>
+<circle cx="685" cy="296.70" r="4.6" fill="#0f766e" fill-opacity=".55"/>
+<circle cx="606" cy="282.20" r="4.6" fill="#0f766e" fill-opacity=".55"/>
+<circle cx="629" cy="267.85" r="4.6" fill="#0f766e" fill-opacity=".55"/>
+<circle cx="698" cy="262.24" r="4.6" fill="#0f766e" fill-opacity=".55"/>
+<circle cx="619" cy="253.79" r="4.6" fill="#0f766e" fill-opacity=".55"/>
+<circle cx="688" cy="267.98" r="4.6" fill="#0f766e" fill-opacity=".55"/>
+<circle cx="655" cy="258.19" r="4.6" fill="#0f766e" fill-opacity=".55"/>
+<circle cx="678" cy="262.27" r="4.6" fill="#0f766e" fill-opacity=".55"/>
+<circle cx="622" cy="266.71" r="4.6" fill="#0f766e" fill-opacity=".55"/>
+<circle cx="668" cy="270.94" r="4.6" fill="#0f766e" fill-opacity=".55"/>
+<circle cx="691" cy="266.08" r="4.6" fill="#0f766e" fill-opacity=".55"/>
+<circle cx="714" cy="266.79" r="4.6" fill="#0f766e" fill-opacity=".55"/>
+<circle cx="681" cy="269.31" r="4.6" fill="#0f766e" fill-opacity=".55"/>
+<circle cx="704" cy="268.80" r="4.6" fill="#0f766e" fill-opacity=".55"/>
+<circle cx="602" cy="264.33" r="4.6" fill="#0f766e" fill-opacity=".55"/>
+<circle cx="625" cy="265.09" r="4.6" fill="#0f766e" fill-opacity=".55"/>
+<circle cx="648" cy="238.94" r="4.6" fill="#0f766e" fill-opacity=".55"/>
+<circle cx="717" cy="265.13" r="4.6" fill="#0f766e" fill-opacity=".55"/>
+<circle cx="707" cy="268.72" r="4.6" fill="#0f766e" fill-opacity=".55"/>
+<circle cx="605" cy="230.74" r="4.6" fill="#0f766e" fill-opacity=".55"/>
+<line x1="632" x2="678" y1="268.66" y2="268.66" stroke="#0f766e" stroke-width="6"/>
+<text x="655" y="458" text-anchor="middle" font-family="Arial,sans-serif" fill="#0f172a" font-size="18" font-weight="700">W21</text>
+<text x="655" y="481" text-anchor="middle" font-family="Arial,sans-serif" fill="#0f766e" font-size="14">36 eligible agents · mean -0.059</text>
+<text x="46" y="515" font-family="Arial,sans-serif" font-size="12" fill="#64748b">Points share the same world future: they are NOT independent replication units. Observer probe ≠ agent causality.</text>
+</svg>

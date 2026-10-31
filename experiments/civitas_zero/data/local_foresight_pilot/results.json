@@ -1,0 +1,113 @@
+{
+  "limits": [
+    "Visible-only candidate patches match the agent's sensor radius and occlusion.",
+    "Both competing route choosers still receive privileged patch yield-law evaluations.",
+    "One-step visible candidate choice is NOT a bound on multi-step exploration fitness.",
+    "Incremental forecasting advantage need not be monotone under shrinking the candidate set.",
+    "Spatial/time samples in a world are correlated, not independent world replications."
+  ],
+  "rows": [
+    {
+      "choice_change_fraction_all": 0.022727272727272728,
+      "choice_possible_fraction": 0.8125,
+      "global_forecast_advantage": 0.0002300976210288027,
+      "interpretation": "Observer-only fixed visible-candidate-set value of perfect future physics. Not an agent policy or a direct multi-step fitness upper bound.",
+      "local_visible_set_advantage": 7.237304835285576e-05,
+      "mean_advantage_all_origins": 7.237304835285576e-05,
+      "mean_advantage_if_visible": 7.237304835285576e-05,
+      "mean_visible_patches": 3.625,
+      "sample_n": 176,
+      "sample_visible_fraction": 1.0,
+      "sensor_radius": 4.5,
+      "wave_strength": 0.0,
+      "world_seed": 11
+    },
+    {
+      "choice_change_fraction_all": 0.09659090909090909,
+      "choice_possible_fraction": 0.8125,
+      "global_forecast_advantage": 1.1259403429863946,
+      "interpretation": "Observer-only fixed visible-candidate-set value of perfect future physics. Not an agent policy or a direct multi-step fitness upper bound.",
+      "local_visible_set_advantage": 0.015023515555689683,
+      "mean_advantage_all_origins": 0.015023515555689683,
+      "mean_advantage_if_visible": 0.015023515555689683,
+      "mean_visible_patches": 3.625,
+      "sample_n": 176,
+      "sample_visible_fraction": 1.0,
+      "sensor_radius": 4.5,
+      "wave_strength": 1.5,
+      "world_seed": 11
+    },
+    {
+      "choice_change_fraction_all": 0.08522727272727272,
+      "choice_possible_fraction": 0.6875,
+      "global_forecast_advantage": 0.009636359285314705,
+      "interpretation": "Observer-only fixed visible-candidate-set value of perfect future physics. Not an agent policy or a direct multi-step fitness upper bound.",
+      "local_visible_set_advantage": 0.0025862408079423455,
+      "mean_advantage_all_origins": 0.0025862408079423455,
+      "mean_advantage_if_visible": 0.0029557037805055374,
+      "mean_visible_patches": 3.875,
+      "sample_n": 176,
+      "sample_visible_fraction": 0.875,
+      "sensor_radius": 4.5,
+      "wave_strength": 0.0,
+      "world_seed": 21
+    },
+    {
+      "choice_change_fraction_all": 0.10227272727272728,
+      "choice_possible_fraction": 0.6875,
+      "global_forecast_advantage": 0.671279188407291,
+      "interpretation": "Observer-only fixed visible-candidate-set value of perfect future physics. Not an agent policy or a direct multi-step fitness upper bound.",
+      "local_visible_set_advantage": 0.016837893510110266,
+      "mean_advantage_all_origins": 0.016837893510110266,
+      "mean_advantage_if_visible": 0.019243306868697446,
+      "mean_visible_patches": 3.875,
+      "sample_n": 176,
+      "sample_visible_fraction": 0.875,
+      "sensor_radius": 4.5,
+      "wave_strength": 1.5,
+      "world_seed": 21
+    },
+    {
+      "choice_change_fraction_all": 0.005681818181818182,
+      "choice_possible_fraction": 0.6875,
+      "global_forecast_advantage": 2.5195297972542424e-05,
+      "interpretation": "Observer-only fixed visible-candidate-set value of perfect future physics. Not an agent policy or a direct multi-step fitness upper bound.",
+      "local_visible_set_advantage": 2.5195297972542424e-05,
+      "mean_advantage_all_origins": 2.5195297972542424e-05,
+      "mean_advantage_if_visible": 2.6874984504045253e-05,
+      "mean_visible_patches": 3.0,
+      "sample_n": 176,
+      "sample_visible_fraction": 0.9375,
+      "sensor_radius": 4.5,
+      "wave_strength": 0.0,
+      "world_seed": 31
+    },
+    {
+      "choice_change_fraction_all": 0.10795454545454546,
+      "choice_possible_fraction": 0.6875,
+      "global_forecast_advantage": 0.16313876008988198,
+      "interpretation": "Observer-only fixed visible-candidate-set value of perfect future physics. Not an agent policy or a direct multi-step fitness upper bound.",
+      "local_visible_set_advantage": 0.007947267434554763,
+      "mean_advantage_all_origins": 0.007947267434554763,
+      "mean_advantage_if_visible": 0.00847708526352508,
+      "mean_visible_patches": 3.0,
+      "sample_n": 176,
+      "sample_visible_fraction": 0.9375,
+      "sensor_radius": 4.5,
+      "wave_strength": 1.5,
+      "world_seed": 31
+    }
+  ],
+  "source_global": "/home/stoicpawn/projects/latent-worlds/experiments/civitas_zero/data/foresight_pilot/results.json",
+  "status": "EXPLORATORY_ONLY",
+  "study": "CIVITAS ZERO v5.5 action-set accessibility pilot",
+  "waves": [
+    0.0,
+    1.5
+  ],
+  "worlds": [
+    11,
+    21,
+    31
+  ]
+}

@@ -49,3 +49,12 @@ Good reporting standards:
 - Any report of self, guilt, introspection or emotion by an artificial agent:
   **NO phenomenal consciousness inference**.
 - Any candidate selected or tuned on confirmatory seeds: **NO prospective confirmation**.
+
+## Revision after the v5.5 exploratory control audit
+
+- Elsayed and Cunningham (2017), Structure in neural population recordings: an expected byproduct of simpler phenomena?, Nature Neuroscience, DOI 10.1038/nn.4617. Matched null population surrogates are established.
+- Giannakakis, Khajehabdollahi and Levina (2025), Network Bottlenecks and Task Structure Control the Evolution of Interpretable Learning Rules in a Foraging Agent, Artificial Life, DOI 10.1162/artl_a_00458. Near-prior-art: structural bottlenecks and evolved reward-modulated learning in foraging are ALREADY studied.
+- Arnold, Suzuki and Arita (2026), How Reward and the Elimination of Dependence Thereon Lead Evolution to High-Bandwidth Learning, Artificial Life, DOI 10.1162/ARTL.a.464. Reward bottleneck context.
+- POMDP value-of-information and observation constraints are established (e.g. Avalos et al., Online Planning in POMDPs with State-Requests, RLJ 2024). Local action-set restrictions are NOT a new theorem.
+
+Provisional original empirical opportunity: quantify the interaction among accessibility of action alternatives, naturally selected hidden forecast representations and CAUSAL survival value across independent physical-law worlds. Current pilots do not meet that standard.

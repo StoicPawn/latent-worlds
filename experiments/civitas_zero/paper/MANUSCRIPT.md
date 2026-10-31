@@ -130,6 +130,18 @@ An observer-only route-choice assay was executed under resource-wave strengths 0
 
 ![Observer-side opportunity, descriptive pilot](../figures/foresight_opportunity.svg)
 
+### 3.2 New preliminary falsification: perception and exchangeability
+
+After the original v5.4 result, we evaluated TWO separate potential non-causal explanations for why readable future information did not become a selected capability. In a matched 176-decision-per-condition observer pilot over three independent discovery worlds, restricting the candidate routes to currently visible patches changed the measured extra value of perfect future information from 1.126 to 0.015 (W11), 0.671 to 0.017 (W21) and 0.163 to 0.008 (W31), at wave strength 1.5. This is not necessarily a bound on the value of multi-step exploration because the action sets differ. The controller's current feature vector also explicitly contains only the nearest patch among all those visible.
+
+![Access-constrained opportunity](../figures/accessibility_foresight_pilot.svg)
+
+A second pilot on W11 and W21 tests synchronized temporal signals. Each agent's recurrent memory was compared to another individual's state at exactly the same timestamp using equal-dimensional observer features and held-out chronological test periods. Most individual decoders did not outperform their matched-time exchange control. Both pilots are exploratory, and the exchange control follows a known surrogate-data principle; they do not establish a novel method, selected cognition or causal behavioral use.
+
+![Individual memory and matched-time controls](../figures/synchrony_learning_modes.svg)
+
+A code audit discovered and corrected future lookahead in a secondary cyclic mean-state negative control. This did not alter the primary own-hidden versus matched-time exchanged-state comparisons. The correction and all raw trajectories are public.
+
 ## 4. Results — prospective work (EMPTY BY DESIGN)
 
 **No v5.5 results are available.** Do not invent or extrapolate effect

@@ -13,9 +13,13 @@ on:
 
 jobs:
   audit:
-    name: Reproduce v5.4 numerical results
+    name: Reproduce v5.4 and audit v5.5 exploratory findings
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
+    env:
+      PYTHONPATH: src
+      OPENBLAS_NUM_THREADS: '1'
+      OMP_NUM_THREADS: '1'
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -25,18 +29,29 @@ jobs:
         run: python -m pip install -e ".[dev]"
       - name: Verify frozen experiment and data provenance
         run: python -m pytest -q tests/test_civitas_v54.py tests/test_civitas_analysis.py tests/test_civitas_foresight.py
+      - name: Falsification pilot and sensory-access unit tests
+        run: python -m pytest -q tests/test_civitas_synchrony.py tests/test_civitas_individual_audit.py tests/test_civitas_local_foresight.py tests/test_civitas_nearest_input.py
+      - name: Verify past-only lag correction from unmodified raw traces
+        run: python experiments/civitas_zero/synchrony/recompute_from_traces.py --check
       - name: Regenerate summary and vector figure
         run: python experiments/civitas_zero/analysis/analyze_v54.py
       - name: Regenerate observer-only ecological opportunity figure
         run: python experiments/civitas_zero/analysis/plot_foresight_pilot.py
+      - name: Regenerate matched-time surrogate pilot figures
+        run: |
+          python experiments/civitas_zero/synchrony/summarize_pilot.py
+          python experiments/civitas_zero/synchrony/summarize_modes.py
+      - name: Reproduce accessibility-restricted oracle pilot
+        run: python experiments/civitas_zero/synchrony/local_foresight_pilot.py
       - name: Assert deterministic release artifacts
         run: |
           git diff --exit-code -- experiments/civitas_zero/figures
+          git diff --exit-code -- experiments/civitas_zero/data/local_foresight_pilot/results.json
           test "$(find experiments/civitas_zero/data/v54 -name 'seed_*.json' | wc -l)" -eq 16
       - name: Publish audit artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: civitas-zero-v54-paper-assets
+          name: civitas-zero-experimental-audit
           path: |
             experiments/civitas_zero/figures/
             experiments/civitas_zero/data/v54/summary.json
