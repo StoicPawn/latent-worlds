@@ -92,6 +92,21 @@ phenomenological experience.
 - Frozen inference/effect-threshold rules before confirmatory outcomes.
 - Open-source code, seed tables, figure scripts and failing runs.
 
+### C0.5 feasibility calibration — NOT a consciousness-indicator result
+
+A deliberately algebraic matching of an internal recurrent lesion
+and a one-step external sensor pulse produced identical immediate
+hidden states/actions on 33 naturally evolved controller instances
+from two developmental worlds; persistent lesions diverged afterward,
+while transient repairs preserved matched paths. Both initial equality
+and repair-control null are consequences of the intervention design.
+The external arm has DIFFERENT raw sensory input and the continuations
+are open-loop observation replays. No agent introspection, causal
+self-use or adaptation has been measured. This result belongs in
+methods feasibility, NOT as evidence for C1/C2/C3 or consciousness.
+
+Details: ../c05/PROTOCOL.md, ../c05/figures/C05_RESULTS.md
+
 ## 4. Results — UNRUN
 
 **No C1/C2/C3 results exist.** Historical v5.4/v5.5 ecology reports

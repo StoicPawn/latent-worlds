@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 470" role="img" aria-label="C0.5 matched internal and external faults">
+<rect width="900" height="470" fill="#fff"/>
+<text x="48" y="52" font-family="Arial,sans-serif" font-size="25" font-weight="700" fill="#0f172a">Same first action. Different causal mechanism.</text>
+<text x="48" y="82" font-family="Arial,sans-serif" font-size="13" fill="#475569">Real Latent Worlds recurrent controllers · two pilot worlds · open-loop counterfactual sensory replay</text>
+<text x="49" y="115" font-family="Arial,sans-serif" font-size="13" fill="#64748b">Average maximum absolute hidden-state difference between intervention arms</text>
+<line x1="103" y1="390" x2="835" y2="390" stroke="#64748b"/>
+<line x1="103" y1="390" x2="103" y2="155" stroke="#64748b"/>
+<text x="90" y="394.0" font-family="Arial,sans-serif" font-size="12" text-anchor="end" fill="#64748b">0.00</text>
+<line x1="103" y1="390.0" x2="835" y2="390.0" stroke="#e2e8f0"/>
+<text x="90" y="322.3" font-family="Arial,sans-serif" font-size="12" text-anchor="end" fill="#64748b">0.05</text>
+<line x1="103" y1="318.3" x2="835" y2="318.3" stroke="#e2e8f0"/>
+<text x="90" y="250.7" font-family="Arial,sans-serif" font-size="12" text-anchor="end" fill="#64748b">0.10</text>
+<line x1="103" y1="246.7" x2="835" y2="246.7" stroke="#e2e8f0"/>
+<text x="90" y="179.0" font-family="Arial,sans-serif" font-size="12" text-anchor="end" fill="#64748b">0.15</text>
+<line x1="103" y1="175.0" x2="835" y2="175.0" stroke="#e2e8f0"/>
+<text x="111" y="418" font-family="Arial,sans-serif" text-anchor="middle" font-size="13" fill="#475569">0</text>
+<text x="249" y="418" font-family="Arial,sans-serif" text-anchor="middle" font-size="13" fill="#475569">1</text>
+<text x="387" y="418" font-family="Arial,sans-serif" text-anchor="middle" font-size="13" fill="#475569">2</text>
+<text x="525" y="418" font-family="Arial,sans-serif" text-anchor="middle" font-size="13" fill="#475569">3</text>
+<text x="663" y="418" font-family="Arial,sans-serif" text-anchor="middle" font-size="13" fill="#475569">4</text>
+<text x="801" y="418" font-family="Arial,sans-serif" text-anchor="middle" font-size="13" fill="#475569">5</text>
+<text x="458" y="445" font-family="Arial,sans-serif" text-anchor="middle" font-size="13" fill="#475569">Recurrent updates after intervention (0 = immediate)</text>
+<polyline points="111.0,390.0 249.0,236.9 387.0,220.0 525.0,221.7 663.0,224.6 801.0,223.0" fill="none" stroke="#2563eb" stroke-width="3.5"/>
+<circle cx="111.0" cy="390.0" r="5" fill="#2563eb" stroke="#fff" stroke-width="1.5"/>
+<circle cx="249.0" cy="236.9" r="5" fill="#2563eb" stroke="#fff" stroke-width="1.5"/>
+<circle cx="387.0" cy="220.0" r="5" fill="#2563eb" stroke="#fff" stroke-width="1.5"/>
+<circle cx="525.0" cy="221.7" r="5" fill="#2563eb" stroke="#fff" stroke-width="1.5"/>
+<circle cx="663.0" cy="224.6" r="5" fill="#2563eb" stroke="#fff" stroke-width="1.5"/>
+<circle cx="801.0" cy="223.0" r="5" fill="#2563eb" stroke="#fff" stroke-width="1.5"/>
+<text x="791" y="211.0286606003091" font-family="Arial,sans-serif" text-anchor="end" font-size="14" fill="#2563eb">W11, n=16</text>
+<polyline points="111.0,390.0 249.0,229.5 387.0,223.7 525.0,237.9 663.0,236.7 801.0,228.8" fill="none" stroke="#0f766e" stroke-width="3.5"/>
+<circle cx="111.0" cy="390.0" r="5" fill="#0f766e" stroke="#fff" stroke-width="1.5"/>
+<circle cx="249.0" cy="229.5" r="5" fill="#0f766e" stroke="#fff" stroke-width="1.5"/>
+<circle cx="387.0" cy="223.7" r="5" fill="#0f766e" stroke="#fff" stroke-width="1.5"/>
+<circle cx="525.0" cy="237.9" r="5" fill="#0f766e" stroke="#fff" stroke-width="1.5"/>
+<circle cx="663.0" cy="236.7" r="5" fill="#0f766e" stroke="#fff" stroke-width="1.5"/>
+<circle cx="801.0" cy="228.8" r="5" fill="#0f766e" stroke="#fff" stroke-width="1.5"/>
+<text x="791" y="216.7862021827681" font-family="Arial,sans-serif" text-anchor="end" font-size="14" fill="#0f766e">W21, n=17</text>
+<line x1="515" y1="141" x2="553" y2="141" stroke="#64748b" stroke-width="3" stroke-dasharray="5 4"/>
+<text x="561" y="146" font-family="Arial,sans-serif" font-size="13" fill="#64748b">Transient null: ≈ 0 at every step</text>
+<text x="49" y="466" font-family="Arial,sans-serif" font-size="11" fill="#64748b">Mechanism and initial equality are engineered. Inputs at intervention are NOT matched. No agent self-monitoring measured.</text>
+</svg>

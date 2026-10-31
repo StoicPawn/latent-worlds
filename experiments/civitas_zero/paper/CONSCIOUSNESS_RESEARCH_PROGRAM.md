@@ -248,6 +248,24 @@ Neither entails a proof or disproof of subjective experience.
 - Butlin et al. and others do NOT claim that any list of indicators
   is known to be sufficient for phenomenal consciousness.
 
+## C0.5 feasibility amendment — matched fault identifiability
+
+A real-agent pilot on two developmental physical worlds (W11, W21)
+compared a persistent recurrent-weight fault and one-step external
+temperature perturbation with identical immediate hidden/logit/action
+outcomes BY ALGEBRAIC DESIGN. A transient internal-fault null
+remained identical across the whole later open-loop replay.
+This calibration does NOT test spontaneous metacognition or self-model
+causality: the input sensor signals were different and could disclose
+the fault. Detailed raw outcomes and code:
+[../c05/PROTOCOL.md](../c05/PROTOCOL.md) and
+[../c05/figures/C05_RESULTS.md](../c05/figures/C05_RESULTS.md).
+
+Direct near prior art Phua (Dec 2025, arXiv:2512.19155) has already
+demonstrated self-model lesion effects and GWT workspace ablation in
+synthetic agents. Therefore the next mechanism study must be
+substantially stronger than "lesion model of self; affect confidence".
+
 ## 9. Historical results and scope
 
 - v5.4, 16 population histories on W11: preregistered candidate

@@ -1,0 +1,546 @@
+{
+  "world_seed": 21,
+  "agent_seed": 211,
+  "warmup": 145,
+  "steps_replayed": 6,
+  "n_eligible_agents": 17,
+  "n_alive_after": 74,
+  "mean_first_step_hidden_diff": 2.1224851941363288e-16,
+  "mean_first_step_logits_diff": 2.1061583849506645e-16,
+  "fraction_diverged_by_second_step": 1,
+  "mean_delayed_hidden_diff_by_step": [
+    0.11194367186561577,
+    0.11603369931575634,
+    0.1061330961917302,
+    0.1069551424437189,
+    0.11247474266318505
+  ],
+  "fraction_action_kind_mismatch_by_step": [
+    0.058823529411764705,
+    0.17647058823529413,
+    0,
+    0,
+    0
+  ],
+  "individual": [
+    {
+      "first_step_hidden_max_abs_diff": 2.220446049250313e-16,
+      "first_step_logits_max_abs_diff": 1.3877787807814457e-16,
+      "first_step_action_changed": false,
+      "subsequent_hidden_max_abs_diff": [
+        0.16616592132972172,
+        0.20468229409406635,
+        0.19816539448162102,
+        0.18859218220198665,
+        0.18748810819744782
+      ],
+      "subsequent_logits_max_abs_diff": [
+        0.1776951131031505,
+        0.17549778391770243,
+        0.18712303149042842,
+        0.1737508558003873,
+        0.1747931016382741
+      ],
+      "subsequent_action_kind_mismatch": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "internal_recurrent_weights_changed": 0.13299081736573898,
+      "external_temperature_pulse": 5.0,
+      "full_observation_histories_matched": false,
+      "agent_id": 0
+    },
+    {
+      "first_step_hidden_max_abs_diff": 1.3877787807814457e-16,
+      "first_step_logits_max_abs_diff": 2.220446049250313e-16,
+      "first_step_action_changed": false,
+      "subsequent_hidden_max_abs_diff": [
+        0.08034239737040022,
+        0.10945310066297542,
+        0.10847888888562585,
+        0.11081800698164224,
+        0.11234925909706572
+      ],
+      "subsequent_logits_max_abs_diff": [
+        0.12312135037369254,
+        0.1314661253806464,
+        0.14293900988405106,
+        0.14490310547301521,
+        0.14719151470556002
+      ],
+      "subsequent_action_kind_mismatch": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "internal_recurrent_weights_changed": 0.1497588944049016,
+      "external_temperature_pulse": 5.0,
+      "full_observation_histories_matched": false,
+      "agent_id": 2
+    },
+    {
+      "first_step_hidden_max_abs_diff": 2.220446049250313e-16,
+      "first_step_logits_max_abs_diff": 1.6653345369377348e-16,
+      "first_step_action_changed": false,
+      "subsequent_hidden_max_abs_diff": [
+        0.13405769957020874,
+        0.11415391249516962,
+        0.11247859407294174,
+        0.11562134307202797,
+        0.11482029237303146
+      ],
+      "subsequent_logits_max_abs_diff": [
+        0.09318085659894548,
+        0.08673547824755046,
+        0.09176312966222677,
+        0.09233580735430635,
+        0.09231275366250247
+      ],
+      "subsequent_action_kind_mismatch": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "internal_recurrent_weights_changed": 0.10661157321265971,
+      "external_temperature_pulse": 5.0,
+      "full_observation_histories_matched": false,
+      "agent_id": 7
+    },
+    {
+      "first_step_hidden_max_abs_diff": 1.6653345369377348e-16,
+      "first_step_logits_max_abs_diff": 2.220446049250313e-16,
+      "first_step_action_changed": false,
+      "subsequent_hidden_max_abs_diff": [
+        0.06137145499404906,
+        0.05214432052998841,
+        0.053491066988529345,
+        0.05465456142273173,
+        0.054624866343965794
+      ],
+      "subsequent_logits_max_abs_diff": [
+        0.06550261600588114,
+        0.05572761656141856,
+        0.059259943290622896,
+        0.05738127106129243,
+        0.05799092020946428
+      ],
+      "subsequent_action_kind_mismatch": [
+        false,
+        true,
+        false,
+        false,
+        false
+      ],
+      "internal_recurrent_weights_changed": 0.17332278106447307,
+      "external_temperature_pulse": 5.0,
+      "full_observation_histories_matched": false,
+      "agent_id": 11
+    },
+    {
+      "first_step_hidden_max_abs_diff": 2.220446049250313e-16,
+      "first_step_logits_max_abs_diff": 2.7755575615628914e-16,
+      "first_step_action_changed": false,
+      "subsequent_hidden_max_abs_diff": [
+        0.11573966464476283,
+        0.10544674791785985,
+        0.0997684373995817,
+        0.10222147376646479,
+        0.1020364356324271
+      ],
+      "subsequent_logits_max_abs_diff": [
+        0.10459132313824504,
+        0.06868896933928426,
+        0.06659185803130163,
+        0.06883907353048513,
+        0.06970761405672232
+      ],
+      "subsequent_action_kind_mismatch": [
+        false,
+        true,
+        false,
+        false,
+        false
+      ],
+      "internal_recurrent_weights_changed": 0.10923176301708416,
+      "external_temperature_pulse": 5.0,
+      "full_observation_histories_matched": false,
+      "agent_id": 18
+    },
+    {
+      "first_step_hidden_max_abs_diff": 1.1102230246251565e-16,
+      "first_step_logits_max_abs_diff": 2.220446049250313e-16,
+      "first_step_action_changed": false,
+      "subsequent_hidden_max_abs_diff": [
+        0.0598537024733965,
+        0.06523513465325345,
+        0.05214834507923993,
+        0.059171752508569736,
+        0.05736075949591132
+      ],
+      "subsequent_logits_max_abs_diff": [
+        0.04587234478629898,
+        0.05449846812047176,
+        0.04203787912947432,
+        0.05018767458470119,
+        0.046893786376292934
+      ],
+      "subsequent_action_kind_mismatch": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "internal_recurrent_weights_changed": 0.09609817512112494,
+      "external_temperature_pulse": 5.0,
+      "full_observation_histories_matched": false,
+      "agent_id": 19
+    },
+    {
+      "first_step_hidden_max_abs_diff": 2.220446049250313e-16,
+      "first_step_logits_max_abs_diff": 2.220446049250313e-16,
+      "first_step_action_changed": false,
+      "subsequent_hidden_max_abs_diff": [
+        0.12879451382654394,
+        0.14971577397873437,
+        0.1489463532521521,
+        0.15183328415463848,
+        0.1552616864582705
+      ],
+      "subsequent_logits_max_abs_diff": [
+        0.15268320564770393,
+        0.16693277506688617,
+        0.1714202864403434,
+        0.17383615277398012,
+        0.1728599007295214
+      ],
+      "subsequent_action_kind_mismatch": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "internal_recurrent_weights_changed": 0.17054779397027897,
+      "external_temperature_pulse": 5.0,
+      "full_observation_histories_matched": false,
+      "agent_id": 21
+    },
+    {
+      "first_step_hidden_max_abs_diff": 3.3306690738754696e-16,
+      "first_step_logits_max_abs_diff": 4.440892098500626e-16,
+      "first_step_action_changed": false,
+      "subsequent_hidden_max_abs_diff": [
+        0.1533790745277249,
+        0.11817135725571781,
+        0.0857167606632174,
+        0.0920894807211769,
+        0.1310094738556707
+      ],
+      "subsequent_logits_max_abs_diff": [
+        0.09594905152206878,
+        0.06795277119535803,
+        0.061544315835032115,
+        0.07556482430934791,
+        0.09276044169996245
+      ],
+      "subsequent_action_kind_mismatch": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "internal_recurrent_weights_changed": 0.14633211326101186,
+      "external_temperature_pulse": 5.0,
+      "full_observation_histories_matched": false,
+      "agent_id": 22
+    },
+    {
+      "first_step_hidden_max_abs_diff": 2.220446049250313e-16,
+      "first_step_logits_max_abs_diff": 2.220446049250313e-16,
+      "first_step_action_changed": false,
+      "subsequent_hidden_max_abs_diff": [
+        0.09376150974943714,
+        0.1294019883529869,
+        0.12024555777544044,
+        0.11737443464294225,
+        0.1176743415685029
+      ],
+      "subsequent_logits_max_abs_diff": [
+        0.07889601836368465,
+        0.11361331235880923,
+        0.09810219625138594,
+        0.1030914880240339,
+        0.10246963664569275
+      ],
+      "subsequent_action_kind_mismatch": [
+        false,
+        true,
+        false,
+        false,
+        false
+      ],
+      "internal_recurrent_weights_changed": 0.1631609013614756,
+      "external_temperature_pulse": 5.0,
+      "full_observation_histories_matched": false,
+      "agent_id": 26
+    },
+    {
+      "first_step_hidden_max_abs_diff": 3.608224830031759e-16,
+      "first_step_logits_max_abs_diff": 2.220446049250313e-16,
+      "first_step_action_changed": false,
+      "subsequent_hidden_max_abs_diff": [
+        0.16506426777471353,
+        0.13900985807630828,
+        0.12174904071506853,
+        0.12401770735163566,
+        0.12455714839960816
+      ],
+      "subsequent_logits_max_abs_diff": [
+        0.13087994742787967,
+        0.14294786210699217,
+        0.14590025486081437,
+        0.14534627929174992,
+        0.14369692425823022
+      ],
+      "subsequent_action_kind_mismatch": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "internal_recurrent_weights_changed": 0.14354597943767122,
+      "external_temperature_pulse": 5.0,
+      "full_observation_histories_matched": false,
+      "agent_id": 27
+    },
+    {
+      "first_step_hidden_max_abs_diff": 2.220446049250313e-16,
+      "first_step_logits_max_abs_diff": 1.1102230246251565e-16,
+      "first_step_action_changed": false,
+      "subsequent_hidden_max_abs_diff": [
+        0.0633217353389941,
+        0.05583628457697842,
+        0.05258437722710785,
+        0.05090464101507963,
+        0.04989912503038063
+      ],
+      "subsequent_logits_max_abs_diff": [
+        0.05502100216071315,
+        0.05440139823530932,
+        0.051117074594890566,
+        0.05058699616859119,
+        0.050197323261543136
+      ],
+      "subsequent_action_kind_mismatch": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "internal_recurrent_weights_changed": 0.10992315780008577,
+      "external_temperature_pulse": 5.0,
+      "full_observation_histories_matched": false,
+      "agent_id": 28
+    },
+    {
+      "first_step_hidden_max_abs_diff": 1.6653345369377348e-16,
+      "first_step_logits_max_abs_diff": 1.1102230246251565e-16,
+      "first_step_action_changed": false,
+      "subsequent_hidden_max_abs_diff": [
+        0.11094049807372289,
+        0.10065054770084503,
+        0.034978050289456775,
+        0.05035568581114791,
+        0.11543363554057884
+      ],
+      "subsequent_logits_max_abs_diff": [
+        0.11969981986275557,
+        0.060843241192576225,
+        0.023959747092212158,
+        0.03552797616647019,
+        0.09235136107053188
+      ],
+      "subsequent_action_kind_mismatch": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "internal_recurrent_weights_changed": 0.12568090094067316,
+      "external_temperature_pulse": 5.0,
+      "full_observation_histories_matched": false,
+      "agent_id": 30
+    },
+    {
+      "first_step_hidden_max_abs_diff": 3.3306690738754696e-16,
+      "first_step_logits_max_abs_diff": 3.3306690738754696e-16,
+      "first_step_action_changed": false,
+      "subsequent_hidden_max_abs_diff": [
+        0.10264874245814537,
+        0.09137017300691996,
+        0.0856334395684677,
+        0.08033595562643359,
+        0.08273020655059271
+      ],
+      "subsequent_logits_max_abs_diff": [
+        0.07282500203939823,
+        0.06318984197192146,
+        0.05973709361627799,
+        0.05750652575079496,
+        0.05728958527868688
+      ],
+      "subsequent_action_kind_mismatch": [
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      "internal_recurrent_weights_changed": 0.14164547584580828,
+      "external_temperature_pulse": 5.0,
+      "full_observation_histories_matched": false,
+      "agent_id": 33
+    },
+    {
+      "first_step_hidden_max_abs_diff": 1.1102230246251565e-16,
+      "first_step_logits_max_abs_diff": 1.1102230246251565e-16,
+      "first_step_action_changed": false,
+      "subsequent_hidden_max_abs_diff": [
+        0.09499341902964409,
+        0.1735371214196782,
+        0.16665577615115867,
+        0.1543857601505368,
+        0.1406906848149443
+      ],
+      "subsequent_logits_max_abs_diff": [
+        0.12837744485167324,
+        0.1822555817328152,
+        0.18529259011650012,
+        0.1778761292381943,
+        0.17102854614926377
+      ],
+      "subsequent_action_kind_mismatch": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "internal_recurrent_weights_changed": 0.20204863440438417,
+      "external_temperature_pulse": 5.0,
+      "full_observation_histories_matched": false,
+      "agent_id": 35
+    },
+    {
+      "first_step_hidden_max_abs_diff": 1.6653345369377348e-16,
+      "first_step_logits_max_abs_diff": 2.220446049250313e-16,
+      "first_step_action_changed": false,
+      "subsequent_hidden_max_abs_diff": [
+        0.1590287851166945,
+        0.17141456402309546,
+        0.16780611748965585,
+        0.1657272813824427,
+        0.1642215178447779
+      ],
+      "subsequent_logits_max_abs_diff": [
+        0.18381153108552573,
+        0.15274003223006694,
+        0.16728591202433285,
+        0.15892979860934353,
+        0.15967312297609215
+      ],
+      "subsequent_action_kind_mismatch": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "internal_recurrent_weights_changed": 0.12343051317912818,
+      "external_temperature_pulse": 5.0,
+      "full_observation_histories_matched": false,
+      "agent_id": 36
+    },
+    {
+      "first_step_hidden_max_abs_diff": 1.6653345369377348e-16,
+      "first_step_logits_max_abs_diff": 1.1102230246251565e-16,
+      "first_step_action_changed": false,
+      "subsequent_hidden_max_abs_diff": [
+        0.14198036344146536,
+        0.11152017500419875,
+        0.1082806948316799,
+        0.11010980342677035,
+        0.11015428053315413
+      ],
+      "subsequent_logits_max_abs_diff": [
+        0.06986654681129967,
+        0.057354840913569904,
+        0.056387220268947935,
+        0.056668073138971375,
+        0.05628888614108296
+      ],
+      "subsequent_action_kind_mismatch": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "internal_recurrent_weights_changed": 0.09875516478234778,
+      "external_temperature_pulse": 5.0,
+      "full_observation_histories_matched": false,
+      "agent_id": 37
+    },
+    {
+      "first_step_hidden_max_abs_diff": 2.220446049250313e-16,
+      "first_step_logits_max_abs_diff": 2.220446049250313e-16,
+      "first_step_action_changed": false,
+      "subsequent_hidden_max_abs_diff": [
+        0.07159867199584327,
+        0.08082953461908154,
+        0.08713574038846861,
+        0.09002406730699397,
+        0.0917588035378159
+      ],
+      "subsequent_logits_max_abs_diff": [
+        0.08689739099391813,
+        0.09432394115380505,
+        0.10397459594829095,
+        0.10681274171323607,
+        0.10874115765040226
+      ],
+      "subsequent_action_kind_mismatch": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "internal_recurrent_weights_changed": 0.12741916391699876,
+      "external_temperature_pulse": 5.0,
+      "full_observation_histories_matched": false,
+      "agent_id": 38
+    }
+  ],
+  "method": "Algebraically matched first-step input-vs-recurrent-weight fault; real policy; open-loop replay of unchanged real world observations",
+  "limitations": [
+    "Both arms have identical initial hidden state and discrete action BY CONSTRUCTION, not a discovered property.",
+    "Observed temperature differs at the intervention instant; a monitor with access to raw sensors could trivially distinguish causes.",
+    "Replayed observations do not respond to counterfactual actions; no causal survival effect is estimated.",
+    "Lesion \u0394W_rec depends on that agent's current hidden state; not a plausible spontaneous fault distribution.",
+    "No agent has learned any monitoring or self-modeling mechanism; observer-only calibration/feasibility result.",
+    "Agents in same world are correlated; sample size is not independent world-law replication."
+  ]
+}

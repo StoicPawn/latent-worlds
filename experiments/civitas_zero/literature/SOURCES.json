@@ -189,6 +189,28 @@
       "url": "https://doi.org/10.1016/b978-0-443-29258-3.00038-0",
       "lesson": "Separates phenomenal/access/self consciousness and examines robots vs LLMs",
       "role": "core"
+    },
+    {
+      "id": "phua2025",
+      "authors": "Yin Jun Phua",
+      "title": "Can We Test Consciousness Theories on AI? Ablations, Markers, and Robustness",
+      "online_date": "2025-12-22",
+      "year": "2025",
+      "status": "preprint arXiv, not independently verified as peer reviewed",
+      "url": "https://arxiv.org/abs/2512.19155",
+      "lesson": "Synthetic HOT self-model lesion preserves first-order task while collapsing metacognitive calibration; GWT workspace lesions, broadcast fragility, PCI-A negative control. Direct near-duplicate of simple C1/C2 demonstrations.",
+      "role": "near-duplicate"
+    },
+    {
+      "id": "butlinreply2026",
+      "authors": "Butlin, Bayne, Fleming, Mudrik, Peters, Schwitzgebel, Simon, VanRullen",
+      "title": "Consciousness indicators, mimicry, and internal variants",
+      "online_date": "2026-04-25",
+      "year": "2026",
+      "status": "peer-reviewed reply/commentary",
+      "url": "https://doi.org/10.1016/j.tics.2026.04.006",
+      "lesson": "Indicator mimicry and implementation variance are live concerns; simply building functional analogues cannot settle phenomenal consciousness.",
+      "role": "critical"
     }
   ]
 }

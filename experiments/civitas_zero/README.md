@@ -56,6 +56,12 @@ The new two-world PILOT exchanges complete hidden states among agents at *the sa
 
 
 
+### C0.5: matched internal and external faults — actual trained-agent feasibility pilot
+
+![Matched counterfactual faults](c05/figures/matched_faults.svg)
+
+The first experiment on **real evolved recurrent agents** (W11/W21, 33 eligible agents) uses a constructed pair of internal-weight and external temperature perturbations with **exactly matched first-step latent state and action**. Persistent internal faults cause later trajectory differences; transient matched faults remain identical within floating-point precision. **This is algebraically guaranteed**, not discovered awareness. Because the raw temperature observation differs, the experiment is **NOT** a matched-information test for endogenous self/world discrimination, and not a consciousness indicator. [Read the full protocol and scope](c05/PROTOCOL.md), [reproducible negative-results report](c05/figures/C05_RESULTS.md) and [directly relevant Phua 2025 prior art](https://arxiv.org/abs/2512.19155).
+
 ## At a glance
 
 | Milestone | Question | Evidence status |

@@ -39,6 +39,10 @@ jobs:
         run: python -m pytest -q tests/test_civitas_synchrony.py tests/test_civitas_individual_audit.py tests/test_civitas_local_foresight.py tests/test_civitas_nearest_input.py
       - name: Verify past-only lag correction from unmodified raw traces
         run: python experiments/civitas_zero/synchrony/recompute_from_traces.py --check
+      - name: Validate C0.5 theory-specific identifiability controls
+        run: python -m pytest -q tests/test_civitas_c05_identifiability.py
+      - name: Reproduce C0.5 feasibility figure from archived raw results
+        run: python experiments/civitas_zero/c05/summarize.py
       - name: Regenerate summary and vector figure
         run: python experiments/civitas_zero/analysis/analyze_v54.py
       - name: Regenerate observer-only ecological opportunity figure
@@ -51,6 +55,7 @@ jobs:
         run: python experiments/civitas_zero/synchrony/local_foresight_pilot.py
       - name: Assert deterministic release artifacts
         run: |
+          git diff --exit-code -- experiments/civitas_zero/c05/figures
           git diff --exit-code -- experiments/civitas_zero/figures
           git diff --exit-code -- experiments/civitas_zero/data/local_foresight_pilot/results.json
           test "$(find experiments/civitas_zero/data/v54 -name 'seed_*.json' | wc -l)" -eq 16

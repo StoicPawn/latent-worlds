@@ -82,3 +82,24 @@ Do NOT claim self-modeling, recursive meta-inference, broadcast, self-
 monitoring or a multi-indicator framework to be original independently.
 Novelty would need specific well-controlled **new empirical causal
 dissociations** and new world/lesion generalization, not new terminology.
+
+## Strongest newly found synthetic consciousness marker collision — Oct 2026 audit
+
+**Phua (2025), arXiv:2512.19155**, *Can We Test Consciousness Theories
+on AI? Ablations, Markers, and Robustness* (preprint), already uses
+three controlled synthetic agent experiments. A self-model lesion
+degrades metacognitive calibration while leaving first-order task
+performance intact; workspace lesions cause changes in access-related
+markers; broadcasting amplifies noise; perturbational complexity
+does not behave naively. An "AI indicator can fail under a lesion"
+contribution is a near-duplicate, not a new discovery.
+
+**Butlin et al. (2026), DOI 10.1016/j.tics.2026.04.006**, *Consciousness
+indicators, mimicry, and internal variants* — concerns about formal
+indicator mimicry and mechanistic heterogeneity are acknowledged in
+the original assessment programme.
+
+The C0.5 internal/external algebraic match is a *calibration fixture*
+whose immediate equality is guaranteed by construction and whose
+sensors differ. It is explicitly not submitted as a scientific
+discovery or a consciousness result.
